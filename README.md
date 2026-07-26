@@ -46,7 +46,6 @@ architecture, and the nine key design decisions with the trade-off behind each o
 scraping over API interception, why two unrelated clustering methods instead of one, why theme
 clustering deliberately *stops* using embeddings, and how the no-fabricated-quotes guarantee is
 enforced structurally rather than by asking the model nicely.
-(Also readable as markdown: [`docs/technical-design.md`](docs/technical-design.md).)
 
 **📖 [Pipeline walkthrough](docs/comment-intelligence-pipeline.md)** — a narrative, stage-by-stage
 read of how the corpus actually moves through the system.
