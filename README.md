@@ -10,9 +10,9 @@
 ![Claude](https://img.shields.io/badge/Claude-Haiku%204.5%20%2F%20Sonnet%204.6-D97757?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-BERTopic-3776AB?style=flat-square&logo=python&logoColor=white)
 
-![System diagram: the idea (plain-language funnel from 97,579 comments to 60 ad angles) next to the system (which script runs at each step, and which steps call the Claude API vs. run entirely locally)](docs/media/system-diagram.png)
+[![How the ad-angle tool works: five steps from 97,579 Instagram comments down to 60 ad angles, with one real comment followed through every step — from the raw comment, through topic filtering and problem extraction, into a named theme, and out as finished ad copy](docs/media/how-it-works.png)](docs/media/how-it-works.png)
 
-*Live at [dogist.vercel.app/audience-intelligence](https://dogist.vercel.app/audience-intelligence) — every number, quote, and angle above is read from committed pipeline output, not generated at view time.*
+<sub>*Click to enlarge. The right-hand column follows one real comment — ♥42, from the actual corpus — all the way through to the ad copy it produced.*</sub>
 
 ## The problem
 
@@ -38,6 +38,13 @@ ad angles a media buyer can actually spend against, read through a single scroll
 Every quote in the report is looked up by a stable reference back to the original captured
 comment — the model that writes an ad angle never has the text of the quote it's using, only a
 pointer to it, so nothing downstream can paraphrase or fabricate one.
+
+### Under the hood
+
+Same five steps, mapped to what actually runs at each one — and, importantly, which steps call
+the Claude API versus which are plain local computation:
+
+[![The same pipeline shown twice: the plain-language idea on the left, and on the right the specific script that runs at each step with a badge showing whether it calls the Claude API or runs entirely locally](docs/media/system-diagram.png)](docs/media/system-diagram.png)
 
 ### Why it's built this way
 
