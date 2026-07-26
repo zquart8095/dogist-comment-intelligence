@@ -3,6 +3,7 @@
 **Turning a 97,579-comment Instagram corpus into fully sourced ad angles — no quote ever generated, only ever looked up.**
 
 [![Live demo](https://img.shields.io/badge/live%20demo-audience--intelligence-1E7A6B?style=flat-square)](https://dogist.vercel.app/audience-intelligence)
+[![Technical design](https://img.shields.io/badge/read-technical%20design-3B5BA8?style=flat-square)](https://zquart8095.github.io/dogist-comment-intelligence/technical-design.html)
 ![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-149ECA?style=flat-square&logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)
