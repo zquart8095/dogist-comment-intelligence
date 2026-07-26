@@ -1,0 +1,634 @@
+.root {
+  --air-bg: #ffffff;
+  --air-panel: #f5f5f5;
+  --air-track: #f0f0f0;
+  --air-ink: #1c1a16;
+  --air-ink-soft: #5b564c;
+  --air-muted: #8b8776;
+  --air-rule: #dcd4c2;
+  --air-accent: #4a3c73;
+  --air-accent-hover: #3a2e5c;
+  --air-high: #b23a48;
+  --air-medium: #c98a3e;
+  --air-low: #8b8776;
+
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-snap-type: y mandatory;
+  background: var(--air-bg);
+  color: var(--air-ink);
+  font-family: var(--air-font-body), sans-serif;
+  position: relative;
+  scrollbar-width: none;
+}
+.root::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.root ::selection {
+  background: var(--air-accent);
+  color: #fff;
+}
+
+.display {
+  font-family: var(--air-font-display), sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+.mono {
+  font-family: var(--air-font-mono), monospace;
+}
+
+/* ---- nav rail ---- */
+.navRail {
+  position: fixed;
+  right: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-end;
+}
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.navLabel {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  color: var(--air-ink-soft);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.navItem:hover .navLabel {
+  opacity: 1;
+}
+.navDot {
+  border-radius: 50%;
+  display: inline-block;
+  transition: all 0.25s ease;
+}
+
+/* ---- section base ---- */
+.section {
+  scroll-snap-align: start;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8vh 6vw;
+}
+.eyebrow {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  color: var(--air-muted);
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.h2 {
+  font-size: clamp(28px, 3.4vw, 42px);
+  margin: 0 0 16px 0;
+  max-width: 22ch;
+}
+
+/* ---- section 1: landing ---- */
+.landingSection {
+  flex-direction: column;
+  text-align: center;
+  padding: 0 6vw;
+  position: relative;
+}
+.landingEyebrow {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  color: var(--air-muted);
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.h1 {
+  font-size: clamp(44px, 7.6vw, 100px);
+  line-height: 1.02;
+  margin: 0 0 28px 0;
+  max-width: 17ch;
+}
+.h1 .accent {
+  color: var(--air-accent);
+}
+.landingSub {
+  font-size: 19px;
+  line-height: 1.6;
+  color: var(--air-ink-soft);
+  max-width: 660px;
+  margin: 0 auto 40px auto;
+}
+.statPill {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  color: var(--air-accent);
+  border: 1px solid var(--air-rule);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+.scrollCue {
+  position: absolute;
+  bottom: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  animation: bounceDown 2s ease-in-out infinite;
+}
+.scrollCue span {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  color: var(--air-muted);
+  text-transform: uppercase;
+}
+@keyframes bounceDown {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.55;
+  }
+  50% {
+    transform: translateY(8px);
+    opacity: 1;
+  }
+}
+
+/* ---- section 2: methodology funnel ---- */
+.funnelWrap {
+  max-width: 920px;
+  width: 100%;
+}
+.funnelSub {
+  font-size: 16px;
+  color: var(--air-ink-soft);
+  margin: 0 0 40px 0;
+  max-width: 68ch;
+  line-height: 1.6;
+}
+.funnelRow {
+  margin-bottom: 22px;
+}
+.funnelTop {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+.funnelNum {
+  font-family: var(--air-font-mono), monospace;
+  font-weight: 600;
+  font-size: clamp(26px, 3vw, 40px);
+}
+.funnelLabel {
+  font-size: 15px;
+  color: var(--air-ink-soft);
+  line-height: 1.4;
+}
+.funnelTrack {
+  height: 14px;
+  width: 100%;
+  background: var(--air-track);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.funnelFill {
+  height: 100%;
+  background: var(--air-accent);
+  opacity: 0.85;
+  transition: width 1s ease;
+}
+
+/* ---- section 3: ad angle definition ---- */
+.angledefWrap {
+  max-width: 1080px;
+  width: 100%;
+}
+.angledefBody {
+  font-size: 16px;
+  color: var(--air-ink-soft);
+  margin: 0 0 40px 0;
+  max-width: 72ch;
+  line-height: 1.6;
+}
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 56px;
+}
+@media (max-width: 860px) {
+  .cardsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 560px) {
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+.angleCard {
+  background: #fff;
+  border: 1px solid var(--air-rule);
+  border-radius: 4px;
+  padding: 22px 20px;
+}
+.angleCardName {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.angleCardFormula {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 11.5px;
+  color: var(--air-accent);
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+.angleCardDesc {
+  font-size: 13.5px;
+  color: var(--air-ink-soft);
+  line-height: 1.5;
+}
+.anatomyLabel {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  color: var(--air-muted);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.anatomyRow {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  flex-wrap: wrap;
+}
+.anatomyStepWrap {
+  display: flex;
+  align-items: center;
+}
+.anatomyStep {
+  background: var(--air-panel);
+  border: 1px solid var(--air-rule);
+  border-radius: 4px;
+  padding: 14px 16px;
+  min-width: 120px;
+}
+.anatomyStepN {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 10px;
+  color: var(--air-muted);
+  margin-bottom: 4px;
+}
+.anatomyStepName {
+  font-size: 13.5px;
+  font-weight: 600;
+}
+.anatomyArrow {
+  padding: 0 10px;
+  color: var(--air-muted);
+  font-size: 16px;
+}
+.groundedNote {
+  font-size: 13.5px;
+  color: var(--air-ink-soft);
+  margin-top: 24px;
+  max-width: 64ch;
+  line-height: 1.6;
+}
+
+/* ---- circular arrow buttons ---- */
+.arrowBtn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--air-rule);
+  background: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--air-ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+.arrowBtn:hover {
+  background: var(--air-track);
+}
+
+/* ---- section 4: theme results ---- */
+.resultsWrap {
+  max-width: 1120px;
+  width: 100%;
+}
+.resultsHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 36px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.resultsHeaderRight {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.slideLabel {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 12px;
+  color: var(--air-muted);
+}
+.chartGrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+@media (max-width: 780px) {
+  .chartGrid {
+    grid-template-columns: 1fr;
+  }
+}
+.chartCol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.barRow {
+  cursor: pointer;
+}
+.barTop {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12.5px;
+  margin-bottom: 4px;
+}
+.barLabel {
+  font-weight: 600;
+}
+.barCount {
+  font-family: var(--air-font-mono), monospace;
+  color: var(--air-ink-soft);
+}
+.barTrack {
+  height: 22px;
+  width: 100%;
+  background: var(--air-track);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.barFill {
+  height: 100%;
+  border-radius: 2px;
+  transition:
+    width 0.9s ease,
+    opacity 0.2s ease;
+}
+.legendRow {
+  display: flex;
+  gap: 18px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  color: var(--air-ink-soft);
+}
+.legendDot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.detailPanel {
+  background: #fff;
+  border: 1px solid var(--air-rule);
+  border-radius: 6px;
+  padding: 26px;
+}
+.detailEyebrow {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.detailLabel {
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+.detailLine {
+  font-size: 13.5px;
+  color: var(--air-ink-soft);
+  line-height: 1.55;
+  margin-bottom: 6px;
+}
+.chipRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 14px;
+}
+.chip {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 10.5px;
+  padding: 4px 9px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid var(--air-rule);
+  color: var(--air-ink-soft);
+}
+.chipSignal {
+  color: #fff;
+}
+
+/* ---- section 5: ad angle results ---- */
+.adAnglesWrap {
+  max-width: 1100px;
+  width: 100%;
+}
+.adAnglesHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+.adAnglesHeaderRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.themeLine {
+  font-size: 13.5px;
+  color: var(--air-ink-soft);
+  max-width: 70ch;
+  line-height: 1.5;
+}
+.tabRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.tab {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 11.5px;
+  padding: 8px 14px;
+  border-radius: 14px;
+  cursor: pointer;
+  border: 1px solid var(--air-rule);
+  background: #fff;
+  color: var(--air-ink-soft);
+  transition: all 0.2s ease;
+}
+.tabActive {
+  border-color: var(--air-accent);
+  background: var(--air-accent);
+  color: #fff;
+}
+.angleGrid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 28px;
+}
+@media (max-width: 860px) {
+  .angleGrid {
+    grid-template-columns: 1fr;
+  }
+}
+.angleMain {
+  background: #fff;
+  border: 1px solid var(--air-rule);
+  border-radius: 8px;
+  padding: 34px;
+}
+.angleMainEyebrow {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  color: var(--air-accent);
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.hook {
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  font-size: clamp(26px, 3vw, 38px);
+  line-height: 1.15;
+  color: var(--air-ink);
+  margin-bottom: 24px;
+}
+.angleBody {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.angleFieldLabel {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 10px;
+  color: var(--air-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 4px;
+}
+.angleFieldBody {
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+.ctaBtn {
+  margin-top: 26px;
+  font-family: var(--air-font-mono), monospace;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  background: var(--air-accent);
+  color: #fff;
+  border: none;
+  padding: 14px 26px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.ctaBtn:hover {
+  background: var(--air-accent-hover);
+}
+.angleAside {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.asideCard {
+  border-radius: 8px;
+  padding: 20px;
+}
+.asideCardMuted {
+  background: var(--air-panel);
+}
+.asideCardBordered {
+  background: #fff;
+  border: 1px solid var(--air-rule);
+}
+.asideCardDashed {
+  background: #fff;
+  border: 1px dashed var(--air-accent);
+}
+.asideLabel {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+}
+.langItem {
+  display: block;
+  text-decoration: none;
+  color: var(--air-ink);
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  border-left: 2px solid var(--air-accent);
+  padding-left: 10px;
+  transition: color 0.15s ease;
+}
+.langItem:hover {
+  color: var(--air-accent);
+}
+.langItem span {
+  font-family: var(--air-font-mono), monospace;
+  font-size: 10.5px;
+  color: var(--air-muted);
+}
+.claimItem {
+  font-size: 12.5px;
+  color: var(--air-ink-soft);
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.validationBody {
+  font-size: 12.5px;
+  color: var(--air-ink);
+  line-height: 1.55;
+}

@@ -1,0 +1,3189 @@
+{
+  "brief": {
+    "sku": "Vitality Chew",
+    "slug": "vitality-chew",
+    "active_question": "How should we talk about the Vitality Chew?",
+    "launch_timing": "Fall 2026",
+    "positioning": [
+      "Flagship product launching The Dogist wellness line",
+      "Premium, science-backed daily antioxidant chew",
+      "Designed for daily use with subscription at the core"
+    ],
+    "ingredients": [
+      {
+        "name": "Blueberry",
+        "role": "antioxidant"
+      },
+      {
+        "name": "Pomegranate",
+        "role": "antioxidant"
+      },
+      {
+        "name": "Mixed tocopherols",
+        "role": "vitamin E antioxidant support"
+      },
+      {
+        "name": "Salmon flavor",
+        "role": "palatability cue from product concept"
+      }
+    ],
+    "claims_to_test": [
+      {
+        "id": "healthy_aging",
+        "label": "Healthy aging",
+        "keywords": [
+          "senior",
+          "aging",
+          "older",
+          "quality time",
+          "more good years"
+        ]
+      },
+      {
+        "id": "brain_health",
+        "label": "Brain health",
+        "keywords": [
+          "brain",
+          "cognitive",
+          "alert",
+          "sharp",
+          "aware"
+        ]
+      },
+      {
+        "id": "joint_support",
+        "label": "Joint support",
+        "keywords": [
+          "joint",
+          "mobility",
+          "walk",
+          "stairs",
+          "arthritis"
+        ]
+      },
+      {
+        "id": "daily_vitality",
+        "label": "Daily vitality",
+        "keywords": [
+          "daily",
+          "routine",
+          "every day",
+          "energy",
+          "vitality"
+        ]
+      },
+      {
+        "id": "ingredient_transparency",
+        "label": "Ingredient transparency",
+        "keywords": [
+          "ingredient",
+          "transparent",
+          "no filler",
+          "preservative",
+          "dye"
+        ]
+      },
+      {
+        "id": "palatability",
+        "label": "Dogs will actually eat it",
+        "keywords": [
+          "picky",
+          "taste",
+          "eat",
+          "blueberries",
+          "treat"
+        ]
+      }
+    ],
+    "audience_jobs": [
+      "Help me give my dog more good years without feeling like I am falling for pet-wellness hype.",
+      "Help me understand what is in this and why it is safe for my specific dog.",
+      "Help me add something healthy to my dog's routine that my dog will actually eat.",
+      "Help me feel proactive without implying this replaces my vet or medicine."
+    ],
+    "brand_guardrails": [
+      {
+        "id": "transparent",
+        "text": "Transparent"
+      },
+      {
+        "id": "loving",
+        "text": "Loving"
+      },
+      {
+        "id": "seriously_funny",
+        "text": "Seriously funny"
+      },
+      {
+        "id": "ingredient_transparency",
+        "text": "Ingredient transparency"
+      },
+      {
+        "id": "research_backed",
+        "text": "Research-backed recipes"
+      },
+      {
+        "id": "beautiful_design",
+        "text": "Beautiful design that people love having on the countertop"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "Zesty Paws",
+        "deck_positioning": "Mass-market, convenient",
+        "deck_gap": "Research-backed and transparent ingredients"
+      },
+      {
+        "name": "Pet Honesty",
+        "deck_positioning": "Vet rec'd, accessible brand",
+        "deck_gap": "Social-first reach and filler concerns"
+      },
+      {
+        "name": "Native Pet",
+        "deck_positioning": "Clean, minimal-filler toppers",
+        "deck_gap": "Social-first reach"
+      },
+      {
+        "name": "Finn",
+        "deck_positioning": "Stylish, digital-first brand",
+        "deck_gap": "Filler concerns and broad reach"
+      },
+      {
+        "name": "Dog is Human",
+        "deck_positioning": "Premium brand with strong community",
+        "deck_gap": "Broad reach"
+      }
+    ],
+    "channels": [
+      "DTC",
+      "TikTok Shop",
+      "Amazon",
+      "Chewy",
+      "IRL sampling",
+      "Instagram validation posts"
+    ],
+    "trust_constraints": [
+      "Do not imply the chew prevents disease, cures medical conditions, or extends lifespan.",
+      "Do not use grief, rescue, or senior-dog stories as direct purchase hooks without extra care.",
+      "Do not frame the product as a substitute for veterinary guidance.",
+      "Do not overstate the comment corpus as validated demand.",
+      "Do not write generic superfood copy that could come from any pet brand."
+    ],
+    "deck_context": {
+      "brand_promise": "The Dogist deepens the loving relationship you have with your dog.",
+      "target_insight": "Dogs make our lives better, so we owe it to them to make theirs longer, healthier, and happier.",
+      "brand_essence_statement": "The Dogist products help you show love to your dog by connecting you with research-backed recipes and a voice you can trust to help your dog live a better life.",
+      "audience_context": {
+        "instagram_followers": "7.6M",
+        "tiktok_followers": "2.3M",
+        "social_reach": "11M+",
+        "female_share": "80%",
+        "age_25_34_share": "40%"
+      }
+    },
+    "external_market_context": {
+      "present": false,
+      "source_type": "external_market_context",
+      "items": [],
+      "use_policy": "No external market context file was provided. Audience findings remain corpus-derived."
+    }
+  },
+  "corpus_summary": {
+    "generated_at": "2026-06-25T00:42:43.141Z",
+    "creator_handle": "thedogist",
+    "posts_analyzed": 370,
+    "comments_analyzed": 97579,
+    "unique_commenters": 49478,
+    "high_signal_comments": 15557,
+    "total_comment_likes": 164021,
+    "snapshot_note": "Fixed Instagram corpus snapshot. New validation posts should be ingested before treating findings as confirmed launch demand."
+  },
+  "voice_profile": {
+    "generated_at": "2026-06-26T03:54:45.001Z",
+    "source_note": "Voice model inferred from Dogist post titles/captions and launch deck guardrails. It is used to shape angles, not to invent audience evidence.",
+    "post_titles_analyzed": 370,
+    "cadence_patterns": [
+      {
+        "id": "portrait_story",
+        "label": "Dog-first portrait story",
+        "description": "Name, breed, age, place, then an owner quote that makes the dog feel specific.",
+        "examples": [
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DMN51J1xp4T",
+            "post_url": "https://www.instagram.com/thedogist/reel/DMN51J1xp4T/",
+            "text": "Carl, Beagle (3 y/o), Gansevoort Plaza, New York, NY • “They told me he was six years old when I got him, and then the vet said he’s closer to one. Someone tied",
+            "reason": "Canonical Dogist portrait cadence"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DLGInbkxZUE",
+            "post_url": "https://www.instagram.com/thedogist/reel/DLGInbkxZUE/",
+            "text": "Otis, Rottweiler (5 y/o), Plymouth & Pearl St., Brooklyn, NY • “He’s pretty chill. Loves babies, loves dogs. He’s a big sweetie. He sort of always eats anything",
+            "reason": "Canonical Dogist portrait cadence"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DLc3BgGRnSn",
+            "post_url": "https://www.instagram.com/thedogist/reel/DLc3BgGRnSn/",
+            "text": "Audrey, Biewer Terrier (13 y/o), W 12th & Hudson St., New York, NY • “She’s named after Audrey Hepburn. She was supposed to be bigger – she’s only four pounds.",
+            "reason": "Canonical Dogist portrait cadence"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DOrf76ekXEy",
+            "post_url": "https://www.instagram.com/thedogist/reel/DOrf76ekXEy/",
+            "text": "Tika, Italian Greyhound (14 y/o), Spring & W Broadway, New York, NY • “We’re from Canada – we come here twice a year for New York Fashion Week. She’s always col",
+            "reason": "Canonical Dogist portrait cadence"
+          }
+        ]
+      },
+      {
+        "id": "audience_prompt",
+        "label": "Open-ended audience prompt",
+        "description": "A simple question invites followers to share their own dog routines, places, or stories.",
+        "examples": [
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DYxt7vXEfe-",
+            "post_url": "https://www.instagram.com/thedogist/p/DYxt7vXEfe-/",
+            "text": "Dogs at the @Mets Bark At The Park. Comment your favorite photo from the set 🐶⚾️",
+            "reason": "Question-led caption cadence"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DUTq0lhEaz5",
+            "post_url": "https://www.instagram.com/thedogist/p/DUTq0lhEaz5/",
+            "text": "Dogs of the 150th Westminster Kennel Club Dog Show. Can you name all these breeds?Featuring: Kite, Oscar, Ember, Quinn, Argo & Oak, Lance, Greta, Gatsby, Billy,",
+            "reason": "Question-led caption cadence"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DXh1oZBxUhq",
+            "post_url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+            "text": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!",
+            "reason": "Question-led caption cadence"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DVOqoEwEc-P",
+            "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+            "text": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+            "reason": "Question-led caption cadence"
+          }
+        ]
+      },
+      {
+        "id": "elsa_experiment",
+        "label": "Elsa test-kitchen experiment",
+        "description": "First-person Dogist/Elsa experiments make product learning feel playful and honest.",
+        "examples": [
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DVwmbKiES8H",
+            "post_url": "https://www.instagram.com/thedogist/reel/DVwmbKiES8H/",
+            "text": "Elsa’s test kitchen went pretty much as suspected… beefy delight or nothing 🏆",
+            "reason": "Elsa/product experiment cadence"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DXh1oZBxUhq",
+            "post_url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+            "text": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!",
+            "reason": "Elsa/product experiment cadence"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DVOqoEwEc-P",
+            "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+            "text": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+            "reason": "Elsa/product experiment cadence"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DNUFQhjRwcF",
+            "post_url": "https://www.instagram.com/thedogist/reel/DNUFQhjRwcF/",
+            "text": "thedogistVerified Edited•44wElsa’s favorite place on earth is Upstate, NY (so far). What’s your dog’s favorite place? Where should I take Els next? Ft: @giddyup",
+            "reason": "Elsa/product experiment cadence"
+          }
+        ]
+      },
+      {
+        "id": "community_invitation",
+        "label": "Community invitation",
+        "description": "Meetups, events, and comment prompts make the audience part of the story.",
+        "examples": [
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DSfktSdkeL4",
+            "post_url": "https://www.instagram.com/thedogist/p/DSfktSdkeL4/",
+            "text": "⭐️BIRTHDAY GIVEAWAY! ⭐️It’s my birthday today and I want to celebrate with one of you!I’m extremely lucky that I get to share the joy of dogs everyday for a liv",
+            "reason": "Participation and event cadence"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DPR55gFkXmL",
+            "post_url": "https://www.instagram.com/thedogist/p/DPR55gFkXmL/",
+            "text": "I had the incredible honor of meeting one of my heroes last week, Dr. Jane Goodall, and am deeply saddened by the news of her passing today. She dedicated her l",
+            "reason": "Participation and event cadence"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DYxt7vXEfe-",
+            "post_url": "https://www.instagram.com/thedogist/p/DYxt7vXEfe-/",
+            "text": "Dogs at the @Mets Bark At The Park. Comment your favorite photo from the set 🐶⚾️",
+            "reason": "Participation and event cadence"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DOrf76ekXEy",
+            "post_url": "https://www.instagram.com/thedogist/reel/DOrf76ekXEy/",
+            "text": "Tika, Italian Greyhound (14 y/o), Spring & W Broadway, New York, NY • “We’re from Canada – we come here twice a year for New York Fashion Week. She’s always col",
+            "reason": "Participation and event cadence"
+          }
+        ]
+      },
+      {
+        "id": "light_understatement",
+        "label": "Light understatement",
+        "description": "Humor lands through understatement, specificity, and the dog's actual behavior.",
+        "examples": [
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DVwmbKiES8H",
+            "post_url": "https://www.instagram.com/thedogist/reel/DVwmbKiES8H/",
+            "text": "Elsa’s test kitchen went pretty much as suspected… beefy delight or nothing 🏆",
+            "reason": "Seriously funny understatement"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DXh1oZBxUhq",
+            "post_url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+            "text": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!",
+            "reason": "Seriously funny understatement"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DVeE8GgkVNI",
+            "post_url": "https://www.instagram.com/thedogist/reel/DVeE8GgkVNI/",
+            "text": "thedogistVerified Edited•15wBetsy, Chihuahua Mix (15 y/o), 16th & Union Square East, New York, NY • “She was a little homeless girl in Indiana, I found her on @",
+            "reason": "Seriously funny understatement"
+          },
+          {
+            "source": "dogist_caption",
+            "post_id": "instagram_thedogist_DTiUEM1kWLC",
+            "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+            "text": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do",
+            "reason": "Seriously funny understatement"
+          }
+        ]
+      }
+    ],
+    "tone_markers": [
+      "Dog-first specificity before brand/product language",
+      "First-person experiments with Elsa when testing food or treats",
+      "Plain questions that invite owners to answer with their own routines",
+      "Warm, lightly funny understatement instead of hard sell",
+      "Trust comes from showing the real dog behavior, including rejection or messiness"
+    ],
+    "deck_guardrails": [
+      {
+        "source": "deck_brand_guardrail",
+        "id": "transparent",
+        "text": "Transparent"
+      },
+      {
+        "source": "deck_brand_guardrail",
+        "id": "loving",
+        "text": "Loving"
+      },
+      {
+        "source": "deck_brand_guardrail",
+        "id": "seriously_funny",
+        "text": "Seriously funny"
+      },
+      {
+        "source": "deck_brand_guardrail",
+        "id": "ingredient_transparency",
+        "text": "Ingredient transparency"
+      },
+      {
+        "source": "deck_brand_guardrail",
+        "id": "research_backed",
+        "text": "Research-backed recipes"
+      },
+      {
+        "source": "deck_brand_guardrail",
+        "id": "beautiful_design",
+        "text": "Beautiful design that people love having on the countertop"
+      }
+    ],
+    "do_rules": [
+      "Start from a real dog, routine, or owner question.",
+      "Use product language only after the care moment is clear.",
+      "Make uncertainty and validation feel honest.",
+      "Borrow audience words only when the evidence source is attached."
+    ],
+    "avoid_rules": [
+      "Do not write generic superfood language.",
+      "Do not turn grief or senior care into a sales hook.",
+      "Do not imply medical outcomes beyond the brief's allowed claims.",
+      "Do not flatten The Dogist voice into polished wellness-brand copy."
+    ]
+  },
+  "audience_modes": [
+    {
+      "id": "wellness_routine_builders",
+      "label": "Wellness routine builders",
+      "role": "Owners who think in daily rituals: food, walks, supplements, exercise, and small care upgrades.",
+      "evidence_breadth": {
+        "matched_comments": 1779,
+        "high_signal_comments": 1535,
+        "posts": 272,
+        "authors": 1583,
+        "total_comment_likes": 3549,
+        "top_post_share": 0.1546,
+        "high_intent_comments": 509
+      },
+      "evidence_quality_flags": [
+        "direct_comment_language",
+        "broad_signal",
+        "high_intent_question"
+      ],
+      "claim_alignment": [
+        "daily_vitality",
+        "healthy_aging",
+        "joint_support"
+      ],
+      "key_tensions": [
+        {
+          "text": "Daily care language is natural for this audience, but subscription language can feel commercial if introduced too early.",
+          "source_type": "business_interpretation"
+        },
+        {
+          "text": "They want practical routines more than abstract wellness ideals.",
+          "source_type": "business_interpretation"
+        },
+        {
+          "topic": "Dogs loving vs. refusing blueberries",
+          "side_a": {
+            "label": "Blueberries are a universally loved treat",
+            "count_estimate": 157,
+            "quote": "My dog loves blueberries! We have our own in the garden and he picks them off himself"
+          },
+          "side_b": {
+            "label": "Many dogs want nothing to do with blueberries",
+            "count_estimate": 74,
+            "quote": "Neither of my dogs like blueberries lol"
+          },
+          "why_it_matters": "A blueberry supplement must appeal to owners whose dogs actively reject the whole fruit, making palatability and delivery format critical to product adoption.",
+          "suggested_question": "Does your dog love or reject blueberries? Drop a 🫐 for love or 🙅 for nope — and tell us how you sneak superfoods into a picky pup's diet!",
+          "source_type": "audience_analysis"
+        },
+        {
+          "topic": "Fresh vs. frozen blueberry preference",
+          "side_a": {
+            "label": "Dogs prefer frozen blueberries over fresh",
+            "count_estimate": 27,
+            "quote": "My dog won't eat fresh blueberries but loves frozen ones"
+          },
+          "side_b": {
+            "label": "Dogs eat blueberries cut or mashed, not whole",
+            "count_estimate": 25,
+            "quote": "My dog will only eat them if I bite/cut them in half"
+          },
+          "why_it_matters": "Format and texture matter enormously for treat acceptance, suggesting a supplement or processed blueberry product could outperform raw whole berries for picky dogs.",
+          "suggested_question": "Fresh, frozen, or mashed — what's the only way your dog will eat blueberries? Show us their reaction 👇",
+          "source_type": "audience_analysis"
+        },
+        {
+          "topic": "Homemade diet nutritional completeness",
+          "side_a": {
+            "label": "Home-cooked meals are healthier and dogs thrive on them",
+            "count_estimate": 259,
+            "quote": "they have all lost weight, regained energy, have beautiful coats and teeth"
+          },
+          "side_b": {
+            "label": "Homemade diets are often nutritionally deficient without expert guidance",
+            "count_estimate": 41,
+            "quote": "A study found over 90% of homemade diets are nutrient deficient"
+          },
+          "why_it_matters": "Owners cooking for their dogs represent a prime audience for a science-backed blueberry supplement that fills nutritional gaps in homemade recipes.",
+          "suggested_question": "If you cook for your dog, how do you make sure they're getting all the nutrients they need? Tag a recipe or supplement you swear by 👇",
+          "source_type": "audience_analysis"
+        }
+      ],
+      "trust_risks": [
+        "Make daily use feel like care, not a subscription trap.",
+        "Connect to real routines: meals, walks, treats, and vet-informed habits.",
+        "Avoid overwhelming owners with another thing they are supposed to do."
+      ],
+      "representative_quotes": [
+        {
+          "id": "audience-wellness_routine_builders-1",
+          "source_type": "audience_comment",
+          "text": "We adopted a 9 year old blind pup He was also super resourceful and didn t seem bothered by his lack of vision He could see with his nose instead Once when he was temporarily on a bland diet he led us on a walk in a direction we had never been We walked about a mile and then he plopped down directly in front of the entrance of a Burger King He could navigate like a pro just using different senses",
+          "likes": 89,
+          "post_id": "instagram_thedogist_DYsm8CwkfTu",
+          "post_url": "https://www.instagram.com/thedogist/p/DYsm8CwkfTu/",
+          "post_title": "Olive, Pug/Pit Bull mix (12 y/o), 80th & Amsterdam Ave., New York, NY “She’s blind. You have to make sounds. She’s very resourceful. She can hear absolutely eve",
+          "signal_score": 18.09
+        },
+        {
+          "id": "audience-wellness_routine_builders-2",
+          "source_type": "audience_comment",
+          "text": "She s a husky mix - idk with what but wonder if that is what leads her to be calmer All huskies I ve encountered are high energy and talk A LOT",
+          "likes": 74,
+          "post_id": "instagram_thedogist_DYKLczCyeR7",
+          "post_url": "https://www.instagram.com/thedogist/reel/DYKLczCyeR7/",
+          "post_title": "thedogistVerified Edited•5wHappy Mother’s Day! Whether you’re a dog mom or a human mom (or grandmom), you mean so much to the people (and dogs) you care for! 💐",
+          "signal_score": 17.72
+        },
+        {
+          "id": "audience-wellness_routine_builders-3",
+          "source_type": "audience_comment",
+          "text": "I saw a young girl walking hers yesterday in my town He literally looked like a brown bear and she was about 3 4s his size but he was such a gentle good boy Lovely dogs",
+          "likes": 156,
+          "post_id": "instagram_thedogist_DXjqVIgBU3J",
+          "post_url": "https://www.instagram.com/thedogist/reel/DXjqVIgBU3J/",
+          "post_title": "James, Newfoundland (1 y/o), 20th & 10th Ave., New York, NY • “He’s 135lbs. He loves all dogs. He wants to meet every single dog in the city. He goes to Central",
+          "signal_score": 17
+        },
+        {
+          "id": "audience-wellness_routine_builders-4",
+          "source_type": "audience_comment",
+          "text": "My dog is a senior now with hip dysplasia and arthritis so our walks are slower They aren't nearly as long but we treasure them more now He gets red light therapy on his hips legs for about 15 minutes each day He gets green muscle powder and a powdered multi vitamin supplement in his food twice a day He is on a daily anti-inflammatory med along with joint supplement Twice a month he gets adequan or its generic cousi...",
+          "likes": 0,
+          "post_id": "instagram_thedogist_DTiUEM1kWLC",
+          "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+          "post_title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do",
+          "signal_score": 17
+        },
+        {
+          "id": "audience-wellness_routine_builders-5",
+          "source_type": "audience_comment",
+          "text": "It s really all of it isn t it Good quality food routine exercise My dogs have had home cooked meals good veggies and fruits They both at times have had to be on special diets so would supplement home cooked foods when at all possible and supplements Walks at least twice a day training exercises good brain stimulation My dogs were my world I recently lost my 14 7 year old Westie the last 3 years were a lot as he had...",
+          "likes": 0,
+          "post_id": "instagram_thedogist_DTiUEM1kWLC",
+          "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+          "post_title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do",
+          "signal_score": 17
+        }
+      ],
+      "top_posts": [
+        {
+          "post_id": "instagram_thedogist_DTiUEM1kWLC",
+          "comments_in_mode": 275,
+          "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+          "post_title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do"
+        },
+        {
+          "post_id": "instagram_thedogist_DVOqoEwEc-P",
+          "comments_in_mode": 149,
+          "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+          "post_title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!"
+        },
+        {
+          "post_id": "instagram_thedogist_DSfktSdkeL4",
+          "comments_in_mode": 116,
+          "post_url": "https://www.instagram.com/thedogist/p/DSfktSdkeL4/",
+          "post_title": "⭐️BIRTHDAY GIVEAWAY! ⭐️It’s my birthday today and I want to celebrate with one of you!I’m extremely lucky that I get to share the joy of dogs everyday for a liv"
+        },
+        {
+          "post_id": "instagram_thedogist_DTOpuOGkYp-",
+          "comments_in_mode": 62,
+          "post_url": "https://www.instagram.com/thedogist/reel/DTOpuOGkYp-/",
+          "post_title": "I’m grateful to have met Jack yesterday, whose owner reminded me of the lengths people go to care for their dogs as they age. The love people have for their dog"
+        },
+        {
+          "post_id": "instagram_thedogist_DVZfWl6EWju",
+          "comments_in_mode": 42,
+          "post_url": "https://www.instagram.com/thedogist/reel/DVZfWl6EWju/",
+          "post_title": "I cooked for Elsa for the first time and it was fun! I’ve been learning to cook more this past year and wanted to try making a dog food recipe for Els. She can"
+        }
+      ],
+      "source_cluster_ids": [
+        "opportunity:food_treats_and_product_trust",
+        "opportunity:rescue_and_adoption_trust",
+        "opportunity:irl_community_and_sampling",
+        "opportunity:grief_loss_and_memorial_language",
+        "opportunity:senior_health_and_care_companionship",
+        "opportunity:services_cost_and_access_pain_points",
+        "opportunity:product_commerce_and_merch_pull",
+        "opportunity:behavior_anxiety_and_training",
+        "opportunity:travel_and_dog_friendly_places",
+        "cultural:cultural_0"
+      ],
+      "source_cluster_limits": [
+        {
+          "source_cluster_id": "cultural:cultural_0",
+          "risk_flags": [
+            "single_post_thread_heavy"
+          ],
+          "top_post_share": 0.8406
+        },
+        {
+          "source_cluster_id": "cultural:cultural_31",
+          "risk_flags": [
+            "single_post_thread_heavy"
+          ],
+          "top_post_share": 0.8149
+        }
+      ]
+    },
+    {
+      "id": "picky_dog_pragmatists",
+      "label": "Picky-dog pragmatists",
+      "role": "Owners who believe a healthy product only matters if real dogs will eat it.",
+      "evidence_breadth": {
+        "matched_comments": 1521,
+        "high_signal_comments": 1142,
+        "posts": 199,
+        "authors": 1371,
+        "total_comment_likes": 5749,
+        "top_post_share": 0.1381,
+        "high_intent_comments": 314
+      },
+      "evidence_quality_flags": [
+        "direct_comment_language",
+        "broad_signal",
+        "high_intent_question"
+      ],
+      "claim_alignment": [
+        "palatability",
+        "daily_vitality",
+        "ingredient_transparency"
+      ],
+      "key_tensions": [
+        {
+          "text": "Blueberries can be high-value for some dogs and a hard no for others.",
+          "source_type": "business_interpretation"
+        },
+        {
+          "text": "Format and delivery may matter as much as ingredient story.",
+          "source_type": "business_interpretation"
+        },
+        {
+          "topic": "Dogs loving vs. refusing blueberries",
+          "side_a": {
+            "label": "Blueberries are a universally loved treat",
+            "count_estimate": 157,
+            "quote": "My dog loves blueberries! We have our own in the garden and he picks them off himself"
+          },
+          "side_b": {
+            "label": "Many dogs want nothing to do with blueberries",
+            "count_estimate": 74,
+            "quote": "Neither of my dogs like blueberries lol"
+          },
+          "why_it_matters": "A blueberry supplement must appeal to owners whose dogs actively reject the whole fruit, making palatability and delivery format critical to product adoption.",
+          "suggested_question": "Does your dog love or reject blueberries? Drop a 🫐 for love or 🙅 for nope — and tell us how you sneak superfoods into a picky pup's diet!",
+          "source_type": "audience_analysis"
+        },
+        {
+          "topic": "Fresh vs. frozen blueberry preference",
+          "side_a": {
+            "label": "Dogs prefer frozen blueberries over fresh",
+            "count_estimate": 27,
+            "quote": "My dog won't eat fresh blueberries but loves frozen ones"
+          },
+          "side_b": {
+            "label": "Dogs eat blueberries cut or mashed, not whole",
+            "count_estimate": 25,
+            "quote": "My dog will only eat them if I bite/cut them in half"
+          },
+          "why_it_matters": "Format and texture matter enormously for treat acceptance, suggesting a supplement or processed blueberry product could outperform raw whole berries for picky dogs.",
+          "suggested_question": "Fresh, frozen, or mashed — what's the only way your dog will eat blueberries? Show us their reaction 👇",
+          "source_type": "audience_analysis"
+        },
+        {
+          "topic": "Vegetarian and plant-based diets for dogs",
+          "side_a": {
+            "label": "Plant-based diets improve dog health and are endorsed by some vets",
+            "count_estimate": 12,
+            "quote": "Thank you for giving Roscoe a plant based diet. That saved my Frenchies health as well."
+          },
+          "side_b": {
+            "label": "Dogs are meat-eaters and thrive on animal protein",
+            "count_estimate": 15,
+            "quote": "No kibble. 75% raw diced red meat, 25% homecooked shredded chicken"
+          },
+          "why_it_matters": "The debate over animal vs. plant protein shapes how owners perceive fruit and vegetable supplements — positioning a blueberry supplement as an add-on rather than a replacement could bridge both camps.",
+          "suggested_question": "Meat-first or plant-forward — how do you feed your dog? We want to hear what's working (and what your vet thinks) 🌱🥩",
+          "source_type": "audience_analysis"
+        }
+      ],
+      "trust_risks": [
+        "Do not assume dogs love blueberries.",
+        "Validate palatability before making broad claims.",
+        "Let Dogist humor carry the picky-dog truth instead of hiding it."
+      ],
+      "representative_quotes": [
+        {
+          "id": "audience-picky_dog_pragmatists-1",
+          "source_type": "audience_comment",
+          "text": "i have known our across the street neighbor for maybe 4 5yrs We've exchanged holiday treats i've been to 2 baby showers they've been to my daughters last 3 birthdays i give them my daughters hand me downs i know the youngest 2 kids names i have an idea of what the other 2 names are i know dad is Pete i can't remember the moms name to save my life Besides the 2 smal boys Cupcake Samson Moses are the dogs that's what ...",
+          "likes": 468,
+          "post_id": "instagram_thedogist_DZDqSgRIFGB",
+          "post_url": "https://www.instagram.com/thedogist/reel/DZDqSgRIFGB/",
+          "post_title": "Brooks, Golden Retriever (4 y/o), King Street, Charleston, SC • “I think more people know Brooks than know me. We live in an old historic home. He used to look",
+          "signal_score": 19
+        },
+        {
+          "id": "audience-picky_dog_pragmatists-2",
+          "source_type": "audience_comment",
+          "text": "I must admit I am happy to see this My dogs won t eat anything fruity or veggie unless carefully packed inside meatballs I see all these IG doggies snacking away on lettuce and strawberries and wondering over here what I m doing wrong",
+          "likes": 42,
+          "post_id": "instagram_thedogist_DXh1oZBxUhq",
+          "post_url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+          "post_title": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!",
+          "signal_score": 18.6
+        },
+        {
+          "id": "audience-picky_dog_pragmatists-3",
+          "source_type": "audience_comment",
+          "text": "Which is why dog food companies don t like to use Labs for testing food they don t know if they like it or are eating it because it s in front of them They will eat anything",
+          "likes": 673,
+          "post_id": "instagram_thedogist_DXRnD14PkvI",
+          "post_url": "https://www.instagram.com/thedogist/reel/DXRnD14PkvI/",
+          "post_title": "Elsa didn’t like the blueberry biscuits I made for her (at first), so I went to Washington Square Park to get a second (...and third..and fourth) opinion from s",
+          "signal_score": 18
+        },
+        {
+          "id": "audience-picky_dog_pragmatists-4",
+          "source_type": "audience_comment",
+          "text": "Conclusion Elsa IS a picky eater But hey a girl's gotta have standards Her's do not include blueberry treats",
+          "likes": 219,
+          "post_id": "instagram_thedogist_DXRnD14PkvI",
+          "post_url": "https://www.instagram.com/thedogist/reel/DXRnD14PkvI/",
+          "post_title": "Elsa didn’t like the blueberry biscuits I made for her (at first), so I went to Washington Square Park to get a second (...and third..and fourth) opinion from s",
+          "signal_score": 18
+        },
+        {
+          "id": "audience-picky_dog_pragmatists-5",
+          "source_type": "audience_comment",
+          "text": "THANK YOU SO MUCH FOR TAKING MY PICTURE BUT MOSTLY FOR THE TREATS My moms are jumping up and down all over again because they are so excited about this video hahah Thank you x100",
+          "likes": 780,
+          "post_id": "instagram_thedogist_DYF-_83xsIa",
+          "post_url": "https://www.instagram.com/thedogist/reel/DYF-_83xsIa/",
+          "post_title": "Pearl, Pug (3 y/o), Cobble Hill Park, Brooklyn, NY • “I’ve had other dogs; I’ve never had a Pug before. They’re very clingy, which I thought I’d be annoyed with",
+          "signal_score": 17
+        }
+      ],
+      "top_posts": [
+        {
+          "post_id": "instagram_thedogist_DWWVCdhR5p-",
+          "comments_in_mode": 210,
+          "post_url": "https://www.instagram.com/thedogist/reel/DWWVCdhR5p-/",
+          "post_title": "Elsa vs. a blueberry… What does your dog refuse to eat??"
+        },
+        {
+          "post_id": "instagram_thedogist_DXh1oZBxUhq",
+          "comments_in_mode": 134,
+          "post_url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+          "post_title": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!"
+        },
+        {
+          "post_id": "instagram_thedogist_DXIKSiARwyc",
+          "comments_in_mode": 107,
+          "post_url": "https://www.instagram.com/thedogist/reel/DXIKSiARwyc/",
+          "post_title": "Bella, Beagle (3 y/o), Cobble Hill Park, Brooklyn, NY • “Funny story actually, he had a different name for her. He wanted to call her Jessica…just a random name"
+        },
+        {
+          "post_id": "instagram_thedogist_DTiUEM1kWLC",
+          "comments_in_mode": 77,
+          "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+          "post_title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do"
+        },
+        {
+          "post_id": "instagram_thedogist_DVwmbKiES8H",
+          "comments_in_mode": 70,
+          "post_url": "https://www.instagram.com/thedogist/reel/DVwmbKiES8H/",
+          "post_title": "Elsa’s test kitchen went pretty much as suspected… beefy delight or nothing 🏆"
+        }
+      ],
+      "source_cluster_ids": [
+        "opportunity:food_treats_and_product_trust",
+        "opportunity:irl_community_and_sampling",
+        "opportunity:senior_health_and_care_companionship",
+        "opportunity:product_commerce_and_merch_pull",
+        "opportunity:behavior_anxiety_and_training",
+        "opportunity:travel_and_dog_friendly_places",
+        "cultural:cultural_0",
+        "cultural:cultural_5",
+        "cultural:cultural_6",
+        "cultural:cultural_8"
+      ],
+      "source_cluster_limits": [
+        {
+          "source_cluster_id": "cultural:cultural_0",
+          "risk_flags": [
+            "single_post_thread_heavy"
+          ],
+          "top_post_share": 0.8406
+        },
+        {
+          "source_cluster_id": "cultural:cultural_5",
+          "risk_flags": [
+            "single_post_thread_heavy"
+          ],
+          "top_post_share": 0.8912
+        },
+        {
+          "source_cluster_id": "cultural:cultural_6",
+          "risk_flags": [
+            "single_post_thread_heavy"
+          ],
+          "top_post_share": 0.9854
+        },
+        {
+          "source_cluster_id": "cultural:cultural_8",
+          "risk_flags": [
+            "single_post_thread_heavy"
+          ],
+          "top_post_share": 0.7952
+        },
+        {
+          "source_cluster_id": "cultural:cultural_9",
+          "risk_flags": [
+            "single_post_thread_heavy"
+          ],
+          "top_post_share": 0.8805
+        }
+      ]
+    },
+    {
+      "id": "senior_care_caregivers",
+      "label": "Senior-care caregivers",
+      "role": "Owners trying to give older or health-challenged dogs more good days.",
+      "evidence_breadth": {
+        "matched_comments": 1288,
+        "high_signal_comments": 1107,
+        "posts": 191,
+        "authors": 1183,
+        "total_comment_likes": 12396,
+        "top_post_share": 0.1188,
+        "high_intent_comments": 321
+      },
+      "evidence_quality_flags": [
+        "direct_comment_language",
+        "broad_signal",
+        "high_intent_question"
+      ],
+      "claim_alignment": [
+        "healthy_aging",
+        "brain_health",
+        "joint_support",
+        "daily_vitality"
+      ],
+      "key_tensions": [
+        {
+          "text": "Owners want proactive support, but medical-adjacent claims can feel like false hope.",
+          "source_type": "business_interpretation"
+        },
+        {
+          "text": "The audience responds to senior-care stories, but those stories are sensitive trust contexts.",
+          "source_type": "business_interpretation"
+        },
+        {
+          "topic": "Homemade diet nutritional completeness",
+          "side_a": {
+            "label": "Home-cooked meals are healthier and dogs thrive on them",
+            "count_estimate": 259,
+            "quote": "they have all lost weight, regained energy, have beautiful coats and teeth"
+          },
+          "side_b": {
+            "label": "Homemade diets are often nutritionally deficient without expert guidance",
+            "count_estimate": 41,
+            "quote": "A study found over 90% of homemade diets are nutrient deficient"
+          },
+          "why_it_matters": "Owners cooking for their dogs represent a prime audience for a science-backed blueberry supplement that fills nutritional gaps in homemade recipes.",
+          "suggested_question": "If you cook for your dog, how do you make sure they're getting all the nutrients they need? Tag a recipe or supplement you swear by 👇",
+          "source_type": "audience_analysis"
+        },
+        {
+          "topic": "Vegetarian and plant-based diets for dogs",
+          "side_a": {
+            "label": "Plant-based diets improve dog health and are endorsed by some vets",
+            "count_estimate": 12,
+            "quote": "Thank you for giving Roscoe a plant based diet. That saved my Frenchies health as well."
+          },
+          "side_b": {
+            "label": "Dogs are meat-eaters and thrive on animal protein",
+            "count_estimate": 15,
+            "quote": "No kibble. 75% raw diced red meat, 25% homecooked shredded chicken"
+          },
+          "why_it_matters": "The debate over animal vs. plant protein shapes how owners perceive fruit and vegetable supplements — positioning a blueberry supplement as an add-on rather than a replacement could bridge both camps.",
+          "suggested_question": "Meat-first or plant-forward — how do you feed your dog? We want to hear what's working (and what your vet thinks) 🌱🥩",
+          "source_type": "audience_analysis"
+        }
+      ],
+      "trust_risks": [
+        "Avoid implying lifespan extension or disease prevention.",
+        "Treat grief and senior-dog language as care context, not purchase pressure.",
+        "Position as optional support alongside vet guidance."
+      ],
+      "representative_quotes": [
+        {
+          "id": "audience-senior_care_caregivers-1",
+          "source_type": "audience_comment",
+          "text": "I m not sure how long they ve been doing this in the states but they just started doing this around 2020 when I started vet nursing in Newcastle Australia at least in the clinics I worked in Was cool to see them start doing it I grew up with a cat that was diabetic and we didn t have anything like that I have a built in detector though I m one of a very small percentage that can smell ketones it was a very handy too...",
+          "likes": 1240,
+          "post_id": "instagram_thedogist_DTL78iCkQE7",
+          "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+          "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+          "signal_score": 21
+        },
+        {
+          "id": "audience-senior_care_caregivers-2",
+          "source_type": "audience_comment",
+          "text": "Come meet Coconut white mini schnauzer she s 14 on 1 31 26 She was rescued as a 1 yr old from a farm in Nashville with six other dogs All were purebred and big to small A Great Dane mastiff pitbull Coconut min pin French bulldog and dachshund All lived outside The owner was bipolar and went off her meds therefore couldn t care for them They were brought to Lewes DE to be placed with new families We always have had s...",
+          "likes": 2262,
+          "post_id": "instagram_thedogist_DTL78iCkQE7",
+          "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+          "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+          "signal_score": 19
+        },
+        {
+          "id": "audience-senior_care_caregivers-3",
+          "source_type": "audience_comment",
+          "text": "we both did our best and canine diabetes is so dynamic It upsets me when people say their diabetic dog thrived on a homemade diet and lived for 6 more years as if I didn t try hard enough for my baby She was so inconsistently reacting to the insulin Her dose would not be enough to lower her sugars but if we upped the insulin she would drop too low I researched her diet extensively fed her like clockwork and it still...",
+          "likes": 678,
+          "post_id": "instagram_thedogist_DTL78iCkQE7",
+          "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+          "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+          "signal_score": 19
+        },
+        {
+          "id": "audience-senior_care_caregivers-4",
+          "source_type": "audience_comment",
+          "text": "I lost my girl to canine diabetes just over a year ago She was just shy of seven years old - watching it ravage her body over seven months was one of the most defeating feelings I ve ever experienced Bless this man for putting up the good fight - I can hear the weight of his experience in his response to how his pups days are Thank you sharing",
+          "likes": 678,
+          "post_id": "instagram_thedogist_DTL78iCkQE7",
+          "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+          "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+          "signal_score": 19
+        },
+        {
+          "id": "audience-senior_care_caregivers-5",
+          "source_type": "audience_comment",
+          "text": "Also if you are a senior who may not want a very active dog or worry about the time span limited years you may have a senior is a perfect fit I started a program at our shelter called Seniors for Seniors half price adoption fees for any dog over 7 being adopted by a person over 65",
+          "likes": 625,
+          "post_id": "instagram_thedogist_DXxZpZrSVod",
+          "post_url": "https://www.instagram.com/thedogist/reel/DXxZpZrSVod/",
+          "post_title": "Dogist Community, I need your help!On Tuesday, I took the amazing Ringo out of @nycacc for a boroughbreak. She’s an incredible senior dog, and it was heartbreak",
+          "signal_score": 19
+        }
+      ],
+      "top_posts": [
+        {
+          "post_id": "instagram_thedogist_DTiUEM1kWLC",
+          "comments_in_mode": 153,
+          "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+          "post_title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do"
+        },
+        {
+          "post_id": "instagram_thedogist_DTOpuOGkYp-",
+          "comments_in_mode": 147,
+          "post_url": "https://www.instagram.com/thedogist/reel/DTOpuOGkYp-/",
+          "post_title": "I’m grateful to have met Jack yesterday, whose owner reminded me of the lengths people go to care for their dogs as they age. The love people have for their dog"
+        },
+        {
+          "post_id": "instagram_thedogist_DZh1VloBr22",
+          "comments_in_mode": 61,
+          "post_url": "https://www.instagram.com/thedogist/reel/DZh1VloBr22/",
+          "post_title": "I caught up with my mom, the founder of @breastcancerorg , to chat about caring for your dogs during cancer treatment and the care they provide to you. No surpr"
+        },
+        {
+          "post_id": "instagram_thedogist_DXKTQR1xlMJ",
+          "comments_in_mode": 58,
+          "post_url": "https://www.instagram.com/thedogist/reel/DXKTQR1xlMJ/",
+          "post_title": "Moose, French Bulldog (10 y/o), Bleecker & W 10th St., New York, NY • “We’re probably gonna find out tomorrow why he lost his sight last week. He had an MRI and"
+        },
+        {
+          "post_id": "instagram_thedogist_DVOqoEwEc-P",
+          "comments_in_mode": 52,
+          "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+          "post_title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!"
+        }
+      ],
+      "source_cluster_ids": [
+        "opportunity:food_treats_and_product_trust",
+        "opportunity:rescue_and_adoption_trust",
+        "opportunity:grief_loss_and_memorial_language",
+        "opportunity:senior_health_and_care_companionship",
+        "opportunity:services_cost_and_access_pain_points",
+        "opportunity:product_commerce_and_merch_pull",
+        "opportunity:behavior_anxiety_and_training",
+        "opportunity:travel_and_dog_friendly_places",
+        "cultural:cultural_0",
+        "cultural:cultural_2"
+      ],
+      "source_cluster_limits": [
+        {
+          "source_cluster_id": "cultural:cultural_0",
+          "risk_flags": [
+            "single_post_thread_heavy"
+          ],
+          "top_post_share": 0.8406
+        },
+        {
+          "source_cluster_id": "cultural:cultural_2",
+          "risk_flags": [
+            "single_post_thread_heavy"
+          ],
+          "top_post_share": 0.7883
+        },
+        {
+          "source_cluster_id": "cultural:cultural_19",
+          "risk_flags": [
+            "single_post_thread_heavy"
+          ],
+          "top_post_share": 0.887
+        },
+        {
+          "source_cluster_id": "cultural:cultural_36",
+          "risk_flags": [
+            "single_post_thread_heavy"
+          ],
+          "top_post_share": 0.9866
+        }
+      ]
+    },
+    {
+      "id": "homemade_diet_optimizers",
+      "label": "Homemade-diet optimizers",
+      "role": "Owners already cooking, topping, rotating, or supplementing food routines.",
+      "evidence_breadth": {
+        "matched_comments": 1124,
+        "high_signal_comments": 965,
+        "posts": 70,
+        "authors": 992,
+        "total_comment_likes": 2481,
+        "top_post_share": 0.3381,
+        "high_intent_comments": 329
+      },
+      "evidence_quality_flags": [
+        "direct_comment_language",
+        "broad_signal",
+        "high_intent_question"
+      ],
+      "claim_alignment": [
+        "daily_vitality",
+        "ingredient_transparency",
+        "healthy_aging"
+      ],
+      "key_tensions": [
+        {
+          "text": "Fresh/home-cooked food feels loving, but nutritional completeness is a recurring concern.",
+          "source_type": "business_interpretation"
+        },
+        {
+          "text": "Owners want add-ons that fit existing routines rather than replace everything.",
+          "source_type": "business_interpretation"
+        },
+        {
+          "topic": "Homemade diet nutritional completeness",
+          "side_a": {
+            "label": "Home-cooked meals are healthier and dogs thrive on them",
+            "count_estimate": 259,
+            "quote": "they have all lost weight, regained energy, have beautiful coats and teeth"
+          },
+          "side_b": {
+            "label": "Homemade diets are often nutritionally deficient without expert guidance",
+            "count_estimate": 41,
+            "quote": "A study found over 90% of homemade diets are nutrient deficient"
+          },
+          "why_it_matters": "Owners cooking for their dogs represent a prime audience for a science-backed blueberry supplement that fills nutritional gaps in homemade recipes.",
+          "suggested_question": "If you cook for your dog, how do you make sure they're getting all the nutrients they need? Tag a recipe or supplement you swear by 👇",
+          "source_type": "audience_analysis"
+        },
+        {
+          "topic": "Vegetarian and plant-based diets for dogs",
+          "side_a": {
+            "label": "Plant-based diets improve dog health and are endorsed by some vets",
+            "count_estimate": 12,
+            "quote": "Thank you for giving Roscoe a plant based diet. That saved my Frenchies health as well."
+          },
+          "side_b": {
+            "label": "Dogs are meat-eaters and thrive on animal protein",
+            "count_estimate": 15,
+            "quote": "No kibble. 75% raw diced red meat, 25% homecooked shredded chicken"
+          },
+          "why_it_matters": "The debate over animal vs. plant protein shapes how owners perceive fruit and vegetable supplements — positioning a blueberry supplement as an add-on rather than a replacement could bridge both camps.",
+          "suggested_question": "Meat-first or plant-forward — how do you feed your dog? We want to hear what's working (and what your vet thinks) 🌱🥩",
+          "source_type": "audience_analysis"
+        },
+        {
+          "topic": "Taro versus ube safety and interchangeability for dogs",
+          "side_a": {
+            "label": "Taro and ube are interchangeable purple root treats for dogs",
+            "count_estimate": 1,
+            "quote": "Roasted japanese sweet potato also!"
+          },
+          "side_b": {
+            "label": "Taro and ube are distinctly different and not interchangeable",
+            "count_estimate": 1,
+            "quote": "Taro is not the same as Ube. Very different. Ube is highly Philippines originated."
+          },
+          "why_it_matters": "Misinformation about safe vs. unsafe root vegetables could cause harm, and a blueberry supplement brand that educates on safe ingredients could build significant trust.",
+          "suggested_question": "Did you know taro and ube (purple sweet potato) are totally different vegetables? 🟣 Have you ever tried either as a dog treat — and did your pup approve?",
+          "source_type": "audience_analysis"
+        }
+      ],
+      "trust_risks": [
+        "Position Vitality as an add-on, not a complete diet.",
+        "Avoid implying homemade feeders are doing it wrong.",
+        "Respect that many owners already have complex routines."
+      ],
+      "representative_quotes": [
+        {
+          "id": "audience-homemade_diet_optimizers-1",
+          "source_type": "audience_comment",
+          "text": "I feed my dogs fresh foods and just add kibble as a topper I buy flozen broccoli cauliflour green peas and green beans They also get fish sticks and sardines chicken I have cooked I give them sweet potatoes cooked blueberries banana and apple They get a spoon of pumpkin or yogert as well That way I can control their weight by how much of these I give them",
+          "likes": 0,
+          "post_id": "instagram_thedogist_DVOqoEwEc-P",
+          "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+          "post_title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+          "signal_score": 21
+        },
+        {
+          "id": "audience-homemade_diet_optimizers-2",
+          "source_type": "audience_comment",
+          "text": "we both did our best and canine diabetes is so dynamic It upsets me when people say their diabetic dog thrived on a homemade diet and lived for 6 more years as if I didn t try hard enough for my baby She was so inconsistently reacting to the insulin Her dose would not be enough to lower her sugars but if we upped the insulin she would drop too low I researched her diet extensively fed her like clockwork and it still...",
+          "likes": 678,
+          "post_id": "instagram_thedogist_DTL78iCkQE7",
+          "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+          "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+          "signal_score": 19
+        },
+        {
+          "id": "audience-homemade_diet_optimizers-3",
+          "source_type": "audience_comment",
+          "text": "my dog was diagnosed diabetic at 9 he went into ketoacidosis and was put in the hospital immediately it took three days just to stabilize him almost 6 000 dollars in debt later we had to start an entire new life first was research hours and days of research should we use vet specific insulin or human insulin how do curves work when should be check he glucose what supplements most diabetic dogs go blind within 9 mont...",
+          "likes": 0,
+          "post_id": "instagram_thedogist_DTOpuOGkYp-",
+          "post_url": "https://www.instagram.com/thedogist/reel/DTOpuOGkYp-/",
+          "post_title": "I’m grateful to have met Jack yesterday, whose owner reminded me of the lengths people go to care for their dogs as they age. The love people have for their dog",
+          "signal_score": 19
+        },
+        {
+          "id": "audience-homemade_diet_optimizers-4",
+          "source_type": "audience_comment",
+          "text": "Thank you for capturing mum and I loved meeting you Loved the treats maybe a little bit more- in need of the recipe for those",
+          "likes": 469,
+          "post_id": "instagram_thedogist_DYh1XcIxexg",
+          "post_url": "https://www.instagram.com/thedogist/reel/DYh1XcIxexg/",
+          "post_title": "Maple, Dachshund, Central Park, New York, NY • “She just moved to New York from London. She has nearly 2k Instagram followers.” @maple.the.minisausage",
+          "signal_score": 17
+        },
+        {
+          "id": "audience-homemade_diet_optimizers-5",
+          "source_type": "audience_comment",
+          "text": "This is my basic recipe My first dog lived 16 5 years eating this My current dog and my daughter s dog eats this I have seen great success with elderly dogs on this food The recipe originally came from a Veterinarian 2lbs meat 1lb long grain brown rice such as basmati or quinoa or barley one large carrot chopped one bunch vegetables such as broccoli cauliflower 4-5 zucchini green beans kale brussels sprouts I often ...",
+          "likes": 0,
+          "post_id": "instagram_thedogist_DVOqoEwEc-P",
+          "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+          "post_title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+          "signal_score": 17
+        }
+      ],
+      "top_posts": [
+        {
+          "post_id": "instagram_thedogist_DVOqoEwEc-P",
+          "comments_in_mode": 380,
+          "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+          "post_title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!"
+        },
+        {
+          "post_id": "instagram_thedogist_DTiUEM1kWLC",
+          "comments_in_mode": 230,
+          "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+          "post_title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do"
+        },
+        {
+          "post_id": "instagram_thedogist_DVZfWl6EWju",
+          "comments_in_mode": 91,
+          "post_url": "https://www.instagram.com/thedogist/reel/DVZfWl6EWju/",
+          "post_title": "I cooked for Elsa for the first time and it was fun! I’ve been learning to cook more this past year and wanted to try making a dog food recipe for Els. She can"
+        },
+        {
+          "post_id": "instagram_thedogist_DURm8CdkZwJ",
+          "comments_in_mode": 69,
+          "post_url": "https://www.instagram.com/thedogist/reel/DURm8CdkZwJ/",
+          "post_title": "Ragna, Husky mix, Franklin & Dupont St., Brooklyn, NY • “He’s very friendly, playful. Energetic. He’s my best friend. Very loyal. We’ll walk for like an hour, s"
+        },
+        {
+          "post_id": "instagram_thedogist_DVwmbKiES8H",
+          "comments_in_mode": 50,
+          "post_url": "https://www.instagram.com/thedogist/reel/DVwmbKiES8H/",
+          "post_title": "Elsa’s test kitchen went pretty much as suspected… beefy delight or nothing 🏆"
+        }
+      ],
+      "source_cluster_ids": [
+        "opportunity:food_treats_and_product_trust",
+        "cultural:cultural_11",
+        "cultural:cultural_37"
+      ],
+      "source_cluster_limits": [
+        {
+          "source_cluster_id": "cultural:cultural_11",
+          "risk_flags": [
+            "single_post_thread_heavy"
+          ],
+          "top_post_share": 0.9439
+        }
+      ]
+    },
+    {
+      "id": "ingredient_scrutinists",
+      "label": "Ingredient scrutinists",
+      "role": "Owners who inspect formulas, nutrition balance, safety, and expert backing.",
+      "evidence_breadth": {
+        "matched_comments": 922,
+        "high_signal_comments": 825,
+        "posts": 157,
+        "authors": 812,
+        "total_comment_likes": 6111,
+        "top_post_share": 0.1941,
+        "high_intent_comments": 339
+      },
+      "evidence_quality_flags": [
+        "direct_comment_language",
+        "broad_signal",
+        "high_intent_question"
+      ],
+      "claim_alignment": [
+        "ingredient_transparency",
+        "healthy_aging",
+        "daily_vitality"
+      ],
+      "key_tensions": [
+        {
+          "text": "They want clean, fresh, simple food, but worry that homemade or simple formulas are incomplete.",
+          "source_type": "business_interpretation"
+        },
+        {
+          "text": "They trust expert guidance, but are tired of broad pet wellness claims.",
+          "source_type": "business_interpretation"
+        },
+        {
+          "topic": "Dogs loving vs. refusing blueberries",
+          "side_a": {
+            "label": "Blueberries are a universally loved treat",
+            "count_estimate": 157,
+            "quote": "My dog loves blueberries! We have our own in the garden and he picks them off himself"
+          },
+          "side_b": {
+            "label": "Many dogs want nothing to do with blueberries",
+            "count_estimate": 74,
+            "quote": "Neither of my dogs like blueberries lol"
+          },
+          "why_it_matters": "A blueberry supplement must appeal to owners whose dogs actively reject the whole fruit, making palatability and delivery format critical to product adoption.",
+          "suggested_question": "Does your dog love or reject blueberries? Drop a 🫐 for love or 🙅 for nope — and tell us how you sneak superfoods into a picky pup's diet!",
+          "source_type": "audience_analysis"
+        },
+        {
+          "topic": "Fresh vs. frozen blueberry preference",
+          "side_a": {
+            "label": "Dogs prefer frozen blueberries over fresh",
+            "count_estimate": 27,
+            "quote": "My dog won't eat fresh blueberries but loves frozen ones"
+          },
+          "side_b": {
+            "label": "Dogs eat blueberries cut or mashed, not whole",
+            "count_estimate": 25,
+            "quote": "My dog will only eat them if I bite/cut them in half"
+          },
+          "why_it_matters": "Format and texture matter enormously for treat acceptance, suggesting a supplement or processed blueberry product could outperform raw whole berries for picky dogs.",
+          "suggested_question": "Fresh, frozen, or mashed — what's the only way your dog will eat blueberries? Show us their reaction 👇",
+          "source_type": "audience_analysis"
+        },
+        {
+          "topic": "Homemade diet nutritional completeness",
+          "side_a": {
+            "label": "Home-cooked meals are healthier and dogs thrive on them",
+            "count_estimate": 259,
+            "quote": "they have all lost weight, regained energy, have beautiful coats and teeth"
+          },
+          "side_b": {
+            "label": "Homemade diets are often nutritionally deficient without expert guidance",
+            "count_estimate": 41,
+            "quote": "A study found over 90% of homemade diets are nutrient deficient"
+          },
+          "why_it_matters": "Owners cooking for their dogs represent a prime audience for a science-backed blueberry supplement that fills nutritional gaps in homemade recipes.",
+          "suggested_question": "If you cook for your dog, how do you make sure they're getting all the nutrients they need? Tag a recipe or supplement you swear by 👇",
+          "source_type": "audience_analysis"
+        }
+      ],
+      "trust_risks": [
+        "Show what every ingredient is doing.",
+        "Do not lean on vague superfood language.",
+        "Make the vet/nutritionist role specific and bounded."
+      ],
+      "representative_quotes": [
+        {
+          "id": "audience-ingredient_scrutinists-1",
+          "source_type": "audience_comment",
+          "text": "again I must correct because you are spreading misinformation A lot of people still believe what you say here but the evidence is clear and the American Veterinary Society for Behavioural Science the national authority on dog training and behavioural issues says NO painful tools should be used they are harmful and they also don t work long term Their position statement is clear and based on decades of research Any t...",
+          "likes": 414,
+          "post_id": "instagram_thedogist_DYP8IqWkbhN",
+          "post_url": "https://www.instagram.com/thedogist/p/DYP8IqWkbhN/",
+          "post_title": "Dice, Dalmatian, Anchorage Place, Brooklyn, NY • ”He’s a tri-colored Dalmatian. He’s been getting a lot of attention here. He’s not too friendly, so you might n",
+          "signal_score": 21
+        },
+        {
+          "id": "audience-ingredient_scrutinists-2",
+          "source_type": "audience_comment",
+          "text": "You re right that the Ridglan beagles and 100M other animals annually in the U S are used for medical experimentation not cosmetics testing But other animals are poor surrogates for human biology and disease Those successful medications have been developed despite animal testing not because of it In fact 95 of all new drugs fail in human clinical trials even though they were deemed safe and effective in animals A br...",
+          "likes": 315,
+          "post_id": "instagram_thedogist_DYIPkVcP3QY",
+          "post_url": "https://www.instagram.com/thedogist/reel/DYIPkVcP3QY/",
+          "post_title": "Dr. Jane Goodall changed the way we think about and treat animals. I had the great honor of spending the day with her last fall, during which she emphasized the",
+          "signal_score": 21
+        },
+        {
+          "id": "audience-ingredient_scrutinists-3",
+          "source_type": "audience_comment",
+          "text": "Looks like a wholesome base but for long-term daily feeding this likely isn t fully balanced on its own Dogs need a precise calcium-to-phosphorus balance especially with that much beef plus key nutrients like iodine vitamin E zinc manganese and omega-3s A generic supplement topper usually isn t enough unless it s a complete canine premix made for homemade diets Might be worth checking with a vet or veterinary nutrit...",
+          "likes": 0,
+          "post_id": "instagram_thedogist_DVZfWl6EWju",
+          "post_url": "https://www.instagram.com/thedogist/reel/DVZfWl6EWju/",
+          "post_title": "I cooked for Elsa for the first time and it was fun! I’ve been learning to cook more this past year and wanted to try making a dog food recipe for Els. She can",
+          "signal_score": 20
+        },
+        {
+          "id": "audience-ingredient_scrutinists-4",
+          "source_type": "audience_comment",
+          "text": "I m not sure how long they ve been doing this in the states but they just started doing this around 2020 when I started vet nursing in Newcastle Australia at least in the clinics I worked in Was cool to see them start doing it I grew up with a cat that was diabetic and we didn t have anything like that I have a built in detector though I m one of a very small percentage that can smell ketones it was a very handy too...",
+          "likes": 1240,
+          "post_id": "instagram_thedogist_DTL78iCkQE7",
+          "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+          "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+          "signal_score": 19
+        },
+        {
+          "id": "audience-ingredient_scrutinists-5",
+          "source_type": "audience_comment",
+          "text": "we both did our best and canine diabetes is so dynamic It upsets me when people say their diabetic dog thrived on a homemade diet and lived for 6 more years as if I didn t try hard enough for my baby She was so inconsistently reacting to the insulin Her dose would not be enough to lower her sugars but if we upped the insulin she would drop too low I researched her diet extensively fed her like clockwork and it still...",
+          "likes": 678,
+          "post_id": "instagram_thedogist_DTL78iCkQE7",
+          "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+          "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+          "signal_score": 19
+        }
+      ],
+      "top_posts": [
+        {
+          "post_id": "instagram_thedogist_DTiUEM1kWLC",
+          "comments_in_mode": 179,
+          "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+          "post_title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do"
+        },
+        {
+          "post_id": "instagram_thedogist_DVOqoEwEc-P",
+          "comments_in_mode": 162,
+          "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+          "post_title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!"
+        },
+        {
+          "post_id": "instagram_thedogist_DVZfWl6EWju",
+          "comments_in_mode": 64,
+          "post_url": "https://www.instagram.com/thedogist/reel/DVZfWl6EWju/",
+          "post_title": "I cooked for Elsa for the first time and it was fun! I’ve been learning to cook more this past year and wanted to try making a dog food recipe for Els. She can"
+        },
+        {
+          "post_id": "instagram_thedogist_DOMLniDkSrs",
+          "comments_in_mode": 36,
+          "post_url": "https://www.instagram.com/thedogist/p/DOMLniDkSrs/",
+          "post_title": "thedogistVerified Edited•41wRECOVERED!!!: Thank you everyone for your hard work in returning Coco to safety. Thank you to Tony from @animalrescueconsortium for"
+        },
+        {
+          "post_id": "instagram_thedogist_DTOpuOGkYp-",
+          "comments_in_mode": 36,
+          "post_url": "https://www.instagram.com/thedogist/reel/DTOpuOGkYp-/",
+          "post_title": "I’m grateful to have met Jack yesterday, whose owner reminded me of the lengths people go to care for their dogs as they age. The love people have for their dog"
+        }
+      ],
+      "source_cluster_ids": [
+        "opportunity:food_treats_and_product_trust",
+        "opportunity:rescue_and_adoption_trust",
+        "opportunity:irl_community_and_sampling",
+        "opportunity:grief_loss_and_memorial_language",
+        "opportunity:senior_health_and_care_companionship",
+        "opportunity:services_cost_and_access_pain_points",
+        "opportunity:product_commerce_and_merch_pull",
+        "opportunity:behavior_anxiety_and_training",
+        "opportunity:travel_and_dog_friendly_places",
+        "cultural:cultural_0"
+      ],
+      "source_cluster_limits": [
+        {
+          "source_cluster_id": "cultural:cultural_0",
+          "risk_flags": [
+            "single_post_thread_heavy"
+          ],
+          "top_post_share": 0.8406
+        }
+      ]
+    }
+  ],
+  "signal_map": {
+    "source_note": "First-class launch signal map derived from audience modes, SKU fit, and evidence-quality flags. Frontend should prefer this field over any local placeholder.",
+    "axes": {
+      "x": {
+        "left": "functional",
+        "right": "emotional"
+      },
+      "y": {
+        "top": "aspiration",
+        "bottom": "pain"
+      }
+    },
+    "quadrants": [
+      {
+        "id": "functional_pain",
+        "label": "Prove it is safe and worth adding",
+        "axis_position": {
+          "x": "functional",
+          "y": "pain"
+        },
+        "audience_modes": [
+          {
+            "id": "ingredient_scrutinists",
+            "label": "Ingredient scrutinists"
+          },
+          {
+            "id": "homemade_diet_optimizers",
+            "label": "Homemade-diet optimizers"
+          }
+        ],
+        "evidence_breadth": {
+          "matched_comments": 2046,
+          "high_signal_comments": 1790,
+          "posts": 227,
+          "authors": 1804,
+          "total_comment_likes": 8592,
+          "high_intent_comments": 668
+        },
+        "evidence_quality_flags": [
+          "direct_comment_language",
+          "broad_signal",
+          "high_intent_question"
+        ],
+        "fit_score": 73,
+        "fit": "high",
+        "summary": "Owners are trying to make good nutrition decisions without falling for vague wellness claims.",
+        "representative_quotes": [
+          {
+            "id": "audience-ingredient_scrutinists-1",
+            "source_type": "audience_comment",
+            "text": "again I must correct because you are spreading misinformation A lot of people still believe what you say here but the evidence is clear and the American Veterinary Society for Behavioural Science the national authority on dog training and behavioural issues says NO painful tools should be used they are harmful and they also don t work long term Their position statement is clear and based on decades of research Any t...",
+            "likes": 414,
+            "post_id": "instagram_thedogist_DYP8IqWkbhN",
+            "post_url": "https://www.instagram.com/thedogist/p/DYP8IqWkbhN/",
+            "post_title": "Dice, Dalmatian, Anchorage Place, Brooklyn, NY • ”He’s a tri-colored Dalmatian. He’s been getting a lot of attention here. He’s not too friendly, so you might n",
+            "signal_score": 21
+          },
+          {
+            "id": "audience-homemade_diet_optimizers-1",
+            "source_type": "audience_comment",
+            "text": "I feed my dogs fresh foods and just add kibble as a topper I buy flozen broccoli cauliflour green peas and green beans They also get fish sticks and sardines chicken I have cooked I give them sweet potatoes cooked blueberries banana and apple They get a spoon of pumpkin or yogert as well That way I can control their weight by how much of these I give them",
+            "likes": 0,
+            "post_id": "instagram_thedogist_DVOqoEwEc-P",
+            "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+            "post_title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+            "signal_score": 21
+          }
+        ]
+      },
+      {
+        "id": "functional_aspiration",
+        "label": "Make the daily routine easier",
+        "axis_position": {
+          "x": "functional",
+          "y": "aspiration"
+        },
+        "audience_modes": [
+          {
+            "id": "wellness_routine_builders",
+            "label": "Wellness routine builders"
+          },
+          {
+            "id": "homemade_diet_optimizers",
+            "label": "Homemade-diet optimizers"
+          }
+        ],
+        "evidence_breadth": {
+          "matched_comments": 2903,
+          "high_signal_comments": 2500,
+          "posts": 342,
+          "authors": 2575,
+          "total_comment_likes": 6030,
+          "high_intent_comments": 838
+        },
+        "evidence_quality_flags": [
+          "direct_comment_language",
+          "broad_signal",
+          "high_intent_question"
+        ],
+        "fit_score": 78,
+        "fit": "high",
+        "summary": "Owners want a practical add-on that fits food, walking, supplement, and care rituals they can actually keep up.",
+        "representative_quotes": [
+          {
+            "id": "audience-wellness_routine_builders-1",
+            "source_type": "audience_comment",
+            "text": "We adopted a 9 year old blind pup He was also super resourceful and didn t seem bothered by his lack of vision He could see with his nose instead Once when he was temporarily on a bland diet he led us on a walk in a direction we had never been We walked about a mile and then he plopped down directly in front of the entrance of a Burger King He could navigate like a pro just using different senses",
+            "likes": 89,
+            "post_id": "instagram_thedogist_DYsm8CwkfTu",
+            "post_url": "https://www.instagram.com/thedogist/p/DYsm8CwkfTu/",
+            "post_title": "Olive, Pug/Pit Bull mix (12 y/o), 80th & Amsterdam Ave., New York, NY “She’s blind. You have to make sounds. She’s very resourceful. She can hear absolutely eve",
+            "signal_score": 18.09
+          },
+          {
+            "id": "audience-homemade_diet_optimizers-1",
+            "source_type": "audience_comment",
+            "text": "I feed my dogs fresh foods and just add kibble as a topper I buy flozen broccoli cauliflour green peas and green beans They also get fish sticks and sardines chicken I have cooked I give them sweet potatoes cooked blueberries banana and apple They get a spoon of pumpkin or yogert as well That way I can control their weight by how much of these I give them",
+            "likes": 0,
+            "post_id": "instagram_thedogist_DVOqoEwEc-P",
+            "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+            "post_title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+            "signal_score": 21
+          }
+        ]
+      },
+      {
+        "id": "emotional_pain",
+        "label": "Care through aging and uncertainty",
+        "axis_position": {
+          "x": "emotional",
+          "y": "pain"
+        },
+        "audience_modes": [
+          {
+            "id": "senior_care_caregivers",
+            "label": "Senior-care caregivers"
+          }
+        ],
+        "evidence_breadth": {
+          "matched_comments": 1288,
+          "high_signal_comments": 1107,
+          "posts": 191,
+          "authors": 1183,
+          "total_comment_likes": 12396,
+          "high_intent_comments": 321
+        },
+        "evidence_quality_flags": [
+          "direct_comment_language",
+          "broad_signal",
+          "high_intent_question"
+        ],
+        "fit_score": 74,
+        "fit": "high",
+        "summary": "Owners are managing time, guilt, illness, and the desire to feel proactive without being sold false hope.",
+        "representative_quotes": [
+          {
+            "id": "audience-senior_care_caregivers-1",
+            "source_type": "audience_comment",
+            "text": "I m not sure how long they ve been doing this in the states but they just started doing this around 2020 when I started vet nursing in Newcastle Australia at least in the clinics I worked in Was cool to see them start doing it I grew up with a cat that was diabetic and we didn t have anything like that I have a built in detector though I m one of a very small percentage that can smell ketones it was a very handy too...",
+            "likes": 1240,
+            "post_id": "instagram_thedogist_DTL78iCkQE7",
+            "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+            "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+            "signal_score": 21
+          }
+        ]
+      },
+      {
+        "id": "emotional_aspiration",
+        "label": "Healthy that real dogs will accept",
+        "axis_position": {
+          "x": "emotional",
+          "y": "aspiration"
+        },
+        "audience_modes": [
+          {
+            "id": "picky_dog_pragmatists",
+            "label": "Picky-dog pragmatists"
+          }
+        ],
+        "evidence_breadth": {
+          "matched_comments": 1521,
+          "high_signal_comments": 1142,
+          "posts": 199,
+          "authors": 1371,
+          "total_comment_likes": 5749,
+          "high_intent_comments": 314
+        },
+        "evidence_quality_flags": [
+          "direct_comment_language",
+          "broad_signal",
+          "high_intent_question"
+        ],
+        "fit_score": 80,
+        "fit": "high",
+        "summary": "Owners want the healthy choice to survive contact with actual dog behavior, taste, humor, and refusal.",
+        "representative_quotes": [
+          {
+            "id": "audience-picky_dog_pragmatists-1",
+            "source_type": "audience_comment",
+            "text": "i have known our across the street neighbor for maybe 4 5yrs We've exchanged holiday treats i've been to 2 baby showers they've been to my daughters last 3 birthdays i give them my daughters hand me downs i know the youngest 2 kids names i have an idea of what the other 2 names are i know dad is Pete i can't remember the moms name to save my life Besides the 2 smal boys Cupcake Samson Moses are the dogs that's what ...",
+            "likes": 468,
+            "post_id": "instagram_thedogist_DZDqSgRIFGB",
+            "post_url": "https://www.instagram.com/thedogist/reel/DZDqSgRIFGB/",
+            "post_title": "Brooks, Golden Retriever (4 y/o), King Street, Charleston, SC • “I think more people know Brooks than know me. We live in an old historic home. He used to look",
+            "signal_score": 19
+          }
+        ]
+      }
+    ]
+  },
+  "sku_signal_map": {
+    "sku": "Vitality Chew",
+    "active_question": "How should we talk about the Vitality Chew?",
+    "external_market_context": {
+      "present": false,
+      "source_type": "external_market_context",
+      "items": [],
+      "use_policy": "No external market context file was provided. Audience findings remain corpus-derived."
+    },
+    "mode_matches": [
+      {
+        "audience_mode": "wellness_routine_builders",
+        "audience_mode_label": "Wellness routine builders",
+        "fit_score": 84,
+        "fit": "high",
+        "supported_claims": [
+          {
+            "claim_id": "joint_support",
+            "label": "Joint support",
+            "score": 88,
+            "fit": "high"
+          },
+          {
+            "claim_id": "daily_vitality",
+            "label": "Daily vitality",
+            "score": 88,
+            "fit": "high"
+          },
+          {
+            "claim_id": "healthy_aging",
+            "label": "Healthy aging",
+            "score": 76,
+            "fit": "high"
+          },
+          {
+            "claim_id": "brain_health",
+            "label": "Brain health",
+            "score": 34,
+            "fit": "low"
+          },
+          {
+            "claim_id": "palatability",
+            "label": "Dogs will actually eat it",
+            "score": 34,
+            "fit": "low"
+          },
+          {
+            "claim_id": "ingredient_transparency",
+            "label": "Ingredient transparency",
+            "score": 28,
+            "fit": "low"
+          }
+        ],
+        "objections": [
+          "Make daily use feel like care, not a subscription trap.",
+          "Connect to real routines: meals, walks, treats, and vet-informed habits.",
+          "Avoid overwhelming owners with another thing they are supposed to do."
+        ],
+        "evidence_quality_flags": [
+          "direct_comment_language",
+          "broad_signal",
+          "high_intent_question"
+        ],
+        "source_cluster_ids": [
+          "opportunity:food_treats_and_product_trust",
+          "opportunity:rescue_and_adoption_trust",
+          "opportunity:irl_community_and_sampling",
+          "opportunity:grief_loss_and_memorial_language",
+          "opportunity:senior_health_and_care_companionship",
+          "opportunity:services_cost_and_access_pain_points",
+          "opportunity:product_commerce_and_merch_pull",
+          "opportunity:behavior_anxiety_and_training",
+          "opportunity:travel_and_dog_friendly_places",
+          "cultural:cultural_0"
+        ]
+      },
+      {
+        "audience_mode": "picky_dog_pragmatists",
+        "audience_mode_label": "Picky-dog pragmatists",
+        "fit_score": 80,
+        "fit": "high",
+        "supported_claims": [
+          {
+            "claim_id": "palatability",
+            "label": "Dogs will actually eat it",
+            "score": 94,
+            "fit": "high"
+          },
+          {
+            "claim_id": "ingredient_transparency",
+            "label": "Ingredient transparency",
+            "score": 76,
+            "fit": "high"
+          },
+          {
+            "claim_id": "daily_vitality",
+            "label": "Daily vitality",
+            "score": 70,
+            "fit": "medium"
+          },
+          {
+            "claim_id": "healthy_aging",
+            "label": "Healthy aging",
+            "score": 28,
+            "fit": "low"
+          },
+          {
+            "claim_id": "brain_health",
+            "label": "Brain health",
+            "score": 28,
+            "fit": "low"
+          },
+          {
+            "claim_id": "joint_support",
+            "label": "Joint support",
+            "score": 28,
+            "fit": "low"
+          }
+        ],
+        "objections": [
+          "Do not assume dogs love blueberries.",
+          "Validate palatability before making broad claims.",
+          "Let Dogist humor carry the picky-dog truth instead of hiding it."
+        ],
+        "evidence_quality_flags": [
+          "direct_comment_language",
+          "broad_signal",
+          "high_intent_question"
+        ],
+        "source_cluster_ids": [
+          "opportunity:food_treats_and_product_trust",
+          "opportunity:irl_community_and_sampling",
+          "opportunity:senior_health_and_care_companionship",
+          "opportunity:product_commerce_and_merch_pull",
+          "opportunity:behavior_anxiety_and_training",
+          "opportunity:travel_and_dog_friendly_places",
+          "cultural:cultural_0",
+          "cultural:cultural_5",
+          "cultural:cultural_6",
+          "cultural:cultural_8"
+        ]
+      },
+      {
+        "audience_mode": "senior_care_caregivers",
+        "audience_mode_label": "Senior-care caregivers",
+        "fit_score": 74,
+        "fit": "high",
+        "supported_claims": [
+          {
+            "claim_id": "healthy_aging",
+            "label": "Healthy aging",
+            "score": 82,
+            "fit": "high"
+          },
+          {
+            "claim_id": "brain_health",
+            "label": "Brain health",
+            "score": 70,
+            "fit": "medium"
+          },
+          {
+            "claim_id": "joint_support",
+            "label": "Joint support",
+            "score": 70,
+            "fit": "medium"
+          },
+          {
+            "claim_id": "daily_vitality",
+            "label": "Daily vitality",
+            "score": 70,
+            "fit": "medium"
+          },
+          {
+            "claim_id": "palatability",
+            "label": "Dogs will actually eat it",
+            "score": 34,
+            "fit": "low"
+          },
+          {
+            "claim_id": "ingredient_transparency",
+            "label": "Ingredient transparency",
+            "score": 28,
+            "fit": "low"
+          }
+        ],
+        "objections": [
+          "Avoid implying lifespan extension or disease prevention.",
+          "Treat grief and senior-dog language as care context, not purchase pressure.",
+          "Position as optional support alongside vet guidance."
+        ],
+        "evidence_quality_flags": [
+          "direct_comment_language",
+          "broad_signal",
+          "high_intent_question"
+        ],
+        "source_cluster_ids": [
+          "opportunity:food_treats_and_product_trust",
+          "opportunity:rescue_and_adoption_trust",
+          "opportunity:grief_loss_and_memorial_language",
+          "opportunity:senior_health_and_care_companionship",
+          "opportunity:services_cost_and_access_pain_points",
+          "opportunity:product_commerce_and_merch_pull",
+          "opportunity:behavior_anxiety_and_training",
+          "opportunity:travel_and_dog_friendly_places",
+          "cultural:cultural_0",
+          "cultural:cultural_2"
+        ]
+      },
+      {
+        "audience_mode": "ingredient_scrutinists",
+        "audience_mode_label": "Ingredient scrutinists",
+        "fit_score": 74,
+        "fit": "high",
+        "supported_claims": [
+          {
+            "claim_id": "daily_vitality",
+            "label": "Daily vitality",
+            "score": 76,
+            "fit": "high"
+          },
+          {
+            "claim_id": "ingredient_transparency",
+            "label": "Ingredient transparency",
+            "score": 76,
+            "fit": "high"
+          },
+          {
+            "claim_id": "healthy_aging",
+            "label": "Healthy aging",
+            "score": 70,
+            "fit": "medium"
+          },
+          {
+            "claim_id": "palatability",
+            "label": "Dogs will actually eat it",
+            "score": 34,
+            "fit": "low"
+          },
+          {
+            "claim_id": "brain_health",
+            "label": "Brain health",
+            "score": 28,
+            "fit": "low"
+          },
+          {
+            "claim_id": "joint_support",
+            "label": "Joint support",
+            "score": 28,
+            "fit": "low"
+          }
+        ],
+        "objections": [
+          "Show what every ingredient is doing.",
+          "Do not lean on vague superfood language.",
+          "Make the vet/nutritionist role specific and bounded."
+        ],
+        "evidence_quality_flags": [
+          "direct_comment_language",
+          "broad_signal",
+          "high_intent_question"
+        ],
+        "source_cluster_ids": [
+          "opportunity:food_treats_and_product_trust",
+          "opportunity:rescue_and_adoption_trust",
+          "opportunity:irl_community_and_sampling",
+          "opportunity:grief_loss_and_memorial_language",
+          "opportunity:senior_health_and_care_companionship",
+          "opportunity:services_cost_and_access_pain_points",
+          "opportunity:product_commerce_and_merch_pull",
+          "opportunity:behavior_anxiety_and_training",
+          "opportunity:travel_and_dog_friendly_places",
+          "cultural:cultural_0"
+        ]
+      },
+      {
+        "audience_mode": "homemade_diet_optimizers",
+        "audience_mode_label": "Homemade-diet optimizers",
+        "fit_score": 72,
+        "fit": "high",
+        "supported_claims": [
+          {
+            "claim_id": "daily_vitality",
+            "label": "Daily vitality",
+            "score": 76,
+            "fit": "high"
+          },
+          {
+            "claim_id": "healthy_aging",
+            "label": "Healthy aging",
+            "score": 70,
+            "fit": "medium"
+          },
+          {
+            "claim_id": "ingredient_transparency",
+            "label": "Ingredient transparency",
+            "score": 70,
+            "fit": "medium"
+          },
+          {
+            "claim_id": "palatability",
+            "label": "Dogs will actually eat it",
+            "score": 46,
+            "fit": "low"
+          },
+          {
+            "claim_id": "brain_health",
+            "label": "Brain health",
+            "score": 28,
+            "fit": "low"
+          },
+          {
+            "claim_id": "joint_support",
+            "label": "Joint support",
+            "score": 28,
+            "fit": "low"
+          }
+        ],
+        "objections": [
+          "Position Vitality as an add-on, not a complete diet.",
+          "Avoid implying homemade feeders are doing it wrong.",
+          "Respect that many owners already have complex routines."
+        ],
+        "evidence_quality_flags": [
+          "direct_comment_language",
+          "broad_signal",
+          "high_intent_question"
+        ],
+        "source_cluster_ids": [
+          "opportunity:food_treats_and_product_trust",
+          "cultural:cultural_11",
+          "cultural:cultural_37"
+        ]
+      }
+    ]
+  },
+  "message_architecture": {
+    "active_question": "How should we talk about the Vitality Chew?",
+    "interpretation_stages": [
+      {
+        "id": "context_free",
+        "description": "Existing corpus and cultural analysis identify audience language, tensions, and evidence without treating the product as an organic finding."
+      },
+      {
+        "id": "launch_context",
+        "description": "Launch brief maps evidence to Vitality Chew claims, objections, and validation needs."
+      },
+      {
+        "id": "dogist_voice_translation",
+        "description": "Voice profile adapts angles into Dogist post cadence while keeping source evidence attached."
+      }
+    ],
+    "value_props": [
+      {
+        "id": "more_good_years_together",
+        "value_prop": "More good years together",
+        "claim_focus": [
+          "healthy_aging",
+          "brain_health",
+          "joint_support"
+        ],
+        "angles": [
+          {
+            "audience_mode": "senior_care_caregivers",
+            "audience_mode_label": "Senior-care caregivers",
+            "dogist_style_angle": "For the dogs with decent days, weird days, stroller days, and still-so-happy-to-be-here days: a daily antioxidant chew built around helping owners feel a little more proactive.",
+            "why_it_resonates": "Senior-care comments show owners trying to maximize quality time without pretending any product can stop aging.",
+            "language_to_borrow": [
+              {
+                "text": "I m not sure how long they ve been doing this in the states but they just started doing this around 2020 when I started...",
+                "source": "audience_comment",
+                "source_id": "audience-senior_care_caregivers-1",
+                "why": "Audience language used as resonance evidence."
+              },
+              {
+                "text": "Carl, Beagle (3 y/o), Gansevoort Plaza, New York, NY • “They told me he was six years old when I got him, and then the vet said he’s closer to one. Someone tied",
+                "source": "dogist_caption",
+                "source_id": "instagram_thedogist_DMN51J1xp4T",
+                "why": "Name, breed, age, place, then an owner quote that makes the dog feel specific."
+              },
+              {
+                "text": "Loving",
+                "source": "deck_brand_guardrail",
+                "source_id": "loving",
+                "why": "Deck brand guardrail used to keep the angle on-brand."
+              }
+            ],
+            "evidence_quotes": [
+              {
+                "id": "audience-senior_care_caregivers-1",
+                "source_type": "audience_comment",
+                "text": "I m not sure how long they ve been doing this in the states but they just started doing this around 2020 when I started vet nursing in Newcastle Australia at least in the clinics I worked in Was cool to see them start doing it I grew up with a cat that was diabetic and we didn t have anything like that I have a built in detector though I m one of a very small percentage that can smell ketones it was a very handy too...",
+                "likes": 1240,
+                "post_id": "instagram_thedogist_DTL78iCkQE7",
+                "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+                "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+                "signal_score": 21
+              },
+              {
+                "id": "audience-senior_care_caregivers-2",
+                "source_type": "audience_comment",
+                "text": "Come meet Coconut white mini schnauzer she s 14 on 1 31 26 She was rescued as a 1 yr old from a farm in Nashville with six other dogs All were purebred and big to small A Great Dane mastiff pitbull Coconut min pin French bulldog and dachshund All lived outside The owner was bipolar and went off her meds therefore couldn t care for them They were brought to Lewes DE to be placed with new families We always have had s...",
+                "likes": 2262,
+                "post_id": "instagram_thedogist_DTL78iCkQE7",
+                "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+                "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+                "signal_score": 19
+              }
+            ],
+            "claims_to_avoid": [
+              "Do not imply the chew prevents disease, cures medical conditions, or extends lifespan.",
+              "Do not use grief, rescue, or senior-dog stories as direct purchase hooks without extra care.",
+              "Do not frame the product as a substitute for veterinary guidance.",
+              "Avoid implying lifespan extension or disease prevention.",
+              "Treat grief and senior-dog language as care context, not purchase pressure."
+            ],
+            "validation_prompt": "What is one small daily thing that has helped your older dog stay comfortable, curious, or more like themselves?",
+            "source_note": "Angle combines audience comment evidence, Dogist caption cadence, deck guardrails, and business interpretation."
+          },
+          {
+            "audience_mode": "wellness_routine_builders",
+            "audience_mode_label": "Wellness routine builders",
+            "dogist_style_angle": "Every pet owner does things a little differently to support their dog's health. What is in your dog's daily routine right now?",
+            "why_it_resonates": "Routine builders already talk about food, walks, supplements, and small care rituals as everyday acts of love.",
+            "language_to_borrow": [
+              {
+                "text": "We adopted a 9 year old blind pup He was also super resourceful and didn t seem bothered by his lack of vision He could...",
+                "source": "audience_comment",
+                "source_id": "audience-wellness_routine_builders-1",
+                "why": "Audience language used as resonance evidence."
+              },
+              {
+                "text": "Dogs at the @Mets Bark At The Park. Comment your favorite photo from the set 🐶⚾️",
+                "source": "dogist_caption",
+                "source_id": "instagram_thedogist_DYxt7vXEfe-",
+                "why": "A simple question invites followers to share their own dog routines, places, or stories."
+              },
+              {
+                "text": "Transparent",
+                "source": "deck_brand_guardrail",
+                "source_id": "transparent",
+                "why": "Deck brand guardrail used to keep the angle on-brand."
+              }
+            ],
+            "evidence_quotes": [
+              {
+                "id": "audience-wellness_routine_builders-1",
+                "source_type": "audience_comment",
+                "text": "We adopted a 9 year old blind pup He was also super resourceful and didn t seem bothered by his lack of vision He could see with his nose instead Once when he was temporarily on a bland diet he led us on a walk in a direction we had never been We walked about a mile and then he plopped down directly in front of the entrance of a Burger King He could navigate like a pro just using different senses",
+                "likes": 89,
+                "post_id": "instagram_thedogist_DYsm8CwkfTu",
+                "post_url": "https://www.instagram.com/thedogist/p/DYsm8CwkfTu/",
+                "post_title": "Olive, Pug/Pit Bull mix (12 y/o), 80th & Amsterdam Ave., New York, NY “She’s blind. You have to make sounds. She’s very resourceful. She can hear absolutely eve",
+                "signal_score": 18.09
+              },
+              {
+                "id": "audience-wellness_routine_builders-2",
+                "source_type": "audience_comment",
+                "text": "She s a husky mix - idk with what but wonder if that is what leads her to be calmer All huskies I ve encountered are high energy and talk A LOT",
+                "likes": 74,
+                "post_id": "instagram_thedogist_DYKLczCyeR7",
+                "post_url": "https://www.instagram.com/thedogist/reel/DYKLczCyeR7/",
+                "post_title": "thedogistVerified Edited•5wHappy Mother’s Day! Whether you’re a dog mom or a human mom (or grandmom), you mean so much to the people (and dogs) you care for! 💐",
+                "signal_score": 17.72
+              }
+            ],
+            "claims_to_avoid": [
+              "Do not imply the chew prevents disease, cures medical conditions, or extends lifespan.",
+              "Do not use grief, rescue, or senior-dog stories as direct purchase hooks without extra care.",
+              "Do not frame the product as a substitute for veterinary guidance.",
+              "Make daily use feel like care, not a subscription trap.",
+              "Connect to real routines: meals, walks, treats, and vet-informed habits."
+            ],
+            "validation_prompt": "What food, exercise, supplements, or little routines do you actually keep up with every day?",
+            "source_note": "Angle combines audience comment evidence, Dogist caption cadence, deck guardrails, and business interpretation."
+          },
+          {
+            "audience_mode": "homemade_diet_optimizers",
+            "audience_mode_label": "Homemade-diet optimizers",
+            "dogist_style_angle": "If you are already cheffing it up, topping kibble, or doing more meal prep for your dog than yourself, Vitality should feel like one simple add-on, not a whole new system.",
+            "why_it_resonates": "Homemade and fresh-food comments show owners want support that works with the routines they have already built.",
+            "language_to_borrow": [
+              {
+                "text": "I feed my dogs fresh foods and just add kibble as a topper I buy flozen broccoli cauliflour green peas and green beans ...",
+                "source": "audience_comment",
+                "source_id": "audience-homemade_diet_optimizers-1",
+                "why": "Audience language used as resonance evidence."
+              },
+              {
+                "text": "Elsa’s test kitchen went pretty much as suspected… beefy delight or nothing 🏆",
+                "source": "dogist_caption",
+                "source_id": "instagram_thedogist_DVwmbKiES8H",
+                "why": "First-person Dogist/Elsa experiments make product learning feel playful and honest."
+              },
+              {
+                "text": "Seriously funny",
+                "source": "deck_brand_guardrail",
+                "source_id": "seriously_funny",
+                "why": "Deck brand guardrail used to keep the angle on-brand."
+              }
+            ],
+            "evidence_quotes": [
+              {
+                "id": "audience-homemade_diet_optimizers-1",
+                "source_type": "audience_comment",
+                "text": "I feed my dogs fresh foods and just add kibble as a topper I buy flozen broccoli cauliflour green peas and green beans They also get fish sticks and sardines chicken I have cooked I give them sweet potatoes cooked blueberries banana and apple They get a spoon of pumpkin or yogert as well That way I can control their weight by how much of these I give them",
+                "likes": 0,
+                "post_id": "instagram_thedogist_DVOqoEwEc-P",
+                "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+                "post_title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+                "signal_score": 21
+              },
+              {
+                "id": "audience-homemade_diet_optimizers-2",
+                "source_type": "audience_comment",
+                "text": "we both did our best and canine diabetes is so dynamic It upsets me when people say their diabetic dog thrived on a homemade diet and lived for 6 more years as if I didn t try hard enough for my baby She was so inconsistently reacting to the insulin Her dose would not be enough to lower her sugars but if we upped the insulin she would drop too low I researched her diet extensively fed her like clockwork and it still...",
+                "likes": 678,
+                "post_id": "instagram_thedogist_DTL78iCkQE7",
+                "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+                "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+                "signal_score": 19
+              }
+            ],
+            "claims_to_avoid": [
+              "Do not imply the chew prevents disease, cures medical conditions, or extends lifespan.",
+              "Do not use grief, rescue, or senior-dog stories as direct purchase hooks without extra care.",
+              "Do not frame the product as a substitute for veterinary guidance.",
+              "Position Vitality as an add-on, not a complete diet.",
+              "Avoid implying homemade feeders are doing it wrong."
+            ],
+            "validation_prompt": "If you cook or add toppers for your dog, what is the one thing you wish felt easier to get right?",
+            "source_note": "Angle combines audience comment evidence, Dogist caption cadence, deck guardrails, and business interpretation."
+          }
+        ]
+      },
+      {
+        "id": "transparent_daily_antioxidant_support",
+        "value_prop": "Transparent daily antioxidant support",
+        "claim_focus": [
+          "ingredient_transparency",
+          "daily_vitality",
+          "healthy_aging"
+        ],
+        "angles": [
+          {
+            "audience_mode": "ingredient_scrutinists",
+            "audience_mode_label": "Ingredient scrutinists",
+            "dogist_style_angle": "No mystery powders, no 'trust us' label energy: just a daily chew where every ingredient has to earn its place.",
+            "why_it_resonates": "Ingredient scrutinists ask about supplements, nutrient balance, and vet/nutritionist guidance before trusting pet wellness products.",
+            "language_to_borrow": [
+              {
+                "text": "again I must correct because you are spreading misinformation A lot of people still believe what you say here but the e...",
+                "source": "audience_comment",
+                "source_id": "audience-ingredient_scrutinists-1",
+                "why": "Audience language used as resonance evidence."
+              },
+              {
+                "text": "Carl, Beagle (3 y/o), Gansevoort Plaza, New York, NY • “They told me he was six years old when I got him, and then the vet said he’s closer to one. Someone tied",
+                "source": "dogist_caption",
+                "source_id": "instagram_thedogist_DMN51J1xp4T",
+                "why": "Name, breed, age, place, then an owner quote that makes the dog feel specific."
+              },
+              {
+                "text": "Loving",
+                "source": "deck_brand_guardrail",
+                "source_id": "loving",
+                "why": "Deck brand guardrail used to keep the angle on-brand."
+              }
+            ],
+            "evidence_quotes": [
+              {
+                "id": "audience-ingredient_scrutinists-1",
+                "source_type": "audience_comment",
+                "text": "again I must correct because you are spreading misinformation A lot of people still believe what you say here but the evidence is clear and the American Veterinary Society for Behavioural Science the national authority on dog training and behavioural issues says NO painful tools should be used they are harmful and they also don t work long term Their position statement is clear and based on decades of research Any t...",
+                "likes": 414,
+                "post_id": "instagram_thedogist_DYP8IqWkbhN",
+                "post_url": "https://www.instagram.com/thedogist/p/DYP8IqWkbhN/",
+                "post_title": "Dice, Dalmatian, Anchorage Place, Brooklyn, NY • ”He’s a tri-colored Dalmatian. He’s been getting a lot of attention here. He’s not too friendly, so you might n",
+                "signal_score": 21
+              },
+              {
+                "id": "audience-ingredient_scrutinists-2",
+                "source_type": "audience_comment",
+                "text": "You re right that the Ridglan beagles and 100M other animals annually in the U S are used for medical experimentation not cosmetics testing But other animals are poor surrogates for human biology and disease Those successful medications have been developed despite animal testing not because of it In fact 95 of all new drugs fail in human clinical trials even though they were deemed safe and effective in animals A br...",
+                "likes": 315,
+                "post_id": "instagram_thedogist_DYIPkVcP3QY",
+                "post_url": "https://www.instagram.com/thedogist/reel/DYIPkVcP3QY/",
+                "post_title": "Dr. Jane Goodall changed the way we think about and treat animals. I had the great honor of spending the day with her last fall, during which she emphasized the",
+                "signal_score": 21
+              }
+            ],
+            "claims_to_avoid": [
+              "Do not imply the chew prevents disease, cures medical conditions, or extends lifespan.",
+              "Do not use grief, rescue, or senior-dog stories as direct purchase hooks without extra care.",
+              "Do not frame the product as a substitute for veterinary guidance.",
+              "Show what every ingredient is doing.",
+              "Do not lean on vague superfood language."
+            ],
+            "validation_prompt": "What do you wish pet wellness brands explained more clearly on the label?",
+            "source_note": "Angle combines audience comment evidence, Dogist caption cadence, deck guardrails, and business interpretation."
+          },
+          {
+            "audience_mode": "homemade_diet_optimizers",
+            "audience_mode_label": "Homemade-diet optimizers",
+            "dogist_style_angle": "For the people adding pumpkin, sardines, yogurt, green beans, and a little bit of 'I hope I am doing this right': here is the transparent version of a daily antioxidant add-on.",
+            "why_it_resonates": "This audience wants fresh, loving routines but also worries about balance and nutritional completeness.",
+            "language_to_borrow": [
+              {
+                "text": "I feed my dogs fresh foods and just add kibble as a topper I buy flozen broccoli cauliflour green peas and green beans ...",
+                "source": "audience_comment",
+                "source_id": "audience-homemade_diet_optimizers-1",
+                "why": "Audience language used as resonance evidence."
+              },
+              {
+                "text": "Dogs at the @Mets Bark At The Park. Comment your favorite photo from the set 🐶⚾️",
+                "source": "dogist_caption",
+                "source_id": "instagram_thedogist_DYxt7vXEfe-",
+                "why": "A simple question invites followers to share their own dog routines, places, or stories."
+              },
+              {
+                "text": "Transparent",
+                "source": "deck_brand_guardrail",
+                "source_id": "transparent",
+                "why": "Deck brand guardrail used to keep the angle on-brand."
+              }
+            ],
+            "evidence_quotes": [
+              {
+                "id": "audience-homemade_diet_optimizers-1",
+                "source_type": "audience_comment",
+                "text": "I feed my dogs fresh foods and just add kibble as a topper I buy flozen broccoli cauliflour green peas and green beans They also get fish sticks and sardines chicken I have cooked I give them sweet potatoes cooked blueberries banana and apple They get a spoon of pumpkin or yogert as well That way I can control their weight by how much of these I give them",
+                "likes": 0,
+                "post_id": "instagram_thedogist_DVOqoEwEc-P",
+                "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+                "post_title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+                "signal_score": 21
+              },
+              {
+                "id": "audience-homemade_diet_optimizers-2",
+                "source_type": "audience_comment",
+                "text": "we both did our best and canine diabetes is so dynamic It upsets me when people say their diabetic dog thrived on a homemade diet and lived for 6 more years as if I didn t try hard enough for my baby She was so inconsistently reacting to the insulin Her dose would not be enough to lower her sugars but if we upped the insulin she would drop too low I researched her diet extensively fed her like clockwork and it still...",
+                "likes": 678,
+                "post_id": "instagram_thedogist_DTL78iCkQE7",
+                "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+                "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+                "signal_score": 19
+              }
+            ],
+            "claims_to_avoid": [
+              "Do not imply the chew prevents disease, cures medical conditions, or extends lifespan.",
+              "Do not use grief, rescue, or senior-dog stories as direct purchase hooks without extra care.",
+              "Do not frame the product as a substitute for veterinary guidance.",
+              "Position Vitality as an add-on, not a complete diet.",
+              "Avoid implying homemade feeders are doing it wrong."
+            ],
+            "validation_prompt": "If you make or modify your dog's meals, how do you decide what is actually worth adding?",
+            "source_note": "Angle combines audience comment evidence, Dogist caption cadence, deck guardrails, and business interpretation."
+          },
+          {
+            "audience_mode": "wellness_routine_builders",
+            "audience_mode_label": "Wellness routine builders",
+            "dogist_style_angle": "A daily chew should be boring in the best way: easy to understand, easy to give, and clear about what it is for.",
+            "why_it_resonates": "Routine builders need a simple, repeatable reason to add something new without making care feel complicated.",
+            "language_to_borrow": [
+              {
+                "text": "We adopted a 9 year old blind pup He was also super resourceful and didn t seem bothered by his lack of vision He could...",
+                "source": "audience_comment",
+                "source_id": "audience-wellness_routine_builders-1",
+                "why": "Audience language used as resonance evidence."
+              },
+              {
+                "text": "Carl, Beagle (3 y/o), Gansevoort Plaza, New York, NY • “They told me he was six years old when I got him, and then the vet said he’s closer to one. Someone tied",
+                "source": "dogist_caption",
+                "source_id": "instagram_thedogist_DMN51J1xp4T",
+                "why": "Name, breed, age, place, then an owner quote that makes the dog feel specific."
+              },
+              {
+                "text": "Seriously funny",
+                "source": "deck_brand_guardrail",
+                "source_id": "seriously_funny",
+                "why": "Deck brand guardrail used to keep the angle on-brand."
+              }
+            ],
+            "evidence_quotes": [
+              {
+                "id": "audience-wellness_routine_builders-1",
+                "source_type": "audience_comment",
+                "text": "We adopted a 9 year old blind pup He was also super resourceful and didn t seem bothered by his lack of vision He could see with his nose instead Once when he was temporarily on a bland diet he led us on a walk in a direction we had never been We walked about a mile and then he plopped down directly in front of the entrance of a Burger King He could navigate like a pro just using different senses",
+                "likes": 89,
+                "post_id": "instagram_thedogist_DYsm8CwkfTu",
+                "post_url": "https://www.instagram.com/thedogist/p/DYsm8CwkfTu/",
+                "post_title": "Olive, Pug/Pit Bull mix (12 y/o), 80th & Amsterdam Ave., New York, NY “She’s blind. You have to make sounds. She’s very resourceful. She can hear absolutely eve",
+                "signal_score": 18.09
+              },
+              {
+                "id": "audience-wellness_routine_builders-2",
+                "source_type": "audience_comment",
+                "text": "She s a husky mix - idk with what but wonder if that is what leads her to be calmer All huskies I ve encountered are high energy and talk A LOT",
+                "likes": 74,
+                "post_id": "instagram_thedogist_DYKLczCyeR7",
+                "post_url": "https://www.instagram.com/thedogist/reel/DYKLczCyeR7/",
+                "post_title": "thedogistVerified Edited•5wHappy Mother’s Day! Whether you’re a dog mom or a human mom (or grandmom), you mean so much to the people (and dogs) you care for! 💐",
+                "signal_score": 17.72
+              }
+            ],
+            "claims_to_avoid": [
+              "Do not imply the chew prevents disease, cures medical conditions, or extends lifespan.",
+              "Do not use grief, rescue, or senior-dog stories as direct purchase hooks without extra care.",
+              "Do not frame the product as a substitute for veterinary guidance.",
+              "Make daily use feel like care, not a subscription trap.",
+              "Connect to real routines: meals, walks, treats, and vet-informed habits."
+            ],
+            "validation_prompt": "What would make a daily dog supplement feel easy enough to stick with?",
+            "source_note": "Angle combines audience comment evidence, Dogist caption cadence, deck guardrails, and business interpretation."
+          }
+        ]
+      },
+      {
+        "id": "healthy_that_real_dogs_will_eat",
+        "value_prop": "Healthy enough for owners, real enough for dogs",
+        "claim_focus": [
+          "palatability",
+          "ingredient_transparency",
+          "daily_vitality"
+        ],
+        "angles": [
+          {
+            "audience_mode": "picky_dog_pragmatists",
+            "audience_mode_label": "Picky-dog pragmatists",
+            "dogist_style_angle": "Does anyone's dog happily eat all the healthy things? We went 0/10 before we got useful feedback from actual dogs.",
+            "why_it_resonates": "The blueberry and healthy-snack comments split between dogs who love fruit and dogs who absolutely reject it.",
+            "language_to_borrow": [
+              {
+                "text": "i have known our across the street neighbor for maybe 4 5yrs We've exchanged holiday treats i've been to 2 baby showers...",
+                "source": "audience_comment",
+                "source_id": "audience-picky_dog_pragmatists-1",
+                "why": "Audience language used as resonance evidence."
+              },
+              {
+                "text": "Elsa’s test kitchen went pretty much as suspected… beefy delight or nothing 🏆",
+                "source": "dogist_caption",
+                "source_id": "instagram_thedogist_DVwmbKiES8H",
+                "why": "First-person Dogist/Elsa experiments make product learning feel playful and honest."
+              },
+              {
+                "text": "Loving",
+                "source": "deck_brand_guardrail",
+                "source_id": "loving",
+                "why": "Deck brand guardrail used to keep the angle on-brand."
+              }
+            ],
+            "evidence_quotes": [
+              {
+                "id": "audience-picky_dog_pragmatists-1",
+                "source_type": "audience_comment",
+                "text": "i have known our across the street neighbor for maybe 4 5yrs We've exchanged holiday treats i've been to 2 baby showers they've been to my daughters last 3 birthdays i give them my daughters hand me downs i know the youngest 2 kids names i have an idea of what the other 2 names are i know dad is Pete i can't remember the moms name to save my life Besides the 2 smal boys Cupcake Samson Moses are the dogs that's what ...",
+                "likes": 468,
+                "post_id": "instagram_thedogist_DZDqSgRIFGB",
+                "post_url": "https://www.instagram.com/thedogist/reel/DZDqSgRIFGB/",
+                "post_title": "Brooks, Golden Retriever (4 y/o), King Street, Charleston, SC • “I think more people know Brooks than know me. We live in an old historic home. He used to look",
+                "signal_score": 19
+              },
+              {
+                "id": "audience-picky_dog_pragmatists-2",
+                "source_type": "audience_comment",
+                "text": "I must admit I am happy to see this My dogs won t eat anything fruity or veggie unless carefully packed inside meatballs I see all these IG doggies snacking away on lettuce and strawberries and wondering over here what I m doing wrong",
+                "likes": 42,
+                "post_id": "instagram_thedogist_DXh1oZBxUhq",
+                "post_url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+                "post_title": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!",
+                "signal_score": 18.6
+              }
+            ],
+            "claims_to_avoid": [
+              "Do not imply the chew prevents disease, cures medical conditions, or extends lifespan.",
+              "Do not use grief, rescue, or senior-dog stories as direct purchase hooks without extra care.",
+              "Do not frame the product as a substitute for veterinary guidance.",
+              "Do not assume dogs love blueberries.",
+              "Validate palatability before making broad claims."
+            ],
+            "validation_prompt": "Does your dog love or reject blueberries? Drop the honest review, especially if they are picky.",
+            "source_note": "Angle combines audience comment evidence, Dogist caption cadence, deck guardrails, and business interpretation."
+          },
+          {
+            "audience_mode": "ingredient_scrutinists",
+            "audience_mode_label": "Ingredient scrutinists",
+            "dogist_style_angle": "The bar is not 'sounds healthy.' The bar is 'would I give this to Elsa, can I explain why, and will a dog actually want it?'",
+            "why_it_resonates": "This group needs the product to pass both formula scrutiny and real-world feeding practicality.",
+            "language_to_borrow": [
+              {
+                "text": "again I must correct because you are spreading misinformation A lot of people still believe what you say here but the e...",
+                "source": "audience_comment",
+                "source_id": "audience-ingredient_scrutinists-1",
+                "why": "Audience language used as resonance evidence."
+              },
+              {
+                "text": "Carl, Beagle (3 y/o), Gansevoort Plaza, New York, NY • “They told me he was six years old when I got him, and then the vet said he’s closer to one. Someone tied",
+                "source": "dogist_caption",
+                "source_id": "instagram_thedogist_DMN51J1xp4T",
+                "why": "Name, breed, age, place, then an owner quote that makes the dog feel specific."
+              },
+              {
+                "text": "Transparent",
+                "source": "deck_brand_guardrail",
+                "source_id": "transparent",
+                "why": "Deck brand guardrail used to keep the angle on-brand."
+              }
+            ],
+            "evidence_quotes": [
+              {
+                "id": "audience-ingredient_scrutinists-1",
+                "source_type": "audience_comment",
+                "text": "again I must correct because you are spreading misinformation A lot of people still believe what you say here but the evidence is clear and the American Veterinary Society for Behavioural Science the national authority on dog training and behavioural issues says NO painful tools should be used they are harmful and they also don t work long term Their position statement is clear and based on decades of research Any t...",
+                "likes": 414,
+                "post_id": "instagram_thedogist_DYP8IqWkbhN",
+                "post_url": "https://www.instagram.com/thedogist/p/DYP8IqWkbhN/",
+                "post_title": "Dice, Dalmatian, Anchorage Place, Brooklyn, NY • ”He’s a tri-colored Dalmatian. He’s been getting a lot of attention here. He’s not too friendly, so you might n",
+                "signal_score": 21
+              },
+              {
+                "id": "audience-ingredient_scrutinists-2",
+                "source_type": "audience_comment",
+                "text": "You re right that the Ridglan beagles and 100M other animals annually in the U S are used for medical experimentation not cosmetics testing But other animals are poor surrogates for human biology and disease Those successful medications have been developed despite animal testing not because of it In fact 95 of all new drugs fail in human clinical trials even though they were deemed safe and effective in animals A br...",
+                "likes": 315,
+                "post_id": "instagram_thedogist_DYIPkVcP3QY",
+                "post_url": "https://www.instagram.com/thedogist/reel/DYIPkVcP3QY/",
+                "post_title": "Dr. Jane Goodall changed the way we think about and treat animals. I had the great honor of spending the day with her last fall, during which she emphasized the",
+                "signal_score": 21
+              }
+            ],
+            "claims_to_avoid": [
+              "Do not imply the chew prevents disease, cures medical conditions, or extends lifespan.",
+              "Do not use grief, rescue, or senior-dog stories as direct purchase hooks without extra care.",
+              "Do not frame the product as a substitute for veterinary guidance.",
+              "Show what every ingredient is doing.",
+              "Do not lean on vague superfood language."
+            ],
+            "validation_prompt": "When you see a healthy dog treat or supplement, what makes you believe it is actually worth trying?",
+            "source_note": "Angle combines audience comment evidence, Dogist caption cadence, deck guardrails, and business interpretation."
+          },
+          {
+            "audience_mode": "senior_care_caregivers",
+            "audience_mode_label": "Senior-care caregivers",
+            "dogist_style_angle": "For older dogs, the best routine is the one they will still happily take. Vitality has to be gentle enough for the care conversation and tasty enough for the dog conversation.",
+            "why_it_resonates": "Senior-care owners are managing enough already; palatability and ease matter because routines break when dogs refuse them.",
+            "language_to_borrow": [
+              {
+                "text": "I m not sure how long they ve been doing this in the states but they just started doing this around 2020 when I started...",
+                "source": "audience_comment",
+                "source_id": "audience-senior_care_caregivers-1",
+                "why": "Audience language used as resonance evidence."
+              },
+              {
+                "text": "Carl, Beagle (3 y/o), Gansevoort Plaza, New York, NY • “They told me he was six years old when I got him, and then the vet said he’s closer to one. Someone tied",
+                "source": "dogist_caption",
+                "source_id": "instagram_thedogist_DMN51J1xp4T",
+                "why": "Name, breed, age, place, then an owner quote that makes the dog feel specific."
+              },
+              {
+                "text": "Seriously funny",
+                "source": "deck_brand_guardrail",
+                "source_id": "seriously_funny",
+                "why": "Deck brand guardrail used to keep the angle on-brand."
+              }
+            ],
+            "evidence_quotes": [
+              {
+                "id": "audience-senior_care_caregivers-1",
+                "source_type": "audience_comment",
+                "text": "I m not sure how long they ve been doing this in the states but they just started doing this around 2020 when I started vet nursing in Newcastle Australia at least in the clinics I worked in Was cool to see them start doing it I grew up with a cat that was diabetic and we didn t have anything like that I have a built in detector though I m one of a very small percentage that can smell ketones it was a very handy too...",
+                "likes": 1240,
+                "post_id": "instagram_thedogist_DTL78iCkQE7",
+                "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+                "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+                "signal_score": 21
+              },
+              {
+                "id": "audience-senior_care_caregivers-2",
+                "source_type": "audience_comment",
+                "text": "Come meet Coconut white mini schnauzer she s 14 on 1 31 26 She was rescued as a 1 yr old from a farm in Nashville with six other dogs All were purebred and big to small A Great Dane mastiff pitbull Coconut min pin French bulldog and dachshund All lived outside The owner was bipolar and went off her meds therefore couldn t care for them They were brought to Lewes DE to be placed with new families We always have had s...",
+                "likes": 2262,
+                "post_id": "instagram_thedogist_DTL78iCkQE7",
+                "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+                "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+                "signal_score": 19
+              }
+            ],
+            "claims_to_avoid": [
+              "Do not imply the chew prevents disease, cures medical conditions, or extends lifespan.",
+              "Do not use grief, rescue, or senior-dog stories as direct purchase hooks without extra care.",
+              "Do not frame the product as a substitute for veterinary guidance.",
+              "Avoid implying lifespan extension or disease prevention.",
+              "Treat grief and senior-dog language as care context, not purchase pressure."
+            ],
+            "validation_prompt": "If your older dog takes supplements or meds, what makes that routine easier or harder?",
+            "source_note": "Angle combines audience comment evidence, Dogist caption cadence, deck guardrails, and business interpretation."
+          }
+        ]
+      }
+    ]
+  },
+  "trust_guardrails": {
+    "core_constraints": [
+      "Do not imply the chew prevents disease, cures medical conditions, or extends lifespan.",
+      "Do not use grief, rescue, or senior-dog stories as direct purchase hooks without extra care.",
+      "Do not frame the product as a substitute for veterinary guidance.",
+      "Do not overstate the comment corpus as validated demand.",
+      "Do not write generic superfood copy that could come from any pet brand."
+    ],
+    "sensitive_contexts": [
+      {
+        "context": "Senior and health-challenged dogs",
+        "rule": "Use as care context, not proof that Vitality creates medical outcomes."
+      },
+      {
+        "context": "Grief and memorial language",
+        "rule": "Do not convert loss language into sales language."
+      },
+      {
+        "context": "Rescue/adoption trust",
+        "rule": "Use for brand trust and partnership context only unless a validation post asks directly."
+      }
+    ],
+    "mode_specific_risks": [
+      {
+        "risk": "Make daily use feel like care, not a subscription trap.",
+        "audience_mode": "wellness_routine_builders"
+      },
+      {
+        "risk": "Connect to real routines: meals, walks, treats, and vet-informed habits.",
+        "audience_mode": "wellness_routine_builders"
+      },
+      {
+        "risk": "Avoid overwhelming owners with another thing they are supposed to do.",
+        "audience_mode": "wellness_routine_builders"
+      },
+      {
+        "risk": "Do not assume dogs love blueberries.",
+        "audience_mode": "picky_dog_pragmatists"
+      },
+      {
+        "risk": "Validate palatability before making broad claims.",
+        "audience_mode": "picky_dog_pragmatists"
+      },
+      {
+        "risk": "Let Dogist humor carry the picky-dog truth instead of hiding it.",
+        "audience_mode": "picky_dog_pragmatists"
+      },
+      {
+        "risk": "Avoid implying lifespan extension or disease prevention.",
+        "audience_mode": "senior_care_caregivers"
+      },
+      {
+        "risk": "Treat grief and senior-dog language as care context, not purchase pressure.",
+        "audience_mode": "senior_care_caregivers"
+      },
+      {
+        "risk": "Position as optional support alongside vet guidance.",
+        "audience_mode": "senior_care_caregivers"
+      },
+      {
+        "risk": "Position Vitality as an add-on, not a complete diet.",
+        "audience_mode": "homemade_diet_optimizers"
+      },
+      {
+        "risk": "Avoid implying homemade feeders are doing it wrong.",
+        "audience_mode": "homemade_diet_optimizers"
+      },
+      {
+        "risk": "Respect that many owners already have complex routines.",
+        "audience_mode": "homemade_diet_optimizers"
+      },
+      {
+        "risk": "Show what every ingredient is doing.",
+        "audience_mode": "ingredient_scrutinists"
+      },
+      {
+        "risk": "Do not lean on vague superfood language.",
+        "audience_mode": "ingredient_scrutinists"
+      },
+      {
+        "risk": "Make the vet/nutritionist role specific and bounded.",
+        "audience_mode": "ingredient_scrutinists"
+      }
+    ],
+    "unsupported_claims_to_avoid": [
+      "Vitality extends lifespan.",
+      "Vitality prevents disease.",
+      "Dogist followers have validated purchase demand.",
+      "A rescue, grief, or senior-care response is the same thing as commerce intent."
+    ]
+  },
+  "validation_plan": {
+    "active_question": "How should we talk about the Vitality Chew?",
+    "recommended_first_test": {
+      "audience_mode": "wellness_routine_builders",
+      "audience_mode_label": "Wellness routine builders",
+      "reason": "Highest SKU fit after evidence-quality penalties.",
+      "prompt": "What is one small daily thing that has helped your older dog stay comfortable, curious, or more like themselves?"
+    },
+    "validation_posts": [
+      {
+        "value_prop_id": "more_good_years_together",
+        "audience_mode": "senior_care_caregivers",
+        "prompt": "What is one small daily thing that has helped your older dog stay comfortable, curious, or more like themselves?",
+        "measures": [
+          "Number of specific owner routines shared",
+          "Objection language around vet guidance, ingredients, cost, or palatability",
+          "Whether followers volunteer purchase-adjacent questions without being asked to buy"
+        ],
+        "success_criteria": [
+          "Comments include concrete routines or health outcomes, not only affection.",
+          "Audience questions are answerable with transparent product or vet/nutritionist context.",
+          "Low backlash around overclaiming or monetizing trust."
+        ],
+        "trust_guardrail": "This is a validation prompt, not a sales post."
+      },
+      {
+        "value_prop_id": "transparent_daily_antioxidant_support",
+        "audience_mode": "ingredient_scrutinists",
+        "prompt": "What do you wish pet wellness brands explained more clearly on the label?",
+        "measures": [
+          "Number of specific owner routines shared",
+          "Objection language around vet guidance, ingredients, cost, or palatability",
+          "Whether followers volunteer purchase-adjacent questions without being asked to buy"
+        ],
+        "success_criteria": [
+          "Comments include concrete routines or health outcomes, not only affection.",
+          "Audience questions are answerable with transparent product or vet/nutritionist context.",
+          "Low backlash around overclaiming or monetizing trust."
+        ],
+        "trust_guardrail": "This is a validation prompt, not a sales post."
+      },
+      {
+        "value_prop_id": "healthy_that_real_dogs_will_eat",
+        "audience_mode": "picky_dog_pragmatists",
+        "prompt": "Does your dog love or reject blueberries? Drop the honest review, especially if they are picky.",
+        "measures": [
+          "Number of specific owner routines shared",
+          "Objection language around vet guidance, ingredients, cost, or palatability",
+          "Whether followers volunteer purchase-adjacent questions without being asked to buy"
+        ],
+        "success_criteria": [
+          "Comments include concrete routines or health outcomes, not only affection.",
+          "Audience questions are answerable with transparent product or vet/nutritionist context.",
+          "Low backlash around overclaiming or monetizing trust."
+        ],
+        "trust_guardrail": "This is a validation prompt, not a sales post."
+      }
+    ],
+    "learning_loop": [
+      "Publish a validation prompt.",
+      "Collect comments and reactions.",
+      "Re-run this launch intelligence script against the expanded corpus.",
+      "Update message confidence and objections before product launch copy is finalized."
+    ]
+  },
+  "evidence_index": {
+    "audience_comments": [
+      {
+        "id": "audience-wellness_routine_builders-1",
+        "source_type": "audience_comment",
+        "text": "We adopted a 9 year old blind pup He was also super resourceful and didn t seem bothered by his lack of vision He could see with his nose instead Once when he was temporarily on a bland diet he led us on a walk in a direction we had never been We walked about a mile and then he plopped down directly in front of the entrance of a Burger King He could navigate like a pro just using different senses",
+        "likes": 89,
+        "post_id": "instagram_thedogist_DYsm8CwkfTu",
+        "post_url": "https://www.instagram.com/thedogist/p/DYsm8CwkfTu/",
+        "post_title": "Olive, Pug/Pit Bull mix (12 y/o), 80th & Amsterdam Ave., New York, NY “She’s blind. You have to make sounds. She’s very resourceful. She can hear absolutely eve",
+        "signal_score": 18.09,
+        "audience_mode": "wellness_routine_builders",
+        "audience_mode_label": "Wellness routine builders"
+      },
+      {
+        "id": "audience-wellness_routine_builders-2",
+        "source_type": "audience_comment",
+        "text": "She s a husky mix - idk with what but wonder if that is what leads her to be calmer All huskies I ve encountered are high energy and talk A LOT",
+        "likes": 74,
+        "post_id": "instagram_thedogist_DYKLczCyeR7",
+        "post_url": "https://www.instagram.com/thedogist/reel/DYKLczCyeR7/",
+        "post_title": "thedogistVerified Edited•5wHappy Mother’s Day! Whether you’re a dog mom or a human mom (or grandmom), you mean so much to the people (and dogs) you care for! 💐",
+        "signal_score": 17.72,
+        "audience_mode": "wellness_routine_builders",
+        "audience_mode_label": "Wellness routine builders"
+      },
+      {
+        "id": "audience-wellness_routine_builders-3",
+        "source_type": "audience_comment",
+        "text": "I saw a young girl walking hers yesterday in my town He literally looked like a brown bear and she was about 3 4s his size but he was such a gentle good boy Lovely dogs",
+        "likes": 156,
+        "post_id": "instagram_thedogist_DXjqVIgBU3J",
+        "post_url": "https://www.instagram.com/thedogist/reel/DXjqVIgBU3J/",
+        "post_title": "James, Newfoundland (1 y/o), 20th & 10th Ave., New York, NY • “He’s 135lbs. He loves all dogs. He wants to meet every single dog in the city. He goes to Central",
+        "signal_score": 17,
+        "audience_mode": "wellness_routine_builders",
+        "audience_mode_label": "Wellness routine builders"
+      },
+      {
+        "id": "audience-wellness_routine_builders-4",
+        "source_type": "audience_comment",
+        "text": "My dog is a senior now with hip dysplasia and arthritis so our walks are slower They aren't nearly as long but we treasure them more now He gets red light therapy on his hips legs for about 15 minutes each day He gets green muscle powder and a powdered multi vitamin supplement in his food twice a day He is on a daily anti-inflammatory med along with joint supplement Twice a month he gets adequan or its generic cousi...",
+        "likes": 0,
+        "post_id": "instagram_thedogist_DTiUEM1kWLC",
+        "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+        "post_title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do",
+        "signal_score": 17,
+        "audience_mode": "wellness_routine_builders",
+        "audience_mode_label": "Wellness routine builders"
+      },
+      {
+        "id": "audience-wellness_routine_builders-5",
+        "source_type": "audience_comment",
+        "text": "It s really all of it isn t it Good quality food routine exercise My dogs have had home cooked meals good veggies and fruits They both at times have had to be on special diets so would supplement home cooked foods when at all possible and supplements Walks at least twice a day training exercises good brain stimulation My dogs were my world I recently lost my 14 7 year old Westie the last 3 years were a lot as he had...",
+        "likes": 0,
+        "post_id": "instagram_thedogist_DTiUEM1kWLC",
+        "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+        "post_title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do",
+        "signal_score": 17,
+        "audience_mode": "wellness_routine_builders",
+        "audience_mode_label": "Wellness routine builders"
+      },
+      {
+        "id": "audience-picky_dog_pragmatists-1",
+        "source_type": "audience_comment",
+        "text": "i have known our across the street neighbor for maybe 4 5yrs We've exchanged holiday treats i've been to 2 baby showers they've been to my daughters last 3 birthdays i give them my daughters hand me downs i know the youngest 2 kids names i have an idea of what the other 2 names are i know dad is Pete i can't remember the moms name to save my life Besides the 2 smal boys Cupcake Samson Moses are the dogs that's what ...",
+        "likes": 468,
+        "post_id": "instagram_thedogist_DZDqSgRIFGB",
+        "post_url": "https://www.instagram.com/thedogist/reel/DZDqSgRIFGB/",
+        "post_title": "Brooks, Golden Retriever (4 y/o), King Street, Charleston, SC • “I think more people know Brooks than know me. We live in an old historic home. He used to look",
+        "signal_score": 19,
+        "audience_mode": "picky_dog_pragmatists",
+        "audience_mode_label": "Picky-dog pragmatists"
+      },
+      {
+        "id": "audience-picky_dog_pragmatists-2",
+        "source_type": "audience_comment",
+        "text": "I must admit I am happy to see this My dogs won t eat anything fruity or veggie unless carefully packed inside meatballs I see all these IG doggies snacking away on lettuce and strawberries and wondering over here what I m doing wrong",
+        "likes": 42,
+        "post_id": "instagram_thedogist_DXh1oZBxUhq",
+        "post_url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+        "post_title": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!",
+        "signal_score": 18.6,
+        "audience_mode": "picky_dog_pragmatists",
+        "audience_mode_label": "Picky-dog pragmatists"
+      },
+      {
+        "id": "audience-picky_dog_pragmatists-3",
+        "source_type": "audience_comment",
+        "text": "Which is why dog food companies don t like to use Labs for testing food they don t know if they like it or are eating it because it s in front of them They will eat anything",
+        "likes": 673,
+        "post_id": "instagram_thedogist_DXRnD14PkvI",
+        "post_url": "https://www.instagram.com/thedogist/reel/DXRnD14PkvI/",
+        "post_title": "Elsa didn’t like the blueberry biscuits I made for her (at first), so I went to Washington Square Park to get a second (...and third..and fourth) opinion from s",
+        "signal_score": 18,
+        "audience_mode": "picky_dog_pragmatists",
+        "audience_mode_label": "Picky-dog pragmatists"
+      },
+      {
+        "id": "audience-picky_dog_pragmatists-4",
+        "source_type": "audience_comment",
+        "text": "Conclusion Elsa IS a picky eater But hey a girl's gotta have standards Her's do not include blueberry treats",
+        "likes": 219,
+        "post_id": "instagram_thedogist_DXRnD14PkvI",
+        "post_url": "https://www.instagram.com/thedogist/reel/DXRnD14PkvI/",
+        "post_title": "Elsa didn’t like the blueberry biscuits I made for her (at first), so I went to Washington Square Park to get a second (...and third..and fourth) opinion from s",
+        "signal_score": 18,
+        "audience_mode": "picky_dog_pragmatists",
+        "audience_mode_label": "Picky-dog pragmatists"
+      },
+      {
+        "id": "audience-picky_dog_pragmatists-5",
+        "source_type": "audience_comment",
+        "text": "THANK YOU SO MUCH FOR TAKING MY PICTURE BUT MOSTLY FOR THE TREATS My moms are jumping up and down all over again because they are so excited about this video hahah Thank you x100",
+        "likes": 780,
+        "post_id": "instagram_thedogist_DYF-_83xsIa",
+        "post_url": "https://www.instagram.com/thedogist/reel/DYF-_83xsIa/",
+        "post_title": "Pearl, Pug (3 y/o), Cobble Hill Park, Brooklyn, NY • “I’ve had other dogs; I’ve never had a Pug before. They’re very clingy, which I thought I’d be annoyed with",
+        "signal_score": 17,
+        "audience_mode": "picky_dog_pragmatists",
+        "audience_mode_label": "Picky-dog pragmatists"
+      },
+      {
+        "id": "audience-senior_care_caregivers-1",
+        "source_type": "audience_comment",
+        "text": "I m not sure how long they ve been doing this in the states but they just started doing this around 2020 when I started vet nursing in Newcastle Australia at least in the clinics I worked in Was cool to see them start doing it I grew up with a cat that was diabetic and we didn t have anything like that I have a built in detector though I m one of a very small percentage that can smell ketones it was a very handy too...",
+        "likes": 1240,
+        "post_id": "instagram_thedogist_DTL78iCkQE7",
+        "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+        "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+        "signal_score": 21,
+        "audience_mode": "senior_care_caregivers",
+        "audience_mode_label": "Senior-care caregivers"
+      },
+      {
+        "id": "audience-senior_care_caregivers-2",
+        "source_type": "audience_comment",
+        "text": "Come meet Coconut white mini schnauzer she s 14 on 1 31 26 She was rescued as a 1 yr old from a farm in Nashville with six other dogs All were purebred and big to small A Great Dane mastiff pitbull Coconut min pin French bulldog and dachshund All lived outside The owner was bipolar and went off her meds therefore couldn t care for them They were brought to Lewes DE to be placed with new families We always have had s...",
+        "likes": 2262,
+        "post_id": "instagram_thedogist_DTL78iCkQE7",
+        "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+        "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+        "signal_score": 19,
+        "audience_mode": "senior_care_caregivers",
+        "audience_mode_label": "Senior-care caregivers"
+      },
+      {
+        "id": "audience-senior_care_caregivers-3",
+        "source_type": "audience_comment",
+        "text": "we both did our best and canine diabetes is so dynamic It upsets me when people say their diabetic dog thrived on a homemade diet and lived for 6 more years as if I didn t try hard enough for my baby She was so inconsistently reacting to the insulin Her dose would not be enough to lower her sugars but if we upped the insulin she would drop too low I researched her diet extensively fed her like clockwork and it still...",
+        "likes": 678,
+        "post_id": "instagram_thedogist_DTL78iCkQE7",
+        "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+        "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+        "signal_score": 19,
+        "audience_mode": "senior_care_caregivers",
+        "audience_mode_label": "Senior-care caregivers"
+      },
+      {
+        "id": "audience-senior_care_caregivers-4",
+        "source_type": "audience_comment",
+        "text": "I lost my girl to canine diabetes just over a year ago She was just shy of seven years old - watching it ravage her body over seven months was one of the most defeating feelings I ve ever experienced Bless this man for putting up the good fight - I can hear the weight of his experience in his response to how his pups days are Thank you sharing",
+        "likes": 678,
+        "post_id": "instagram_thedogist_DTL78iCkQE7",
+        "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+        "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+        "signal_score": 19,
+        "audience_mode": "senior_care_caregivers",
+        "audience_mode_label": "Senior-care caregivers"
+      },
+      {
+        "id": "audience-senior_care_caregivers-5",
+        "source_type": "audience_comment",
+        "text": "Also if you are a senior who may not want a very active dog or worry about the time span limited years you may have a senior is a perfect fit I started a program at our shelter called Seniors for Seniors half price adoption fees for any dog over 7 being adopted by a person over 65",
+        "likes": 625,
+        "post_id": "instagram_thedogist_DXxZpZrSVod",
+        "post_url": "https://www.instagram.com/thedogist/reel/DXxZpZrSVod/",
+        "post_title": "Dogist Community, I need your help!On Tuesday, I took the amazing Ringo out of @nycacc for a boroughbreak. She’s an incredible senior dog, and it was heartbreak",
+        "signal_score": 19,
+        "audience_mode": "senior_care_caregivers",
+        "audience_mode_label": "Senior-care caregivers"
+      },
+      {
+        "id": "audience-homemade_diet_optimizers-1",
+        "source_type": "audience_comment",
+        "text": "I feed my dogs fresh foods and just add kibble as a topper I buy flozen broccoli cauliflour green peas and green beans They also get fish sticks and sardines chicken I have cooked I give them sweet potatoes cooked blueberries banana and apple They get a spoon of pumpkin or yogert as well That way I can control their weight by how much of these I give them",
+        "likes": 0,
+        "post_id": "instagram_thedogist_DVOqoEwEc-P",
+        "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+        "post_title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+        "signal_score": 21,
+        "audience_mode": "homemade_diet_optimizers",
+        "audience_mode_label": "Homemade-diet optimizers"
+      },
+      {
+        "id": "audience-homemade_diet_optimizers-2",
+        "source_type": "audience_comment",
+        "text": "we both did our best and canine diabetes is so dynamic It upsets me when people say their diabetic dog thrived on a homemade diet and lived for 6 more years as if I didn t try hard enough for my baby She was so inconsistently reacting to the insulin Her dose would not be enough to lower her sugars but if we upped the insulin she would drop too low I researched her diet extensively fed her like clockwork and it still...",
+        "likes": 678,
+        "post_id": "instagram_thedogist_DTL78iCkQE7",
+        "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+        "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+        "signal_score": 19,
+        "audience_mode": "homemade_diet_optimizers",
+        "audience_mode_label": "Homemade-diet optimizers"
+      },
+      {
+        "id": "audience-homemade_diet_optimizers-3",
+        "source_type": "audience_comment",
+        "text": "my dog was diagnosed diabetic at 9 he went into ketoacidosis and was put in the hospital immediately it took three days just to stabilize him almost 6 000 dollars in debt later we had to start an entire new life first was research hours and days of research should we use vet specific insulin or human insulin how do curves work when should be check he glucose what supplements most diabetic dogs go blind within 9 mont...",
+        "likes": 0,
+        "post_id": "instagram_thedogist_DTOpuOGkYp-",
+        "post_url": "https://www.instagram.com/thedogist/reel/DTOpuOGkYp-/",
+        "post_title": "I’m grateful to have met Jack yesterday, whose owner reminded me of the lengths people go to care for their dogs as they age. The love people have for their dog",
+        "signal_score": 19,
+        "audience_mode": "homemade_diet_optimizers",
+        "audience_mode_label": "Homemade-diet optimizers"
+      },
+      {
+        "id": "audience-homemade_diet_optimizers-4",
+        "source_type": "audience_comment",
+        "text": "Thank you for capturing mum and I loved meeting you Loved the treats maybe a little bit more- in need of the recipe for those",
+        "likes": 469,
+        "post_id": "instagram_thedogist_DYh1XcIxexg",
+        "post_url": "https://www.instagram.com/thedogist/reel/DYh1XcIxexg/",
+        "post_title": "Maple, Dachshund, Central Park, New York, NY • “She just moved to New York from London. She has nearly 2k Instagram followers.” @maple.the.minisausage",
+        "signal_score": 17,
+        "audience_mode": "homemade_diet_optimizers",
+        "audience_mode_label": "Homemade-diet optimizers"
+      },
+      {
+        "id": "audience-homemade_diet_optimizers-5",
+        "source_type": "audience_comment",
+        "text": "This is my basic recipe My first dog lived 16 5 years eating this My current dog and my daughter s dog eats this I have seen great success with elderly dogs on this food The recipe originally came from a Veterinarian 2lbs meat 1lb long grain brown rice such as basmati or quinoa or barley one large carrot chopped one bunch vegetables such as broccoli cauliflower 4-5 zucchini green beans kale brussels sprouts I often ...",
+        "likes": 0,
+        "post_id": "instagram_thedogist_DVOqoEwEc-P",
+        "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+        "post_title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+        "signal_score": 17,
+        "audience_mode": "homemade_diet_optimizers",
+        "audience_mode_label": "Homemade-diet optimizers"
+      },
+      {
+        "id": "audience-ingredient_scrutinists-1",
+        "source_type": "audience_comment",
+        "text": "again I must correct because you are spreading misinformation A lot of people still believe what you say here but the evidence is clear and the American Veterinary Society for Behavioural Science the national authority on dog training and behavioural issues says NO painful tools should be used they are harmful and they also don t work long term Their position statement is clear and based on decades of research Any t...",
+        "likes": 414,
+        "post_id": "instagram_thedogist_DYP8IqWkbhN",
+        "post_url": "https://www.instagram.com/thedogist/p/DYP8IqWkbhN/",
+        "post_title": "Dice, Dalmatian, Anchorage Place, Brooklyn, NY • ”He’s a tri-colored Dalmatian. He’s been getting a lot of attention here. He’s not too friendly, so you might n",
+        "signal_score": 21,
+        "audience_mode": "ingredient_scrutinists",
+        "audience_mode_label": "Ingredient scrutinists"
+      },
+      {
+        "id": "audience-ingredient_scrutinists-2",
+        "source_type": "audience_comment",
+        "text": "You re right that the Ridglan beagles and 100M other animals annually in the U S are used for medical experimentation not cosmetics testing But other animals are poor surrogates for human biology and disease Those successful medications have been developed despite animal testing not because of it In fact 95 of all new drugs fail in human clinical trials even though they were deemed safe and effective in animals A br...",
+        "likes": 315,
+        "post_id": "instagram_thedogist_DYIPkVcP3QY",
+        "post_url": "https://www.instagram.com/thedogist/reel/DYIPkVcP3QY/",
+        "post_title": "Dr. Jane Goodall changed the way we think about and treat animals. I had the great honor of spending the day with her last fall, during which she emphasized the",
+        "signal_score": 21,
+        "audience_mode": "ingredient_scrutinists",
+        "audience_mode_label": "Ingredient scrutinists"
+      },
+      {
+        "id": "audience-ingredient_scrutinists-3",
+        "source_type": "audience_comment",
+        "text": "Looks like a wholesome base but for long-term daily feeding this likely isn t fully balanced on its own Dogs need a precise calcium-to-phosphorus balance especially with that much beef plus key nutrients like iodine vitamin E zinc manganese and omega-3s A generic supplement topper usually isn t enough unless it s a complete canine premix made for homemade diets Might be worth checking with a vet or veterinary nutrit...",
+        "likes": 0,
+        "post_id": "instagram_thedogist_DVZfWl6EWju",
+        "post_url": "https://www.instagram.com/thedogist/reel/DVZfWl6EWju/",
+        "post_title": "I cooked for Elsa for the first time and it was fun! I’ve been learning to cook more this past year and wanted to try making a dog food recipe for Els. She can",
+        "signal_score": 20,
+        "audience_mode": "ingredient_scrutinists",
+        "audience_mode_label": "Ingredient scrutinists"
+      },
+      {
+        "id": "audience-ingredient_scrutinists-4",
+        "source_type": "audience_comment",
+        "text": "I m not sure how long they ve been doing this in the states but they just started doing this around 2020 when I started vet nursing in Newcastle Australia at least in the clinics I worked in Was cool to see them start doing it I grew up with a cat that was diabetic and we didn t have anything like that I have a built in detector though I m one of a very small percentage that can smell ketones it was a very handy too...",
+        "likes": 1240,
+        "post_id": "instagram_thedogist_DTL78iCkQE7",
+        "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+        "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+        "signal_score": 19,
+        "audience_mode": "ingredient_scrutinists",
+        "audience_mode_label": "Ingredient scrutinists"
+      },
+      {
+        "id": "audience-ingredient_scrutinists-5",
+        "source_type": "audience_comment",
+        "text": "we both did our best and canine diabetes is so dynamic It upsets me when people say their diabetic dog thrived on a homemade diet and lived for 6 more years as if I didn t try hard enough for my baby She was so inconsistently reacting to the insulin Her dose would not be enough to lower her sugars but if we upped the insulin she would drop too low I researched her diet extensively fed her like clockwork and it still...",
+        "likes": 678,
+        "post_id": "instagram_thedogist_DTL78iCkQE7",
+        "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+        "post_title": "Jack, Australian Shepherd (13 y/o), Hudson & Jane St., New York, NY • “He’s got decent days, and he’s got days or weeks in which he’s pretty aloof. He’s diabeti",
+        "signal_score": 19,
+        "audience_mode": "ingredient_scrutinists",
+        "audience_mode_label": "Ingredient scrutinists"
+      }
+    ],
+    "dogist_voice_examples": [
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DMN51J1xp4T",
+        "post_url": "https://www.instagram.com/thedogist/reel/DMN51J1xp4T/",
+        "text": "Carl, Beagle (3 y/o), Gansevoort Plaza, New York, NY • “They told me he was six years old when I got him, and then the vet said he’s closer to one. Someone tied",
+        "reason": "Canonical Dogist portrait cadence",
+        "voice_pattern_id": "portrait_story",
+        "voice_pattern_label": "Dog-first portrait story"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DLGInbkxZUE",
+        "post_url": "https://www.instagram.com/thedogist/reel/DLGInbkxZUE/",
+        "text": "Otis, Rottweiler (5 y/o), Plymouth & Pearl St., Brooklyn, NY • “He’s pretty chill. Loves babies, loves dogs. He’s a big sweetie. He sort of always eats anything",
+        "reason": "Canonical Dogist portrait cadence",
+        "voice_pattern_id": "portrait_story",
+        "voice_pattern_label": "Dog-first portrait story"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DLc3BgGRnSn",
+        "post_url": "https://www.instagram.com/thedogist/reel/DLc3BgGRnSn/",
+        "text": "Audrey, Biewer Terrier (13 y/o), W 12th & Hudson St., New York, NY • “She’s named after Audrey Hepburn. She was supposed to be bigger – she’s only four pounds.",
+        "reason": "Canonical Dogist portrait cadence",
+        "voice_pattern_id": "portrait_story",
+        "voice_pattern_label": "Dog-first portrait story"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DOrf76ekXEy",
+        "post_url": "https://www.instagram.com/thedogist/reel/DOrf76ekXEy/",
+        "text": "Tika, Italian Greyhound (14 y/o), Spring & W Broadway, New York, NY • “We’re from Canada – we come here twice a year for New York Fashion Week. She’s always col",
+        "reason": "Canonical Dogist portrait cadence",
+        "voice_pattern_id": "portrait_story",
+        "voice_pattern_label": "Dog-first portrait story"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DYxt7vXEfe-",
+        "post_url": "https://www.instagram.com/thedogist/p/DYxt7vXEfe-/",
+        "text": "Dogs at the @Mets Bark At The Park. Comment your favorite photo from the set 🐶⚾️",
+        "reason": "Question-led caption cadence",
+        "voice_pattern_id": "audience_prompt",
+        "voice_pattern_label": "Open-ended audience prompt"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DUTq0lhEaz5",
+        "post_url": "https://www.instagram.com/thedogist/p/DUTq0lhEaz5/",
+        "text": "Dogs of the 150th Westminster Kennel Club Dog Show. Can you name all these breeds?Featuring: Kite, Oscar, Ember, Quinn, Argo & Oak, Lance, Greta, Gatsby, Billy,",
+        "reason": "Question-led caption cadence",
+        "voice_pattern_id": "audience_prompt",
+        "voice_pattern_label": "Open-ended audience prompt"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DXh1oZBxUhq",
+        "post_url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+        "text": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!",
+        "reason": "Question-led caption cadence",
+        "voice_pattern_id": "audience_prompt",
+        "voice_pattern_label": "Open-ended audience prompt"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DVOqoEwEc-P",
+        "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+        "text": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+        "reason": "Question-led caption cadence",
+        "voice_pattern_id": "audience_prompt",
+        "voice_pattern_label": "Open-ended audience prompt"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DVwmbKiES8H",
+        "post_url": "https://www.instagram.com/thedogist/reel/DVwmbKiES8H/",
+        "text": "Elsa’s test kitchen went pretty much as suspected… beefy delight or nothing 🏆",
+        "reason": "Elsa/product experiment cadence",
+        "voice_pattern_id": "elsa_experiment",
+        "voice_pattern_label": "Elsa test-kitchen experiment"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DXh1oZBxUhq",
+        "post_url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+        "text": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!",
+        "reason": "Elsa/product experiment cadence",
+        "voice_pattern_id": "elsa_experiment",
+        "voice_pattern_label": "Elsa test-kitchen experiment"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DVOqoEwEc-P",
+        "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+        "text": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+        "reason": "Elsa/product experiment cadence",
+        "voice_pattern_id": "elsa_experiment",
+        "voice_pattern_label": "Elsa test-kitchen experiment"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DNUFQhjRwcF",
+        "post_url": "https://www.instagram.com/thedogist/reel/DNUFQhjRwcF/",
+        "text": "thedogistVerified Edited•44wElsa’s favorite place on earth is Upstate, NY (so far). What’s your dog’s favorite place? Where should I take Els next? Ft: @giddyup",
+        "reason": "Elsa/product experiment cadence",
+        "voice_pattern_id": "elsa_experiment",
+        "voice_pattern_label": "Elsa test-kitchen experiment"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DSfktSdkeL4",
+        "post_url": "https://www.instagram.com/thedogist/p/DSfktSdkeL4/",
+        "text": "⭐️BIRTHDAY GIVEAWAY! ⭐️It’s my birthday today and I want to celebrate with one of you!I’m extremely lucky that I get to share the joy of dogs everyday for a liv",
+        "reason": "Participation and event cadence",
+        "voice_pattern_id": "community_invitation",
+        "voice_pattern_label": "Community invitation"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DPR55gFkXmL",
+        "post_url": "https://www.instagram.com/thedogist/p/DPR55gFkXmL/",
+        "text": "I had the incredible honor of meeting one of my heroes last week, Dr. Jane Goodall, and am deeply saddened by the news of her passing today. She dedicated her l",
+        "reason": "Participation and event cadence",
+        "voice_pattern_id": "community_invitation",
+        "voice_pattern_label": "Community invitation"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DYxt7vXEfe-",
+        "post_url": "https://www.instagram.com/thedogist/p/DYxt7vXEfe-/",
+        "text": "Dogs at the @Mets Bark At The Park. Comment your favorite photo from the set 🐶⚾️",
+        "reason": "Participation and event cadence",
+        "voice_pattern_id": "community_invitation",
+        "voice_pattern_label": "Community invitation"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DOrf76ekXEy",
+        "post_url": "https://www.instagram.com/thedogist/reel/DOrf76ekXEy/",
+        "text": "Tika, Italian Greyhound (14 y/o), Spring & W Broadway, New York, NY • “We’re from Canada – we come here twice a year for New York Fashion Week. She’s always col",
+        "reason": "Participation and event cadence",
+        "voice_pattern_id": "community_invitation",
+        "voice_pattern_label": "Community invitation"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DVwmbKiES8H",
+        "post_url": "https://www.instagram.com/thedogist/reel/DVwmbKiES8H/",
+        "text": "Elsa’s test kitchen went pretty much as suspected… beefy delight or nothing 🏆",
+        "reason": "Seriously funny understatement",
+        "voice_pattern_id": "light_understatement",
+        "voice_pattern_label": "Light understatement"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DXh1oZBxUhq",
+        "post_url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+        "text": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!",
+        "reason": "Seriously funny understatement",
+        "voice_pattern_id": "light_understatement",
+        "voice_pattern_label": "Light understatement"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DVeE8GgkVNI",
+        "post_url": "https://www.instagram.com/thedogist/reel/DVeE8GgkVNI/",
+        "text": "thedogistVerified Edited•15wBetsy, Chihuahua Mix (15 y/o), 16th & Union Square East, New York, NY • “She was a little homeless girl in Indiana, I found her on @",
+        "reason": "Seriously funny understatement",
+        "voice_pattern_id": "light_understatement",
+        "voice_pattern_label": "Light understatement"
+      },
+      {
+        "source": "dogist_caption",
+        "post_id": "instagram_thedogist_DTiUEM1kWLC",
+        "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+        "text": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do",
+        "reason": "Seriously funny understatement",
+        "voice_pattern_id": "light_understatement",
+        "voice_pattern_label": "Light understatement"
+      }
+    ],
+    "evidence_policy": [
+      "Audience comments can support resonance and objections, not revenue certainty.",
+      "Dogist captions support voice and cadence, not audience demand.",
+      "Deck guardrails support brand fit, not corpus evidence.",
+      "External market context, when present, supports category comparison only."
+    ]
+  }
+}

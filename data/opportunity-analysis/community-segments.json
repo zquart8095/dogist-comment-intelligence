@@ -1,0 +1,1639 @@
+{
+  "generated_from": "author-level comment behavior, emoji use, affect/stance tags, and cluster participation",
+  "segment_count": 8,
+  "author_count": 49478,
+  "segments": [
+    {
+      "segment_id": "casual_single_commenters",
+      "author_count": 36184,
+      "comment_count": 36184,
+      "avg_comments_per_author": 1.0,
+      "avg_posts_per_author": 1.0,
+      "top_affect_tags": [
+        {
+          "value": "affection",
+          "count": 17397
+        },
+        {
+          "value": "laughter_play",
+          "count": 2646
+        },
+        {
+          "value": "care_concern",
+          "count": 2048
+        },
+        {
+          "value": "celebration",
+          "count": 1952
+        },
+        {
+          "value": "gratitude_prayer",
+          "count": 1403
+        },
+        {
+          "value": "grief_memorial",
+          "count": 1252
+        },
+        {
+          "value": "food_routine",
+          "count": 1154
+        },
+        {
+          "value": "local_sports_identity",
+          "count": 616
+        }
+      ],
+      "top_stance_tags": [
+        {
+          "value": "praise_affirmation",
+          "count": 16099
+        },
+        {
+          "value": "question",
+          "count": 3499
+        },
+        {
+          "value": "personal_testimony",
+          "count": 3420
+        },
+        {
+          "value": "objection_refusal",
+          "count": 1756
+        },
+        {
+          "value": "request_nomination",
+          "count": 864
+        },
+        {
+          "value": "advice_recommendation",
+          "count": 744
+        },
+        {
+          "value": "call_to_action",
+          "count": 684
+        },
+        {
+          "value": "concern_warning",
+          "count": 49
+        }
+      ],
+      "top_clusters": [
+        {
+          "value": "cultural_2",
+          "count": 396
+        },
+        {
+          "value": "cultural_3",
+          "count": 360
+        },
+        {
+          "value": "cultural_1",
+          "count": 344
+        },
+        {
+          "value": "cultural_0",
+          "count": 300
+        },
+        {
+          "value": "cultural_7",
+          "count": 294
+        },
+        {
+          "value": "cultural_4",
+          "count": 285
+        },
+        {
+          "value": "cultural_10",
+          "count": 270
+        },
+        {
+          "value": "cultural_5",
+          "count": 229
+        }
+      ],
+      "top_emojis": [
+        {
+          "value": "❤️",
+          "count": 12965
+        },
+        {
+          "value": "😍",
+          "count": 6830
+        },
+        {
+          "value": "😂",
+          "count": 3242
+        },
+        {
+          "value": "🐾",
+          "count": 3038
+        },
+        {
+          "value": "🥰",
+          "count": 1936
+        },
+        {
+          "value": "👏",
+          "count": 1403
+        },
+        {
+          "value": "🥹",
+          "count": 1171
+        },
+        {
+          "value": "🐶",
+          "count": 1122
+        },
+        {
+          "value": "🤣",
+          "count": 855
+        },
+        {
+          "value": "♥️",
+          "count": 741
+        }
+      ],
+      "representative_authors": [
+        {
+          "author": "marianasambado",
+          "comments": 1,
+          "unique_posts": 1,
+          "emoji_share": 1.0,
+          "short_affective_share": 0.0
+        },
+        {
+          "author": "mlaserreta",
+          "comments": 1,
+          "unique_posts": 1,
+          "emoji_share": 1.0,
+          "short_affective_share": 0.0
+        },
+        {
+          "author": "nomtheburritos",
+          "comments": 1,
+          "unique_posts": 1,
+          "emoji_share": 0.0,
+          "short_affective_share": 0.0
+        },
+        {
+          "author": "madelinewalker",
+          "comments": 1,
+          "unique_posts": 1,
+          "emoji_share": 0.0,
+          "short_affective_share": 0.0
+        },
+        {
+          "author": "pearl.next.door",
+          "comments": 1,
+          "unique_posts": 1,
+          "emoji_share": 1.0,
+          "short_affective_share": 0.0
+        },
+        {
+          "author": "da.real.beer.nerd",
+          "comments": 1,
+          "unique_posts": 1,
+          "emoji_share": 0.0,
+          "short_affective_share": 0.0
+        },
+        {
+          "author": "frootpies",
+          "comments": 1,
+          "unique_posts": 1,
+          "emoji_share": 1.0,
+          "short_affective_share": 0.0
+        },
+        {
+          "author": "tinyshmoo",
+          "comments": 1,
+          "unique_posts": 1,
+          "emoji_share": 1.0,
+          "short_affective_share": 0.0
+        }
+      ],
+      "interpretation_boundary": "Behavior segment derived from comment activity and lexical/emoji cues. Treat as audience participation mode, not identity or demographic inference."
+    },
+    {
+      "segment_id": "repeat_affective_reactors",
+      "author_count": 6461,
+      "comment_count": 26574,
+      "avg_comments_per_author": 4.11,
+      "avg_posts_per_author": 3.87,
+      "top_affect_tags": [
+        {
+          "value": "affection",
+          "count": 18895
+        },
+        {
+          "value": "laughter_play",
+          "count": 2895
+        },
+        {
+          "value": "celebration",
+          "count": 2086
+        },
+        {
+          "value": "care_concern",
+          "count": 1512
+        },
+        {
+          "value": "gratitude_prayer",
+          "count": 986
+        },
+        {
+          "value": "grief_memorial",
+          "count": 659
+        },
+        {
+          "value": "local_sports_identity",
+          "count": 501
+        },
+        {
+          "value": "food_routine",
+          "count": 444
+        }
+      ],
+      "top_stance_tags": [
+        {
+          "value": "praise_affirmation",
+          "count": 16822
+        },
+        {
+          "value": "question",
+          "count": 2290
+        },
+        {
+          "value": "personal_testimony",
+          "count": 1407
+        },
+        {
+          "value": "objection_refusal",
+          "count": 821
+        },
+        {
+          "value": "call_to_action",
+          "count": 373
+        },
+        {
+          "value": "advice_recommendation",
+          "count": 274
+        },
+        {
+          "value": "request_nomination",
+          "count": 241
+        },
+        {
+          "value": "concern_warning",
+          "count": 16
+        }
+      ],
+      "top_clusters": [
+        {
+          "value": "cultural_50",
+          "count": 110
+        },
+        {
+          "value": "cultural_1",
+          "count": 109
+        },
+        {
+          "value": "cultural_0",
+          "count": 106
+        },
+        {
+          "value": "cultural_6",
+          "count": 91
+        },
+        {
+          "value": "cultural_17",
+          "count": 86
+        },
+        {
+          "value": "cultural_14",
+          "count": 83
+        },
+        {
+          "value": "cultural_8",
+          "count": 83
+        },
+        {
+          "value": "cultural_42",
+          "count": 80
+        }
+      ],
+      "top_emojis": [
+        {
+          "value": "❤️",
+          "count": 20458
+        },
+        {
+          "value": "😍",
+          "count": 9613
+        },
+        {
+          "value": "🐾",
+          "count": 4446
+        },
+        {
+          "value": "😂",
+          "count": 4079
+        },
+        {
+          "value": "🥰",
+          "count": 2517
+        },
+        {
+          "value": "👏",
+          "count": 2002
+        },
+        {
+          "value": "🐶",
+          "count": 1287
+        },
+        {
+          "value": "🥹",
+          "count": 1052
+        },
+        {
+          "value": "🤍",
+          "count": 871
+        },
+        {
+          "value": "🙌",
+          "count": 788
+        }
+      ],
+      "representative_authors": [
+        {
+          "author": "demc81",
+          "comments": 49,
+          "unique_posts": 49,
+          "emoji_share": 0.9796,
+          "short_affective_share": 0.9796
+        },
+        {
+          "author": "_callhercocoplz_",
+          "comments": 48,
+          "unique_posts": 46,
+          "emoji_share": 0.9583,
+          "short_affective_share": 0.625
+        },
+        {
+          "author": "amys_doglife",
+          "comments": 46,
+          "unique_posts": 46,
+          "emoji_share": 0.9783,
+          "short_affective_share": 0.9783
+        },
+        {
+          "author": "tehillasalomon",
+          "comments": 45,
+          "unique_posts": 45,
+          "emoji_share": 0.9111,
+          "short_affective_share": 0.4889
+        },
+        {
+          "author": "sugar_kwt",
+          "comments": 44,
+          "unique_posts": 44,
+          "emoji_share": 1.0,
+          "short_affective_share": 1.0
+        },
+        {
+          "author": "claudia.547",
+          "comments": 44,
+          "unique_posts": 36,
+          "emoji_share": 1.0,
+          "short_affective_share": 0.4318
+        },
+        {
+          "author": "krae8711",
+          "comments": 43,
+          "unique_posts": 42,
+          "emoji_share": 1.0,
+          "short_affective_share": 0.5814
+        },
+        {
+          "author": "mayrobysgriss",
+          "comments": 41,
+          "unique_posts": 40,
+          "emoji_share": 1.0,
+          "short_affective_share": 1.0
+        }
+      ],
+      "interpretation_boundary": "Behavior segment derived from comment activity and lexical/emoji cues. Treat as audience participation mode, not identity or demographic inference."
+    },
+    {
+      "segment_id": "repeat_general_commenters",
+      "author_count": 6060,
+      "comment_count": 20313,
+      "avg_comments_per_author": 3.35,
+      "avg_posts_per_author": 3.0,
+      "top_affect_tags": [
+        {
+          "value": "affection",
+          "count": 6961
+        },
+        {
+          "value": "laughter_play",
+          "count": 1236
+        },
+        {
+          "value": "care_concern",
+          "count": 676
+        },
+        {
+          "value": "gratitude_prayer",
+          "count": 671
+        },
+        {
+          "value": "food_routine",
+          "count": 593
+        },
+        {
+          "value": "celebration",
+          "count": 572
+        },
+        {
+          "value": "grief_memorial",
+          "count": 351
+        },
+        {
+          "value": "local_sports_identity",
+          "count": 237
+        }
+      ],
+      "top_stance_tags": [
+        {
+          "value": "praise_affirmation",
+          "count": 6254
+        },
+        {
+          "value": "question",
+          "count": 2727
+        },
+        {
+          "value": "personal_testimony",
+          "count": 1729
+        },
+        {
+          "value": "objection_refusal",
+          "count": 1275
+        },
+        {
+          "value": "advice_recommendation",
+          "count": 488
+        },
+        {
+          "value": "request_nomination",
+          "count": 336
+        },
+        {
+          "value": "call_to_action",
+          "count": 244
+        },
+        {
+          "value": "concern_warning",
+          "count": 38
+        }
+      ],
+      "top_clusters": [
+        {
+          "value": "cultural_0",
+          "count": 158
+        },
+        {
+          "value": "cultural_5",
+          "count": 157
+        },
+        {
+          "value": "cultural_8",
+          "count": 152
+        },
+        {
+          "value": "cultural_35",
+          "count": 145
+        },
+        {
+          "value": "cultural_9",
+          "count": 143
+        },
+        {
+          "value": "cultural_1",
+          "count": 141
+        },
+        {
+          "value": "cultural_3",
+          "count": 140
+        },
+        {
+          "value": "cultural_6",
+          "count": 138
+        }
+      ],
+      "top_emojis": [
+        {
+          "value": "❤️",
+          "count": 2746
+        },
+        {
+          "value": "😍",
+          "count": 1386
+        },
+        {
+          "value": "😂",
+          "count": 1108
+        },
+        {
+          "value": "🐾",
+          "count": 641
+        },
+        {
+          "value": "🥰",
+          "count": 372
+        },
+        {
+          "value": "👏",
+          "count": 359
+        },
+        {
+          "value": "🥹",
+          "count": 256
+        },
+        {
+          "value": "🤣",
+          "count": 195
+        },
+        {
+          "value": "🐶",
+          "count": 170
+        },
+        {
+          "value": "😭",
+          "count": 169
+        }
+      ],
+      "representative_authors": [
+        {
+          "author": "dvorce",
+          "comments": 45,
+          "unique_posts": 45,
+          "emoji_share": 0.5333,
+          "short_affective_share": 0.2444
+        },
+        {
+          "author": "worleygigdotcom",
+          "comments": 44,
+          "unique_posts": 44,
+          "emoji_share": 0.0909,
+          "short_affective_share": 0.0682
+        },
+        {
+          "author": "lynn.davies.92",
+          "comments": 41,
+          "unique_posts": 41,
+          "emoji_share": 0.6098,
+          "short_affective_share": 0.3171
+        },
+        {
+          "author": "heidibrennan",
+          "comments": 41,
+          "unique_posts": 37,
+          "emoji_share": 0.6098,
+          "short_affective_share": 0.2927
+        },
+        {
+          "author": "karenamdur",
+          "comments": 40,
+          "unique_posts": 40,
+          "emoji_share": 0.025,
+          "short_affective_share": 0.0
+        },
+        {
+          "author": "rrc4671",
+          "comments": 35,
+          "unique_posts": 35,
+          "emoji_share": 0.3429,
+          "short_affective_share": 0.1714
+        },
+        {
+          "author": "coutantmelissa",
+          "comments": 35,
+          "unique_posts": 32,
+          "emoji_share": 0.1143,
+          "short_affective_share": 0.0571
+        },
+        {
+          "author": "angelarkim",
+          "comments": 33,
+          "unique_posts": 33,
+          "emoji_share": 0.0,
+          "short_affective_share": 0.2727
+        }
+      ],
+      "interpretation_boundary": "Behavior segment derived from comment activity and lexical/emoji cues. Treat as audience participation mode, not identity or demographic inference."
+    },
+    {
+      "segment_id": "highly_engaged_regulars",
+      "author_count": 70,
+      "comment_count": 6569,
+      "avg_comments_per_author": 93.84,
+      "avg_posts_per_author": 85.83,
+      "top_affect_tags": [
+        {
+          "value": "affection",
+          "count": 4550
+        },
+        {
+          "value": "celebration",
+          "count": 780
+        },
+        {
+          "value": "laughter_play",
+          "count": 626
+        },
+        {
+          "value": "care_concern",
+          "count": 311
+        },
+        {
+          "value": "gratitude_prayer",
+          "count": 278
+        },
+        {
+          "value": "grief_memorial",
+          "count": 176
+        },
+        {
+          "value": "food_routine",
+          "count": 85
+        },
+        {
+          "value": "local_sports_identity",
+          "count": 82
+        }
+      ],
+      "top_stance_tags": [
+        {
+          "value": "praise_affirmation",
+          "count": 4072
+        },
+        {
+          "value": "question",
+          "count": 557
+        },
+        {
+          "value": "objection_refusal",
+          "count": 207
+        },
+        {
+          "value": "personal_testimony",
+          "count": 181
+        },
+        {
+          "value": "call_to_action",
+          "count": 129
+        },
+        {
+          "value": "advice_recommendation",
+          "count": 55
+        },
+        {
+          "value": "request_nomination",
+          "count": 48
+        },
+        {
+          "value": "concern_warning",
+          "count": 8
+        }
+      ],
+      "top_clusters": [
+        {
+          "value": "cultural_28",
+          "count": 29
+        },
+        {
+          "value": "cultural_1",
+          "count": 26
+        },
+        {
+          "value": "cultural_74",
+          "count": 23
+        },
+        {
+          "value": "cultural_32",
+          "count": 22
+        },
+        {
+          "value": "cultural_12",
+          "count": 20
+        },
+        {
+          "value": "cultural_98",
+          "count": 20
+        },
+        {
+          "value": "cultural_31",
+          "count": 20
+        },
+        {
+          "value": "cultural_132",
+          "count": 20
+        }
+      ],
+      "top_emojis": [
+        {
+          "value": "❤️",
+          "count": 6294
+        },
+        {
+          "value": "😍",
+          "count": 2797
+        },
+        {
+          "value": "🐾",
+          "count": 1326
+        },
+        {
+          "value": "👏",
+          "count": 1271
+        },
+        {
+          "value": "😂",
+          "count": 966
+        },
+        {
+          "value": "🐶",
+          "count": 406
+        },
+        {
+          "value": "🥰",
+          "count": 359
+        },
+        {
+          "value": "💕",
+          "count": 218
+        },
+        {
+          "value": "💖",
+          "count": 177
+        },
+        {
+          "value": "🙌",
+          "count": 169
+        }
+      ],
+      "representative_authors": [
+        {
+          "author": "dogssaythedarnestthings",
+          "comments": 243,
+          "unique_posts": 205,
+          "emoji_share": 0.9259,
+          "short_affective_share": 0.3416
+        },
+        {
+          "author": "belletolles",
+          "comments": 235,
+          "unique_posts": 143,
+          "emoji_share": 0.6681,
+          "short_affective_share": 0.2383
+        },
+        {
+          "author": "elyozylev",
+          "comments": 225,
+          "unique_posts": 225,
+          "emoji_share": 1.0,
+          "short_affective_share": 1.0
+        },
+        {
+          "author": "jennyplot2728",
+          "comments": 193,
+          "unique_posts": 188,
+          "emoji_share": 0.2642,
+          "short_affective_share": 0.114
+        },
+        {
+          "author": "dagrummy",
+          "comments": 179,
+          "unique_posts": 176,
+          "emoji_share": 0.9888,
+          "short_affective_share": 0.9665
+        },
+        {
+          "author": "mel_vigneron_angel_guccipug",
+          "comments": 168,
+          "unique_posts": 163,
+          "emoji_share": 0.994,
+          "short_affective_share": 0.8452
+        },
+        {
+          "author": "jlpsangregorio",
+          "comments": 160,
+          "unique_posts": 158,
+          "emoji_share": 1.0,
+          "short_affective_share": 0.6562
+        },
+        {
+          "author": "yocarop",
+          "comments": 160,
+          "unique_posts": 155,
+          "emoji_share": 0.9875,
+          "short_affective_share": 0.7562
+        }
+      ],
+      "interpretation_boundary": "Behavior segment derived from comment activity and lexical/emoji cues. Treat as audience participation mode, not identity or demographic inference."
+    },
+    {
+      "segment_id": "supportive_grief_and_prayer_commenters",
+      "author_count": 242,
+      "comment_count": 2886,
+      "avg_comments_per_author": 11.93,
+      "avg_posts_per_author": 9.71,
+      "top_affect_tags": [
+        {
+          "value": "affection",
+          "count": 1761
+        },
+        {
+          "value": "gratitude_prayer",
+          "count": 437
+        },
+        {
+          "value": "grief_memorial",
+          "count": 413
+        },
+        {
+          "value": "care_concern",
+          "count": 310
+        },
+        {
+          "value": "laughter_play",
+          "count": 233
+        },
+        {
+          "value": "celebration",
+          "count": 134
+        },
+        {
+          "value": "local_sports_identity",
+          "count": 44
+        },
+        {
+          "value": "food_routine",
+          "count": 35
+        }
+      ],
+      "top_stance_tags": [
+        {
+          "value": "praise_affirmation",
+          "count": 1522
+        },
+        {
+          "value": "question",
+          "count": 307
+        },
+        {
+          "value": "personal_testimony",
+          "count": 178
+        },
+        {
+          "value": "objection_refusal",
+          "count": 130
+        },
+        {
+          "value": "call_to_action",
+          "count": 42
+        },
+        {
+          "value": "request_nomination",
+          "count": 33
+        },
+        {
+          "value": "advice_recommendation",
+          "count": 23
+        },
+        {
+          "value": "concern_warning",
+          "count": 6
+        }
+      ],
+      "top_clusters": [
+        {
+          "value": "cultural_88",
+          "count": 27
+        },
+        {
+          "value": "cultural_2",
+          "count": 27
+        },
+        {
+          "value": "cultural_26",
+          "count": 25
+        },
+        {
+          "value": "cultural_27",
+          "count": 20
+        },
+        {
+          "value": "cultural_158",
+          "count": 19
+        },
+        {
+          "value": "cultural_83",
+          "count": 19
+        },
+        {
+          "value": "cultural_39",
+          "count": 17
+        },
+        {
+          "value": "cultural_150",
+          "count": 16
+        }
+      ],
+      "top_emojis": [
+        {
+          "value": "❤️",
+          "count": 1388
+        },
+        {
+          "value": "😍",
+          "count": 915
+        },
+        {
+          "value": "🐾",
+          "count": 401
+        },
+        {
+          "value": "😂",
+          "count": 319
+        },
+        {
+          "value": "😭",
+          "count": 269
+        },
+        {
+          "value": "🥰",
+          "count": 204
+        },
+        {
+          "value": "😢",
+          "count": 183
+        },
+        {
+          "value": "🥹",
+          "count": 153
+        },
+        {
+          "value": "👏",
+          "count": 101
+        },
+        {
+          "value": "🐶",
+          "count": 69
+        }
+      ],
+      "representative_authors": [
+        {
+          "author": "helsbelsmc",
+          "comments": 49,
+          "unique_posts": 47,
+          "emoji_share": 1.0,
+          "short_affective_share": 0.3265
+        },
+        {
+          "author": "gloisonthegram",
+          "comments": 48,
+          "unique_posts": 48,
+          "emoji_share": 0.0208,
+          "short_affective_share": 0.0
+        },
+        {
+          "author": "mllerena16",
+          "comments": 46,
+          "unique_posts": 45,
+          "emoji_share": 0.9783,
+          "short_affective_share": 0.8478
+        },
+        {
+          "author": "iraidarodriguez.14",
+          "comments": 44,
+          "unique_posts": 43,
+          "emoji_share": 1.0,
+          "short_affective_share": 1.0
+        },
+        {
+          "author": "cranky59",
+          "comments": 43,
+          "unique_posts": 41,
+          "emoji_share": 0.9535,
+          "short_affective_share": 0.5116
+        },
+        {
+          "author": "azkat1230",
+          "comments": 42,
+          "unique_posts": 42,
+          "emoji_share": 0.9048,
+          "short_affective_share": 0.381
+        },
+        {
+          "author": "sashaturk",
+          "comments": 42,
+          "unique_posts": 40,
+          "emoji_share": 0.4048,
+          "short_affective_share": 0.2381
+        },
+        {
+          "author": "lccoop20",
+          "comments": 41,
+          "unique_posts": 39,
+          "emoji_share": 0.878,
+          "short_affective_share": 0.1951
+        }
+      ],
+      "interpretation_boundary": "Behavior segment derived from comment activity and lexical/emoji cues. Treat as audience participation mode, not identity or demographic inference."
+    },
+    {
+      "segment_id": "food_and_care_advice_givers",
+      "author_count": 259,
+      "comment_count": 2475,
+      "avg_comments_per_author": 9.56,
+      "avg_posts_per_author": 8.27,
+      "top_affect_tags": [
+        {
+          "value": "affection",
+          "count": 1093
+        },
+        {
+          "value": "food_routine",
+          "count": 614
+        },
+        {
+          "value": "laughter_play",
+          "count": 313
+        },
+        {
+          "value": "care_concern",
+          "count": 162
+        },
+        {
+          "value": "celebration",
+          "count": 113
+        },
+        {
+          "value": "gratitude_prayer",
+          "count": 96
+        },
+        {
+          "value": "grief_memorial",
+          "count": 76
+        },
+        {
+          "value": "local_sports_identity",
+          "count": 44
+        }
+      ],
+      "top_stance_tags": [
+        {
+          "value": "praise_affirmation",
+          "count": 963
+        },
+        {
+          "value": "personal_testimony",
+          "count": 349
+        },
+        {
+          "value": "question",
+          "count": 345
+        },
+        {
+          "value": "objection_refusal",
+          "count": 290
+        },
+        {
+          "value": "advice_recommendation",
+          "count": 250
+        },
+        {
+          "value": "call_to_action",
+          "count": 61
+        },
+        {
+          "value": "request_nomination",
+          "count": 51
+        },
+        {
+          "value": "concern_warning",
+          "count": 7
+        }
+      ],
+      "top_clusters": [
+        {
+          "value": "cultural_0",
+          "count": 94
+        },
+        {
+          "value": "cultural_37",
+          "count": 78
+        },
+        {
+          "value": "cultural_15",
+          "count": 57
+        },
+        {
+          "value": "cultural_11",
+          "count": 51
+        },
+        {
+          "value": "cultural_131",
+          "count": 26
+        },
+        {
+          "value": "cultural_151",
+          "count": 23
+        },
+        {
+          "value": "cultural_182",
+          "count": 23
+        },
+        {
+          "value": "cultural_35",
+          "count": 23
+        }
+      ],
+      "top_emojis": [
+        {
+          "value": "❤️",
+          "count": 547
+        },
+        {
+          "value": "😍",
+          "count": 394
+        },
+        {
+          "value": "😂",
+          "count": 371
+        },
+        {
+          "value": "🐾",
+          "count": 228
+        },
+        {
+          "value": "♥️",
+          "count": 137
+        },
+        {
+          "value": "🥰",
+          "count": 132
+        },
+        {
+          "value": "🐶",
+          "count": 92
+        },
+        {
+          "value": "🧡",
+          "count": 73
+        },
+        {
+          "value": "👏",
+          "count": 71
+        },
+        {
+          "value": "🤣",
+          "count": 61
+        }
+      ],
+      "representative_authors": [
+        {
+          "author": "moosepup98",
+          "comments": 47,
+          "unique_posts": 47,
+          "emoji_share": 0.8936,
+          "short_affective_share": 0.1489
+        },
+        {
+          "author": "hgswagitout",
+          "comments": 46,
+          "unique_posts": 41,
+          "emoji_share": 0.7609,
+          "short_affective_share": 0.2609
+        },
+        {
+          "author": "danielleforever22",
+          "comments": 45,
+          "unique_posts": 32,
+          "emoji_share": 0.5556,
+          "short_affective_share": 0.0222
+        },
+        {
+          "author": "judgeskylerpresiding",
+          "comments": 44,
+          "unique_posts": 42,
+          "emoji_share": 0.8409,
+          "short_affective_share": 0.3182
+        },
+        {
+          "author": "missaimee11",
+          "comments": 44,
+          "unique_posts": 39,
+          "emoji_share": 0.8864,
+          "short_affective_share": 0.1818
+        },
+        {
+          "author": "superpom14",
+          "comments": 44,
+          "unique_posts": 39,
+          "emoji_share": 0.1136,
+          "short_affective_share": 0.0455
+        },
+        {
+          "author": "delilah_andthecity",
+          "comments": 43,
+          "unique_posts": 40,
+          "emoji_share": 0.9767,
+          "short_affective_share": 0.8837
+        },
+        {
+          "author": "eye_4_beauty",
+          "comments": 41,
+          "unique_posts": 36,
+          "emoji_share": 0.9024,
+          "short_affective_share": 0.2927
+        }
+      ],
+      "interpretation_boundary": "Behavior segment derived from comment activity and lexical/emoji cues. Treat as audience participation mode, not identity or demographic inference."
+    },
+    {
+      "segment_id": "rescue_and_action_advocates",
+      "author_count": 201,
+      "comment_count": 1861,
+      "avg_comments_per_author": 9.26,
+      "avg_posts_per_author": 7.76,
+      "top_affect_tags": [
+        {
+          "value": "affection",
+          "count": 1115
+        },
+        {
+          "value": "care_concern",
+          "count": 332
+        },
+        {
+          "value": "gratitude_prayer",
+          "count": 320
+        },
+        {
+          "value": "celebration",
+          "count": 169
+        },
+        {
+          "value": "laughter_play",
+          "count": 120
+        },
+        {
+          "value": "grief_memorial",
+          "count": 89
+        },
+        {
+          "value": "local_sports_identity",
+          "count": 40
+        },
+        {
+          "value": "food_routine",
+          "count": 17
+        }
+      ],
+      "top_stance_tags": [
+        {
+          "value": "praise_affirmation",
+          "count": 1003
+        },
+        {
+          "value": "call_to_action",
+          "count": 349
+        },
+        {
+          "value": "question",
+          "count": 235
+        },
+        {
+          "value": "request_nomination",
+          "count": 207
+        },
+        {
+          "value": "personal_testimony",
+          "count": 142
+        },
+        {
+          "value": "objection_refusal",
+          "count": 123
+        },
+        {
+          "value": "advice_recommendation",
+          "count": 38
+        },
+        {
+          "value": "concern_warning",
+          "count": 4
+        }
+      ],
+      "top_clusters": [
+        {
+          "value": "cultural_32",
+          "count": 32
+        },
+        {
+          "value": "cultural_12",
+          "count": 32
+        },
+        {
+          "value": "cultural_93",
+          "count": 23
+        },
+        {
+          "value": "cultural_24",
+          "count": 21
+        },
+        {
+          "value": "cultural_2",
+          "count": 20
+        },
+        {
+          "value": "cultural_14",
+          "count": 15
+        },
+        {
+          "value": "cultural_197",
+          "count": 14
+        },
+        {
+          "value": "cultural_147",
+          "count": 12
+        }
+      ],
+      "top_emojis": [
+        {
+          "value": "❤️",
+          "count": 1267
+        },
+        {
+          "value": "🙏",
+          "count": 588
+        },
+        {
+          "value": "😍",
+          "count": 389
+        },
+        {
+          "value": "🐾",
+          "count": 323
+        },
+        {
+          "value": "👏",
+          "count": 225
+        },
+        {
+          "value": "🥰",
+          "count": 177
+        },
+        {
+          "value": "😂",
+          "count": 151
+        },
+        {
+          "value": "🥹",
+          "count": 122
+        },
+        {
+          "value": "🤍",
+          "count": 75
+        },
+        {
+          "value": "♥️",
+          "count": 63
+        }
+      ],
+      "representative_authors": [
+        {
+          "author": "avgi_zest",
+          "comments": 46,
+          "unique_posts": 40,
+          "emoji_share": 1.0,
+          "short_affective_share": 0.7391
+        },
+        {
+          "author": "patriciafmei",
+          "comments": 45,
+          "unique_posts": 42,
+          "emoji_share": 0.4222,
+          "short_affective_share": 0.1556
+        },
+        {
+          "author": "sheree_jean_",
+          "comments": 44,
+          "unique_posts": 40,
+          "emoji_share": 0.7045,
+          "short_affective_share": 0.4091
+        },
+        {
+          "author": "andrea.lesley.adams",
+          "comments": 34,
+          "unique_posts": 25,
+          "emoji_share": 0.4706,
+          "short_affective_share": 0.1176
+        },
+        {
+          "author": "animalrescueconsortium",
+          "comments": 34,
+          "unique_posts": 23,
+          "emoji_share": 0.8235,
+          "short_affective_share": 0.7059
+        },
+        {
+          "author": "refy5755",
+          "comments": 33,
+          "unique_posts": 33,
+          "emoji_share": 1.0,
+          "short_affective_share": 0.4848
+        },
+        {
+          "author": "jazzcat66",
+          "comments": 33,
+          "unique_posts": 33,
+          "emoji_share": 0.7576,
+          "short_affective_share": 0.7273
+        },
+        {
+          "author": "jamiedsongs",
+          "comments": 33,
+          "unique_posts": 31,
+          "emoji_share": 0.3333,
+          "short_affective_share": 0.303
+        }
+      ],
+      "interpretation_boundary": "Behavior segment derived from comment activity and lexical/emoji cues. Treat as audience participation mode, not identity or demographic inference."
+    },
+    {
+      "segment_id": "creator_account",
+      "author_count": 1,
+      "comment_count": 717,
+      "avg_comments_per_author": 717.0,
+      "avg_posts_per_author": 174.0,
+      "top_affect_tags": [
+        {
+          "value": "laughter_play",
+          "count": 115
+        },
+        {
+          "value": "affection",
+          "count": 87
+        },
+        {
+          "value": "gratitude_prayer",
+          "count": 40
+        },
+        {
+          "value": "celebration",
+          "count": 40
+        },
+        {
+          "value": "food_routine",
+          "count": 17
+        },
+        {
+          "value": "care_concern",
+          "count": 15
+        },
+        {
+          "value": "local_sports_identity",
+          "count": 7
+        },
+        {
+          "value": "grief_memorial",
+          "count": 3
+        }
+      ],
+      "top_stance_tags": [
+        {
+          "value": "praise_affirmation",
+          "count": 92
+        },
+        {
+          "value": "question",
+          "count": 57
+        },
+        {
+          "value": "objection_refusal",
+          "count": 39
+        },
+        {
+          "value": "personal_testimony",
+          "count": 22
+        },
+        {
+          "value": "call_to_action",
+          "count": 19
+        },
+        {
+          "value": "advice_recommendation",
+          "count": 17
+        },
+        {
+          "value": "request_nomination",
+          "count": 5
+        }
+      ],
+      "top_clusters": [
+        {
+          "value": "cultural_153",
+          "count": 23
+        },
+        {
+          "value": "cultural_108",
+          "count": 23
+        },
+        {
+          "value": "cultural_5",
+          "count": 14
+        },
+        {
+          "value": "cultural_38",
+          "count": 12
+        },
+        {
+          "value": "cultural_77",
+          "count": 10
+        },
+        {
+          "value": "cultural_147",
+          "count": 10
+        },
+        {
+          "value": "cultural_11",
+          "count": 10
+        },
+        {
+          "value": "cultural_151",
+          "count": 10
+        }
+      ],
+      "top_emojis": [
+        {
+          "value": "😅",
+          "count": 85
+        },
+        {
+          "value": "❤️",
+          "count": 44
+        },
+        {
+          "value": "😂",
+          "count": 32
+        },
+        {
+          "value": "🙌",
+          "count": 21
+        },
+        {
+          "value": "🤔",
+          "count": 12
+        },
+        {
+          "value": "😄",
+          "count": 10
+        },
+        {
+          "value": "👍",
+          "count": 10
+        },
+        {
+          "value": "😍",
+          "count": 10
+        },
+        {
+          "value": "😊",
+          "count": 9
+        },
+        {
+          "value": "🤩",
+          "count": 8
+        }
+      ],
+      "representative_authors": [
+        {
+          "author": "thedogist",
+          "comments": 717,
+          "unique_posts": 174,
+          "emoji_share": 0.53,
+          "short_affective_share": 0.2259
+        }
+      ],
+      "interpretation_boundary": "Behavior segment derived from comment activity and lexical/emoji cues. Treat as audience participation mode, not identity or demographic inference."
+    }
+  ],
+  "guardrails": [
+    "Segments are participation modes, not demographic identities.",
+    "Casual commenters should not be drowned out by prolific commenters.",
+    "Use segment mix to qualify cluster confidence before asking Claude for interpretation."
+  ]
+}

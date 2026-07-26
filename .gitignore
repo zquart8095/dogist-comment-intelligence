@@ -1,0 +1,53 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+.env*.local
+
+# local scraper artifacts + downloaded models
+/local-data/
+
+# Oversized regenerable pipeline intermediate — exceeds GitHub's 100MB file limit.
+# Rebuilt by `npm run dogist:discover`; the site never reads it directly.
+data/dogist/**/opportunity-analysis/cultural-comment-features.jsonl
+
+# Resumable checkpoints for dogist-pain-point-angles.mjs — deleted on a clean run.
+data/dogist/**/opportunity-analysis/.pain-point-*-checkpoint.json

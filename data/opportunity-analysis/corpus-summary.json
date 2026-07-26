@@ -1,0 +1,268 @@
+{
+  "generated_at": "2026-06-25T00:42:43.141Z",
+  "source": "blackhole-instagram-extension",
+  "creator_handle": "thedogist",
+  "posts_analyzed": 370,
+  "comments_analyzed": 97579,
+  "unique_commenters": 49478,
+  "high_signal_comments": 15557,
+  "generic_short_comments": 17340,
+  "social_signal_summary": {
+    "emoji_comments": 61002,
+    "emoji_only_comments": 14504,
+    "text_and_emoji_comments": 46498,
+    "repeated_emoji_comments": 19255,
+    "comments_with_mentions": 13085,
+    "comments_with_hashtags": 477,
+    "comments_with_non_latin_script": 99,
+    "normalized_empty_comments": 16818,
+    "top_emojis": [
+      {
+        "emoji": "❤️",
+        "count": 45709
+      },
+      {
+        "emoji": "😍",
+        "count": 22334
+      },
+      {
+        "emoji": "🐾",
+        "count": 10404
+      },
+      {
+        "emoji": "😂",
+        "count": 10268
+      },
+      {
+        "emoji": "🥰",
+        "count": 5703
+      },
+      {
+        "emoji": "👏",
+        "count": 5439
+      },
+      {
+        "emoji": "🐶",
+        "count": 3202
+      },
+      {
+        "emoji": "🥹",
+        "count": 2894
+      },
+      {
+        "emoji": "♥️",
+        "count": 1913
+      },
+      {
+        "emoji": "🤍",
+        "count": 1795
+      },
+      {
+        "emoji": "🤣",
+        "count": 1787
+      },
+      {
+        "emoji": "🙌",
+        "count": 1786
+      },
+      {
+        "emoji": "💕",
+        "count": 1784
+      },
+      {
+        "emoji": "🙏",
+        "count": 1523
+      },
+      {
+        "emoji": "😭",
+        "count": 1514
+      },
+      {
+        "emoji": "🔥",
+        "count": 1392
+      },
+      {
+        "emoji": "🩷",
+        "count": 1119
+      },
+      {
+        "emoji": "😢",
+        "count": 1115
+      },
+      {
+        "emoji": "💙",
+        "count": 985
+      },
+      {
+        "emoji": "💜",
+        "count": 829
+      }
+    ],
+    "top_hashtags": [
+      {
+        "hashtag": "#1",
+        "count": 34
+      },
+      {
+        "hashtag": "#adoptdontshop",
+        "count": 32
+      },
+      {
+        "hashtag": "#2",
+        "count": 18
+      },
+      {
+        "hashtag": "#4",
+        "count": 16
+      },
+      {
+        "hashtag": "#5",
+        "count": 16
+      },
+      {
+        "hashtag": "#8",
+        "count": 16
+      },
+      {
+        "hashtag": "#stronglikesamantha",
+        "count": 11
+      },
+      {
+        "hashtag": "#19",
+        "count": 11
+      },
+      {
+        "hashtag": "#6",
+        "count": 10
+      },
+      {
+        "hashtag": "#3",
+        "count": 10
+      },
+      {
+        "hashtag": "#justicefororelha",
+        "count": 8
+      },
+      {
+        "hashtag": "#7",
+        "count": 6
+      },
+      {
+        "hashtag": "#hermosos",
+        "count": 6
+      },
+      {
+        "hashtag": "#13",
+        "count": 6
+      },
+      {
+        "hashtag": "#hermoso",
+        "count": 5
+      },
+      {
+        "hashtag": "#14",
+        "count": 5
+      },
+      {
+        "hashtag": "#justiceforjameson",
+        "count": 5
+      },
+      {
+        "hashtag": "#thedogist",
+        "count": 4
+      },
+      {
+        "hashtag": "#dogist",
+        "count": 4
+      },
+      {
+        "hashtag": "#justi",
+        "count": 4
+      }
+    ],
+    "top_mentions": [
+      {
+        "mention": "@thedogist",
+        "count": 1228
+      },
+      {
+        "mention": "@helpaws",
+        "count": 90
+      },
+      {
+        "mention": "@animalrescueconsortium",
+        "count": 74
+      },
+      {
+        "mention": "@booniebabies",
+        "count": 63
+      },
+      {
+        "mention": "@dorythedoodlicious",
+        "count": 61
+      },
+      {
+        "mention": "@pitbullsandaddicts",
+        "count": 56
+      },
+      {
+        "mention": "@yunabugs",
+        "count": 51
+      },
+      {
+        "mention": "@nycscr",
+        "count": 48
+      },
+      {
+        "mention": "@maisieschnauz",
+        "count": 45
+      },
+      {
+        "mention": "@mercyfullproject",
+        "count": 43
+      },
+      {
+        "mention": "@paws_and_unwind_",
+        "count": 40
+      },
+      {
+        "mention": "@pawsitivesanctuary",
+        "count": 40
+      },
+      {
+        "mention": "@dogssaythedarnestthings",
+        "count": 35
+      },
+      {
+        "mention": "@koreank9rescue",
+        "count": 34
+      },
+      {
+        "mention": "@saipanhumanesociety",
+        "count": 34
+      },
+      {
+        "mention": "@tikatheiggy",
+        "count": 33
+      },
+      {
+        "mention": "@seespotrescued",
+        "count": 30
+      },
+      {
+        "mention": "@thesatoproject",
+        "count": 26
+      },
+      {
+        "mention": "@thecedlife",
+        "count": 26
+      },
+      {
+        "mention": "@paws_and_affection",
+        "count": 26
+      }
+    ]
+  },
+  "total_comment_likes": 164021,
+  "median_comment_likes": 0
+}

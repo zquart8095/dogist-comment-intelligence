@@ -1,0 +1,19 @@
+# Build artifacts / local-only dirs — never needed in a deployment.
+node_modules/
+.next/
+.vercel/
+local-data/
+.claude/
+
+# Raw/generated corpus artifacts not needed by the deployed static report or chat API.
+# (The deployed surfaces only read data/dogist/**/opportunity-analysis/*.json.)
+data/dogist/**/processed/
+data/dogist/**/raw-export/
+data/dogist/**/opportunity-analysis/cultural-comment-features.jsonl
+
+# Local QA artifacts and design-concept sources (not needed by the deployed app).
+# NOTE: do NOT use a blanket `*.png` here — it would exclude shipped brand assets like
+# public/dogist-mark.png and app/icon.png (which broke the deployed logo).
+product-images/
+playwright-report/
+test-results/

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Blackhole Collector",
+  "version": "1.0.0",
+  "description": "Operator-run Instagram post and comment collector.",
+  "permissions": ["tabs", "storage", "downloads", "unlimitedStorage", "scripting"],
+  "host_permissions": ["https://www.instagram.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["content/instagram.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

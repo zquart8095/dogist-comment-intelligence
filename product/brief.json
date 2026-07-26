@@ -1,0 +1,147 @@
+{
+  "sku": "Vitality Chew",
+  "slug": "vitality-chew",
+  "active_question": "How should we talk about the Vitality Chew?",
+  "launch_timing": "Fall 2026",
+  "positioning": [
+    "Flagship product launching The Dogist wellness line",
+    "Premium, science-backed daily antioxidant chew",
+    "Designed for daily use with subscription at the core"
+  ],
+  "ingredients": [
+    {
+      "name": "Blueberry",
+      "role": "antioxidant"
+    },
+    {
+      "name": "Pomegranate",
+      "role": "antioxidant"
+    },
+    {
+      "name": "Mixed tocopherols",
+      "role": "vitamin E antioxidant support"
+    },
+    {
+      "name": "Salmon flavor",
+      "role": "palatability cue from product concept"
+    }
+  ],
+  "claims_to_test": [
+    {
+      "id": "healthy_aging",
+      "label": "Healthy aging",
+      "keywords": ["senior", "aging", "older", "quality time", "more good years"]
+    },
+    {
+      "id": "brain_health",
+      "label": "Brain health",
+      "keywords": ["brain", "cognitive", "alert", "sharp", "aware"]
+    },
+    {
+      "id": "joint_support",
+      "label": "Joint support",
+      "keywords": ["joint", "mobility", "walk", "stairs", "arthritis"]
+    },
+    {
+      "id": "daily_vitality",
+      "label": "Daily vitality",
+      "keywords": ["daily", "routine", "every day", "energy", "vitality"]
+    },
+    {
+      "id": "ingredient_transparency",
+      "label": "Ingredient transparency",
+      "keywords": ["ingredient", "transparent", "no filler", "preservative", "dye"]
+    },
+    {
+      "id": "palatability",
+      "label": "Dogs will actually eat it",
+      "keywords": ["picky", "taste", "eat", "blueberries", "treat"]
+    }
+  ],
+  "audience_jobs": [
+    "Help me give my dog more good years without feeling like I am falling for pet-wellness hype.",
+    "Help me understand what is in this and why it is safe for my specific dog.",
+    "Help me add something healthy to my dog's routine that my dog will actually eat.",
+    "Help me feel proactive without implying this replaces my vet or medicine."
+  ],
+  "brand_guardrails": [
+    {
+      "id": "transparent",
+      "text": "Transparent"
+    },
+    {
+      "id": "loving",
+      "text": "Loving"
+    },
+    {
+      "id": "seriously_funny",
+      "text": "Seriously funny"
+    },
+    {
+      "id": "ingredient_transparency",
+      "text": "Ingredient transparency"
+    },
+    {
+      "id": "research_backed",
+      "text": "Research-backed recipes"
+    },
+    {
+      "id": "beautiful_design",
+      "text": "Beautiful design that people love having on the countertop"
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Zesty Paws",
+      "deck_positioning": "Mass-market, convenient",
+      "deck_gap": "Research-backed and transparent ingredients"
+    },
+    {
+      "name": "Pet Honesty",
+      "deck_positioning": "Vet rec'd, accessible brand",
+      "deck_gap": "Social-first reach and filler concerns"
+    },
+    {
+      "name": "Native Pet",
+      "deck_positioning": "Clean, minimal-filler toppers",
+      "deck_gap": "Social-first reach"
+    },
+    {
+      "name": "Finn",
+      "deck_positioning": "Stylish, digital-first brand",
+      "deck_gap": "Filler concerns and broad reach"
+    },
+    {
+      "name": "Dog is Human",
+      "deck_positioning": "Premium brand with strong community",
+      "deck_gap": "Broad reach"
+    }
+  ],
+  "channels": [
+    "DTC",
+    "TikTok Shop",
+    "Amazon",
+    "Chewy",
+    "IRL sampling",
+    "Instagram validation posts"
+  ],
+  "trust_constraints": [
+    "Do not imply the chew prevents disease, cures medical conditions, or extends lifespan.",
+    "Do not use grief, rescue, or senior-dog stories as direct purchase hooks without extra care.",
+    "Do not frame the product as a substitute for veterinary guidance.",
+    "Do not overstate the comment corpus as validated demand.",
+    "Do not write generic superfood copy that could come from any pet brand."
+  ],
+  "deck_context": {
+    "brand_promise": "The Dogist deepens the loving relationship you have with your dog.",
+    "target_insight": "Dogs make our lives better, so we owe it to them to make theirs longer, healthier, and happier.",
+    "brand_essence_statement": "The Dogist products help you show love to your dog by connecting you with research-backed recipes and a voice you can trust to help your dog live a better life.",
+    "audience_context": {
+      "instagram_followers": "7.6M",
+      "tiktok_followers": "2.3M",
+      "social_reach": "11M+",
+      "female_share": "80%",
+      "age_25_34_share": "40%"
+    }
+  }
+}

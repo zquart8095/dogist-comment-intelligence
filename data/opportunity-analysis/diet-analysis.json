@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-06-24T23:36:46.040Z",
+  "extract_model": "claude-haiku-4-5-20251001",
+  "synthesis_model": "claude-sonnet-4-6",
+  "food_comments_total": 7293,
+  "diet_comments_sampled": 7293,
+  "batches": 49,
+  "batch_size": 150,
+  "attributes": [
+    {
+      "label": "Home-cooked meals with meat, vegetables, and grains",
+      "count_estimate": 259,
+      "signal_strength": "high",
+      "example_quote": "Ground turkey, sweet potato, kale, green beans, then I mix in some puréed pumpkin",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Dogs enthusiastically eating fruits and vegetables",
+      "count_estimate": 169,
+      "signal_strength": "high",
+      "example_quote": "My dogs would legit eat ALL of these things. Quickly.",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Dogs refusing fruits and vegetables",
+      "count_estimate": 144,
+      "signal_strength": "high",
+      "example_quote": "My husky won't eat any fruits or veggies under any circumstance 🤣 meat only",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Blueberries as favorite dog treat",
+      "count_estimate": 157,
+      "signal_strength": "high",
+      "example_quote": "My dog loves blueberries! We have our own in the garden and he picks them off himself",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Carrots as preferred vegetable treat",
+      "count_estimate": 134,
+      "signal_strength": "high",
+      "example_quote": "My dog stalks me around the house if I have carrots out",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Kibble-based diet with fresh food toppers",
+      "count_estimate": 75,
+      "signal_strength": "high",
+      "example_quote": "we regularly top their kibble with eggs, Greek yogurt, sardines, broccoli, or green beans",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Sweet potatoes as dog food or treat",
+      "count_estimate": 120,
+      "signal_strength": "high",
+      "example_quote": "Sweet potato 🍠 baked at 425°No skin, chopped",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Pumpkin puree as digestive aid and staple ingredient",
+      "count_estimate": 58,
+      "signal_strength": "high",
+      "example_quote": "pumpkin puree (the tins where the only ingradient is pumpkin)",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Joint, fish oil, and health supplements",
+      "count_estimate": 71,
+      "signal_strength": "high",
+      "example_quote": "Dasuquin Joint supplements (at 83lbs and 9.5 years old, hips start to need support)",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Nutritional balance concerns and vet nutritionist guidance for homemade diets",
+      "count_estimate": 82,
+      "signal_strength": "high",
+      "example_quote": "A study found over 90% of homemade diets are nutrient deficient",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Homemade dog treats and baked biscuits",
+      "count_estimate": 67,
+      "signal_strength": "high",
+      "example_quote": "I make beef liver and strawberry treats. They are a hit!",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Picky eaters and selective food preferences",
+      "count_estimate": 108,
+      "signal_strength": "high",
+      "example_quote": "My beagle is also picky it's hilarious",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Food-motivated training and treat-seeking behavior",
+      "count_estimate": 116,
+      "signal_strength": "high",
+      "example_quote": "\"food motivated\" he says, as Cheddar maintains laser intensity focus on the treat pocket",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Insulin management and diabetes care for dogs",
+      "count_estimate": 40,
+      "signal_strength": "high",
+      "example_quote": "I gave her insulin 2x a day",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Dogs eating non-food items and scavenging trash",
+      "count_estimate": 81,
+      "signal_strength": "high",
+      "example_quote": "A random tissue found on the street? A 3 star Michelin meal",
+      "example_quote_likes": 0
+    },
+    {
+      "label": "Food allergies and prescription dietary restrictions",
+      "count_estimate": 30,
+      "signal_strength": "high",
+      "example_quote": "he has to eat a special prescription vegan diet",
+      "example_quote_likes": 0
+    }
+  ],
+  "tensions": [
+    {
+      "topic": "Dogs loving vs. refusing blueberries",
+      "side_a": {
+        "label": "Blueberries are a universally loved treat",
+        "count_estimate": 157,
+        "quote": "My dog loves blueberries! We have our own in the garden and he picks them off himself"
+      },
+      "side_b": {
+        "label": "Many dogs want nothing to do with blueberries",
+        "count_estimate": 74,
+        "quote": "Neither of my dogs like blueberries lol"
+      },
+      "why_it_matters": "A blueberry supplement must appeal to owners whose dogs actively reject the whole fruit, making palatability and delivery format critical to product adoption.",
+      "suggested_question": "Does your dog love or reject blueberries? Drop a 🫐 for love or 🙅 for nope — and tell us how you sneak superfoods into a picky pup's diet!"
+    },
+    {
+      "topic": "Fresh vs. frozen blueberry preference",
+      "side_a": {
+        "label": "Dogs prefer frozen blueberries over fresh",
+        "count_estimate": 27,
+        "quote": "My dog won't eat fresh blueberries but loves frozen ones"
+      },
+      "side_b": {
+        "label": "Dogs eat blueberries cut or mashed, not whole",
+        "count_estimate": 25,
+        "quote": "My dog will only eat them if I bite/cut them in half"
+      },
+      "why_it_matters": "Format and texture matter enormously for treat acceptance, suggesting a supplement or processed blueberry product could outperform raw whole berries for picky dogs.",
+      "suggested_question": "Fresh, frozen, or mashed — what's the only way your dog will eat blueberries? Show us their reaction 👇"
+    },
+    {
+      "topic": "Homemade diet nutritional completeness",
+      "side_a": {
+        "label": "Home-cooked meals are healthier and dogs thrive on them",
+        "count_estimate": 259,
+        "quote": "they have all lost weight, regained energy, have beautiful coats and teeth"
+      },
+      "side_b": {
+        "label": "Homemade diets are often nutritionally deficient without expert guidance",
+        "count_estimate": 41,
+        "quote": "A study found over 90% of homemade diets are nutrient deficient"
+      },
+      "why_it_matters": "Owners cooking for their dogs represent a prime audience for a science-backed blueberry supplement that fills nutritional gaps in homemade recipes.",
+      "suggested_question": "If you cook for your dog, how do you make sure they're getting all the nutrients they need? Tag a recipe or supplement you swear by 👇"
+    },
+    {
+      "topic": "Vegetarian and plant-based diets for dogs",
+      "side_a": {
+        "label": "Plant-based diets improve dog health and are endorsed by some vets",
+        "count_estimate": 12,
+        "quote": "Thank you for giving Roscoe a plant based diet. That saved my Frenchies health as well."
+      },
+      "side_b": {
+        "label": "Dogs are meat-eaters and thrive on animal protein",
+        "count_estimate": 15,
+        "quote": "No kibble. 75% raw diced red meat, 25% homecooked shredded chicken"
+      },
+      "why_it_matters": "The debate over animal vs. plant protein shapes how owners perceive fruit and vegetable supplements — positioning a blueberry supplement as an add-on rather than a replacement could bridge both camps.",
+      "suggested_question": "Meat-first or plant-forward — how do you feed your dog? We want to hear what's working (and what your vet thinks) 🌱🥩"
+    },
+    {
+      "topic": "Taro versus ube safety and interchangeability for dogs",
+      "side_a": {
+        "label": "Taro and ube are interchangeable purple root treats for dogs",
+        "count_estimate": 1,
+        "quote": "Roasted japanese sweet potato also!"
+      },
+      "side_b": {
+        "label": "Taro and ube are distinctly different and not interchangeable",
+        "count_estimate": 1,
+        "quote": "Taro is not the same as Ube. Very different. Ube is highly Philippines originated."
+      },
+      "why_it_matters": "Misinformation about safe vs. unsafe root vegetables could cause harm, and a blueberry supplement brand that educates on safe ingredients could build significant trust.",
+      "suggested_question": "Did you know taro and ube (purple sweet potato) are totally different vegetables? 🟣 Have you ever tried either as a dog treat — and did your pup approve?"
+    }
+  ]
+}

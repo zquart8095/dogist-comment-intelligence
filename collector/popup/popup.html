@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>Blackhole Collector</title>
+  </head>
+  <body>
+    <main>
+      <header class="topbar">
+        <div>
+          <h1>Blackhole Collector</h1>
+          <p id="status-line">Loading...</p>
+        </div>
+        <span id="freshness" class="pill">...</span>
+      </header>
+
+      <section id="setup-panel" class="panel">
+        <h2>Target</h2>
+        <label>
+          <span>Instagram handle or URL</span>
+          <input id="creator-target" type="text" value="thedogist" spellcheck="false" />
+        </label>
+        <div class="primary-actions">
+          <button id="start-btn">Full Scrape</button>
+          <button id="discover-only-btn" class="secondary">Discover Queue</button>
+          <button id="scrape-queue-btn" class="secondary">Scrape Queue</button>
+        </div>
+      </section>
+
+      <section class="stats-grid" aria-label="Live run statistics">
+        <div>
+          <span>Saved Comments</span>
+          <strong id="saved-comments">0</strong>
+        </div>
+        <div>
+          <span>Active Post</span>
+          <strong id="active-post">None</strong>
+        </div>
+        <div>
+          <span>Active Capture</span>
+          <strong id="active-capture">0 / ?</strong>
+        </div>
+        <div>
+          <span>Rate</span>
+          <strong id="rate-line">0/hr</strong>
+        </div>
+      </section>
+
+      <section class="progress panel">
+        <div class="progress-heading">
+          <span id="phase-label">No run</span>
+          <span id="duration-label">0m</span>
+        </div>
+        <div class="bar"><div id="progress-fill"></div></div>
+        <div id="counts" class="muted"></div>
+        <div id="discovery" class="muted"></div>
+        <div id="preload" class="muted"></div>
+        <div id="stop-reason"></div>
+      </section>
+
+      <section class="panel settings-panel">
+        <details id="settings-details">
+          <summary>Settings and Recovery</summary>
+          <div class="settings">
+            <label>
+              <span>Max posts</span>
+              <input id="max-posts" type="number" min="1" placeholder="All" />
+            </label>
+            <label>
+              <span>Preload tabs</span>
+              <select id="preload-tabs">
+                <option value="1">1</option>
+                <option value="3">3</option>
+                <option value="5">5</option>
+              </select>
+            </label>
+            <label>
+              <span>Mode</span>
+              <select id="scrape-mode">
+                <option value="exhaustive">Exhaustive</option>
+                <option value="coverage">Coverage</option>
+              </select>
+            </label>
+            <label>
+              <span>Max post min</span>
+              <input id="max-post-minutes" type="number" min="1" value="8" />
+            </label>
+            <label>
+              <span>No-new rounds</span>
+              <input id="no-new-rounds" type="number" min="1" value="8" />
+            </label>
+            <label>
+              <span>Coverage comments</span>
+              <input id="coverage-max-comments" type="number" min="1" value="250" />
+            </label>
+            <label>
+              <span>Coverage min</span>
+              <input id="coverage-max-minutes" type="number" min="1" value="4" />
+            </label>
+            <label>
+              <span>Coverage rate</span>
+              <input id="coverage-min-rate" type="number" min="0.01" max="1" step="0.01" value="0.5" />
+            </label>
+            <label class="checkbox">
+              <input id="retry-failures" type="checkbox" />
+              <span>Retry hard failures</span>
+            </label>
+          </div>
+          <div class="secondary-actions">
+            <button id="resume-btn" class="secondary">Resume</button>
+            <button id="stop-btn">Stop</button>
+            <button id="export-btn" class="secondary">Export Split</button>
+            <button id="export-queue-btn" class="secondary">Export Queue</button>
+            <button id="import-queue-btn" class="secondary">Import</button>
+            <button id="clear-btn" class="danger">Clear</button>
+            <input id="queue-file" type="file" accept="application/json,.json,.ndjson,.jsonl,text/csv,.csv" multiple hidden />
+          </div>
+        </details>
+      </section>
+
+      <section class="events-panel">
+        <div class="events-header">
+          <h2>Events</h2>
+          <span id="event-count">0</span>
+        </div>
+        <div id="events"></div>
+      </section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

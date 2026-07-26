@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-06-26T03:54:45.001Z",
+  "source_note": "Voice model inferred from Dogist post titles/captions and launch deck guardrails. It is used to shape angles, not to invent audience evidence.",
+  "post_titles_analyzed": 370,
+  "cadence_patterns": [
+    {
+      "id": "portrait_story",
+      "label": "Dog-first portrait story",
+      "description": "Name, breed, age, place, then an owner quote that makes the dog feel specific.",
+      "examples": [
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DMN51J1xp4T",
+          "post_url": "https://www.instagram.com/thedogist/reel/DMN51J1xp4T/",
+          "text": "Carl, Beagle (3 y/o), Gansevoort Plaza, New York, NY • “They told me he was six years old when I got him, and then the vet said he’s closer to one. Someone tied",
+          "reason": "Canonical Dogist portrait cadence"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DLGInbkxZUE",
+          "post_url": "https://www.instagram.com/thedogist/reel/DLGInbkxZUE/",
+          "text": "Otis, Rottweiler (5 y/o), Plymouth & Pearl St., Brooklyn, NY • “He’s pretty chill. Loves babies, loves dogs. He’s a big sweetie. He sort of always eats anything",
+          "reason": "Canonical Dogist portrait cadence"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DLc3BgGRnSn",
+          "post_url": "https://www.instagram.com/thedogist/reel/DLc3BgGRnSn/",
+          "text": "Audrey, Biewer Terrier (13 y/o), W 12th & Hudson St., New York, NY • “She’s named after Audrey Hepburn. She was supposed to be bigger – she’s only four pounds.",
+          "reason": "Canonical Dogist portrait cadence"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DOrf76ekXEy",
+          "post_url": "https://www.instagram.com/thedogist/reel/DOrf76ekXEy/",
+          "text": "Tika, Italian Greyhound (14 y/o), Spring & W Broadway, New York, NY • “We’re from Canada – we come here twice a year for New York Fashion Week. She’s always col",
+          "reason": "Canonical Dogist portrait cadence"
+        }
+      ]
+    },
+    {
+      "id": "audience_prompt",
+      "label": "Open-ended audience prompt",
+      "description": "A simple question invites followers to share their own dog routines, places, or stories.",
+      "examples": [
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DYxt7vXEfe-",
+          "post_url": "https://www.instagram.com/thedogist/p/DYxt7vXEfe-/",
+          "text": "Dogs at the @Mets Bark At The Park. Comment your favorite photo from the set 🐶⚾️",
+          "reason": "Question-led caption cadence"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DUTq0lhEaz5",
+          "post_url": "https://www.instagram.com/thedogist/p/DUTq0lhEaz5/",
+          "text": "Dogs of the 150th Westminster Kennel Club Dog Show. Can you name all these breeds?Featuring: Kite, Oscar, Ember, Quinn, Argo & Oak, Lance, Greta, Gatsby, Billy,",
+          "reason": "Question-led caption cadence"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DXh1oZBxUhq",
+          "post_url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+          "text": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!",
+          "reason": "Question-led caption cadence"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DVOqoEwEc-P",
+          "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+          "text": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+          "reason": "Question-led caption cadence"
+        }
+      ]
+    },
+    {
+      "id": "elsa_experiment",
+      "label": "Elsa test-kitchen experiment",
+      "description": "First-person Dogist/Elsa experiments make product learning feel playful and honest.",
+      "examples": [
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DVwmbKiES8H",
+          "post_url": "https://www.instagram.com/thedogist/reel/DVwmbKiES8H/",
+          "text": "Elsa’s test kitchen went pretty much as suspected… beefy delight or nothing 🏆",
+          "reason": "Elsa/product experiment cadence"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DXh1oZBxUhq",
+          "post_url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+          "text": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!",
+          "reason": "Elsa/product experiment cadence"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DVOqoEwEc-P",
+          "post_url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+          "text": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+          "reason": "Elsa/product experiment cadence"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DNUFQhjRwcF",
+          "post_url": "https://www.instagram.com/thedogist/reel/DNUFQhjRwcF/",
+          "text": "thedogistVerified Edited•44wElsa’s favorite place on earth is Upstate, NY (so far). What’s your dog’s favorite place? Where should I take Els next? Ft: @giddyup",
+          "reason": "Elsa/product experiment cadence"
+        }
+      ]
+    },
+    {
+      "id": "community_invitation",
+      "label": "Community invitation",
+      "description": "Meetups, events, and comment prompts make the audience part of the story.",
+      "examples": [
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DSfktSdkeL4",
+          "post_url": "https://www.instagram.com/thedogist/p/DSfktSdkeL4/",
+          "text": "⭐️BIRTHDAY GIVEAWAY! ⭐️It’s my birthday today and I want to celebrate with one of you!I’m extremely lucky that I get to share the joy of dogs everyday for a liv",
+          "reason": "Participation and event cadence"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DPR55gFkXmL",
+          "post_url": "https://www.instagram.com/thedogist/p/DPR55gFkXmL/",
+          "text": "I had the incredible honor of meeting one of my heroes last week, Dr. Jane Goodall, and am deeply saddened by the news of her passing today. She dedicated her l",
+          "reason": "Participation and event cadence"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DYxt7vXEfe-",
+          "post_url": "https://www.instagram.com/thedogist/p/DYxt7vXEfe-/",
+          "text": "Dogs at the @Mets Bark At The Park. Comment your favorite photo from the set 🐶⚾️",
+          "reason": "Participation and event cadence"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DOrf76ekXEy",
+          "post_url": "https://www.instagram.com/thedogist/reel/DOrf76ekXEy/",
+          "text": "Tika, Italian Greyhound (14 y/o), Spring & W Broadway, New York, NY • “We’re from Canada – we come here twice a year for New York Fashion Week. She’s always col",
+          "reason": "Participation and event cadence"
+        }
+      ]
+    },
+    {
+      "id": "light_understatement",
+      "label": "Light understatement",
+      "description": "Humor lands through understatement, specificity, and the dog's actual behavior.",
+      "examples": [
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DVwmbKiES8H",
+          "post_url": "https://www.instagram.com/thedogist/reel/DVwmbKiES8H/",
+          "text": "Elsa’s test kitchen went pretty much as suspected… beefy delight or nothing 🏆",
+          "reason": "Seriously funny understatement"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DXh1oZBxUhq",
+          "post_url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+          "text": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!",
+          "reason": "Seriously funny understatement"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DVeE8GgkVNI",
+          "post_url": "https://www.instagram.com/thedogist/reel/DVeE8GgkVNI/",
+          "text": "thedogistVerified Edited•15wBetsy, Chihuahua Mix (15 y/o), 16th & Union Square East, New York, NY • “She was a little homeless girl in Indiana, I found her on @",
+          "reason": "Seriously funny understatement"
+        },
+        {
+          "source": "dogist_caption",
+          "post_id": "instagram_thedogist_DTiUEM1kWLC",
+          "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+          "text": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do",
+          "reason": "Seriously funny understatement"
+        }
+      ]
+    }
+  ],
+  "tone_markers": [
+    "Dog-first specificity before brand/product language",
+    "First-person experiments with Elsa when testing food or treats",
+    "Plain questions that invite owners to answer with their own routines",
+    "Warm, lightly funny understatement instead of hard sell",
+    "Trust comes from showing the real dog behavior, including rejection or messiness"
+  ],
+  "deck_guardrails": [
+    {
+      "source": "deck_brand_guardrail",
+      "id": "transparent",
+      "text": "Transparent"
+    },
+    {
+      "source": "deck_brand_guardrail",
+      "id": "loving",
+      "text": "Loving"
+    },
+    {
+      "source": "deck_brand_guardrail",
+      "id": "seriously_funny",
+      "text": "Seriously funny"
+    },
+    {
+      "source": "deck_brand_guardrail",
+      "id": "ingredient_transparency",
+      "text": "Ingredient transparency"
+    },
+    {
+      "source": "deck_brand_guardrail",
+      "id": "research_backed",
+      "text": "Research-backed recipes"
+    },
+    {
+      "source": "deck_brand_guardrail",
+      "id": "beautiful_design",
+      "text": "Beautiful design that people love having on the countertop"
+    }
+  ],
+  "do_rules": [
+    "Start from a real dog, routine, or owner question.",
+    "Use product language only after the care moment is clear.",
+    "Make uncertainty and validation feel honest.",
+    "Borrow audience words only when the evidence source is attached."
+  ],
+  "avoid_rules": [
+    "Do not write generic superfood language.",
+    "Do not turn grief or senior care into a sales hook.",
+    "Do not imply medical outcomes beyond the brief's allowed claims.",
+    "Do not flatten The Dogist voice into polished wellness-brand copy."
+  ]
+}

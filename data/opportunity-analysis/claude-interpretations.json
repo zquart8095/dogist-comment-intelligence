@@ -1,0 +1,1250 @@
+{
+  "generated_at": "2026-06-24T23:32:56.405Z",
+  "model": "claude-haiku-4-5-20251001",
+  "packets_analyzed": 9,
+  "supplement_context": "The Dogist is planning to launch a blueberry-based dog supplement in fall 2026. The goal is to understand the community's language, motivations, and objections — to inform product positioning, launch messaging, and content strategy. The creator has 290k+ Instagram followers and 175k TikTok followers. The audience is highly engaged dog owners who follow for authentic dog stories, not ads.",
+  "interpretations": [
+    {
+      "opportunity_id": "food_treats_and_product_trust",
+      "opportunity_name": "Food, Treats, And Product Trust",
+      "status": "candidate / needs validation",
+      "counts": {
+        "posts": 266,
+        "comments": 3735,
+        "high_signal_comments": 3255,
+        "total_comment_likes": 11396,
+        "median_comment_likes": 0
+      },
+      "representative_posts": [
+        {
+          "id": "instagram_thedogist_DVOqoEwEc-P",
+          "title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+          "url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+          "post_cluster": "Food, treats, and recipes",
+          "captured_comments": 655,
+          "topic_comments": 404,
+          "high_signal_topic_comments": 365,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DXh1oZBxUhq",
+          "title": "Does anyone’s dog happily eat all these healthy snacks? We went 0/10. I’m gonna try adding a few of these ingredients into Elsa’s next batch of biscuits!",
+          "url": "https://www.instagram.com/thedogist/reel/DXh1oZBxUhq/",
+          "post_cluster": "Food, treats, and recipes",
+          "captured_comments": 671,
+          "topic_comments": 346,
+          "high_signal_topic_comments": 326,
+          "topic_comment_likes": 902
+        },
+        {
+          "id": "instagram_thedogist_DTiUEM1kWLC",
+          "title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do",
+          "url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+          "post_cluster": "Food, treats, and recipes",
+          "captured_comments": 467,
+          "topic_comments": 321,
+          "high_signal_topic_comments": 308,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DWWVCdhR5p-",
+          "title": "Elsa vs. a blueberry… What does your dog refuse to eat??",
+          "url": "https://www.instagram.com/thedogist/reel/DWWVCdhR5p-/",
+          "post_cluster": "Food, treats, and recipes",
+          "captured_comments": 466,
+          "topic_comments": 280,
+          "high_signal_topic_comments": 266,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DVwmbKiES8H",
+          "title": "Elsa’s test kitchen went pretty much as suspected… beefy delight or nothing 🏆",
+          "url": "https://www.instagram.com/thedogist/reel/DVwmbKiES8H/",
+          "post_cluster": "Food, treats, and recipes",
+          "captured_comments": 750,
+          "topic_comments": 224,
+          "high_signal_topic_comments": 206,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DXIKSiARwyc",
+          "title": "Bella, Beagle (3 y/o), Cobble Hill Park, Brooklyn, NY • “Funny story actually, he had a different name for her. He wanted to call her Jessica…just a random name",
+          "url": "https://www.instagram.com/thedogist/reel/DXIKSiARwyc/",
+          "post_cluster": "Food, treats, and recipes",
+          "captured_comments": 336,
+          "topic_comments": 119,
+          "high_signal_topic_comments": 110,
+          "topic_comment_likes": 0
+        }
+      ],
+      "context_free": {
+        "signal_type": "pain_point",
+        "signal_strength": "strong",
+        "summary": "This audience is deeply invested in optimizing their dogs' diets and health outcomes, drawing from years of personal experience managing everything from allergies to serious medical conditions. They view food as a primary lever for preventing disease and extending lifespan, and they're navigating conflicting advice between homemade, prescription, and commercial options while bearing significant emotional and financial costs.",
+        "key_motivations": [
+          "Preventing or managing health issues (allergies, diabetes, digestion problems) through diet",
+          "Achieving long-term health and extending their dog's lifespan",
+          "Finding sustainable, practical feeding routines they can maintain long-term",
+          "Feeling confident they're making the 'right' nutritional choice for their individual dog"
+        ],
+        "key_concerns": [
+          "Uncertainty about whether homemade diets provide complete nutrition vs. commercial kibble",
+          "High costs of specialized diets, prescription foods, and medical interventions",
+          "Trial-and-error nature of finding what works for individual dogs with sensitivities",
+          "Information overload and conflicting expert opinions on best feeding practices"
+        ],
+        "authentic_language": [
+          "getting off kibble was the best decision we ever made",
+          "Each dog is different",
+          "high quality kibble",
+          "homemade topper",
+          "curve after curve adjust his dose",
+          "Simple is what I find is doable for long term"
+        ],
+        "best_quotes": [
+          {
+            "text": "getting off kibble was the best decision we ever made",
+            "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+            "why": "This reveals strong conviction born from direct health outcomes and represents a clear shift from conventional to alternative feeding practices."
+          },
+          {
+            "text": "my dog was diagnosed diabetic at 9 he went into ketoacidosis and was put in the hospital immediately it took three days just to stabilize him almost 6 000 dollars in debt later we had to start an entire new life",
+            "post_url": "https://www.instagram.com/thedogist/reel/DTOpuOGkYp-/",
+            "why": "This demonstrates the severe emotional and financial stakes owners face when diet intersects with chronic illness, showing how food choices become life-or-death decisions."
+          },
+          {
+            "text": "Each dog is different and pure breeds often have issues that special diets may help with",
+            "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+            "why": "This articulates the fundamental challenge: there's no one-size-fits-all solution, forcing owners into personalized experimentation rather than following a standard protocol."
+          }
+        ]
+      },
+      "business_context": {
+        "supplement_relevance": "direct",
+        "relevance_explanation": "This audience views food and supplements as primary levers for preventing disease and extending lifespan, and they're actively seeking solutions to optimize their dogs' health outcomes. A blueberry supplement directly addresses their core motivation of finding practical, science-backed nutritional tools they can integrate into existing feeding routines.",
+        "messaging_angles": [
+          "Position blueberries as a clinically-supported ingredient for cognitive health and longevity, leveraging the audience's desire to extend lifespan and prevent age-related decline",
+          "Frame the supplement as a complementary tool that works alongside existing diets (homemade, prescription, or kibble), reducing decision anxiety by positioning it as compatible with whatever feeding approach they've already chosen",
+          "Lead with ingredient transparency and complete nutritional profiles to address information overload—show exactly what's in it and why, compared to conflicting expert opinions they encounter"
+        ],
+        "objections_to_address": [
+          "Skepticism about whether a single-ingredient supplement provides complete nutrition or is just another unnecessary product (many report trial-and-error fatigue)",
+          "Concern about high costs and whether the investment justifies outcomes, given existing spending on specialized/prescription diets and supplements",
+          "Uncertainty about individual dog suitability—will this work for their dog's specific sensitivities, allergies, or medical conditions, or is it generic marketing?"
+        ],
+        "language_to_borrow": [
+          "optimizing their health",
+          "prevent disease",
+          "extend their lifespan",
+          "what actually works",
+          "confidence in the choice"
+        ],
+        "recommended_next_step": "Create a pre-launch educational post featuring 3-4 owner stories about dogs with specific health challenges (joint health, cognitive decline, allergies) and ask followers: 'What's one health outcome you're trying to support through diet or supplements?' Use comments to validate which health benefits resonate most and which concerns dominate, then tailor supplement claims and positioning before fall launch."
+      }
+    },
+    {
+      "opportunity_id": "rescue_and_adoption_trust",
+      "opportunity_name": "Rescue And Adoption Trust",
+      "status": "candidate / needs validation",
+      "counts": {
+        "posts": 271,
+        "comments": 2524,
+        "high_signal_comments": 2139,
+        "total_comment_likes": 13336,
+        "median_comment_likes": 0
+      },
+      "representative_posts": [
+        {
+          "id": "instagram_thedogist_DSfktSdkeL4",
+          "title": "⭐️BIRTHDAY GIVEAWAY! ⭐️It’s my birthday today and I want to celebrate with one of you!I’m extremely lucky that I get to share the joy of dogs everyday for a liv",
+          "url": "https://www.instagram.com/thedogist/p/DSfktSdkeL4/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 857,
+          "topic_comments": 148,
+          "high_signal_topic_comments": 148,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DWSAT71xd0u",
+          "title": "thedogistVerified Edited•12wI’m so proud of what The Dogist Fund has been able to do over the years, raising over $750,000 all together for canine nonprofits. T",
+          "url": "https://www.instagram.com/thedogist/reel/DWSAT71xd0u/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 738,
+          "topic_comments": 209,
+          "high_signal_topic_comments": 131,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DUjyiWGkThn",
+          "title": "Let’s spread some puppy love! ♥️",
+          "url": "https://www.instagram.com/thedogist/reel/DUjyiWGkThn/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 771,
+          "topic_comments": 104,
+          "high_signal_topic_comments": 95,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DWRHAqrEW4f",
+          "title": null,
+          "url": "https://www.instagram.com/thedogist/p/DWRHAqrEW4f/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 736,
+          "topic_comments": 127,
+          "high_signal_topic_comments": 82,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DRqGWbcEVvW",
+          "title": "Street dogs of Saint Lucia.I met a few friendly stray dogs during the Gros Islet street party in Saint Lucia in the Caribbean. While these dogs’ lives may be un",
+          "url": "https://www.instagram.com/thedogist/p/DRqGWbcEVvW/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 468,
+          "topic_comments": 63,
+          "high_signal_topic_comments": 60,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DXxZpZrSVod",
+          "title": "Dogist Community, I need your help!On Tuesday, I took the amazing Ringo out of @nycacc for a boroughbreak. She’s an incredible senior dog, and it was heartbreak",
+          "url": "https://www.instagram.com/thedogist/reel/DXxZpZrSVod/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 303,
+          "topic_comments": 60,
+          "high_signal_topic_comments": 52,
+          "topic_comment_likes": 918
+        }
+      ],
+      "context_free": {
+        "signal_type": "community_affinity",
+        "signal_strength": "strong",
+        "summary": "This audience is deeply passionate about dog rescue and adoption, actively sharing their own experiences with shelters and nonprofits while advocating for senior dog adoption and against kill shelters. They view dog rescue as a moral imperative tied to human responsibility, and they're motivated to educate others and nominate worthy organizations for support.",
+        "key_motivations": [
+          "Advocating for senior dog adoption as a life-saving solution",
+          "Supporting and promoting rescue organizations doing meaningful work",
+          "Holding humans accountable for irresponsible breeding and shelter deaths",
+          "Sharing personal experiences to inspire others to adopt from shelters"
+        ],
+        "key_concerns": [
+          "Dogs dying in kill shelters due to human negligence and overbreeding",
+          "Lack of awareness about senior dogs as ideal adoption candidates",
+          "Pit bulls and other breeds being unfairly judged and at risk",
+          "Rescue organizations needing more support and resources"
+        ],
+        "authentic_language": [
+          "soul dog",
+          "cherish him for life",
+          "true angel on this earth",
+          "will not leave a dog behind",
+          "priceless",
+          "disgusting circle"
+        ],
+        "best_quotes": [
+          {
+            "text": "Also if you are a senior who may not want a very active dog or worry about the time span limited years you may have a senior is a perfect fit I started a program at our shelter called Seniors for Seniors half price adoption fees for any dog over 7 being adopted by a person over 65",
+            "post_url": "https://www.instagram.com/thedogist/reel/DXxZpZrSVod/",
+            "why": "Shows audience members are actively implementing rescue solutions and sharing successful programs, demonstrating deep engagement beyond passive support."
+          },
+          {
+            "text": "It is very sad to know that many lots of beautiful dogs -like Ravello- lose their lives only because human s fault and end their lives in kill shelters That really breaks my heart from the deepest point That s only because of greedy humans endless demands uncontrolled breeding and irresponsible breeders and owners fault",
+            "post_url": "https://www.instagram.com/thedogist/reel/DPHQ5n7ESrc/",
+            "why": "Reveals the emotional intensity and moral conviction driving this community—they see rescue as a response to systemic human failures, not just animal care."
+          },
+          {
+            "text": "I ve been a part of Pawsitive Sanctuary and it truly means so much to me This US and Canada-based charity rescues 6 7 stray dogs every single day in India all without any government support I ve followed their journey since 2018 and have seen the love effort and heart they put into every rescue",
+            "post_url": "https://www.instagram.com/thedogist/reel/DWSAT71xd0u/",
+            "why": "Demonstrates long-term community investment and the audience's tendency to research and nominate specific organizations, indicating they're actively shaping rescue narrative."
+          }
+        ]
+      },
+      "business_context": {
+        "supplement_relevance": "adjacent",
+        "relevance_explanation": "This audience cares deeply about dog health and longevity—particularly for senior and rescue dogs—making a health-focused supplement relevant to their values. However, the rescue/adoption moral framework is their primary driver, not supplement consumption.",
+        "messaging_angles": [
+          "Position blueberry supplement as extending quality years for senior rescue dogs adopted from shelters—framing it as part of responsible post-adoption care",
+          "Tie supplement benefits to rescue dog health outcomes and longevity, emphasizing how adoptive owners can give rescued dogs their best life",
+          "Partner messaging with rescue/adoption stories: feature rescue dogs on the supplement and donate portion of proceeds to rescue organizations they trust"
+        ],
+        "objections_to_address": [
+          "Skepticism that a supplement is performative wellness marketing rather than addressing systemic shelter/rescue issues they care about",
+          "Concern that supplement messaging will distract from or commercialize their genuine advocacy for adoption and rescue support",
+          "Worry that positioning frames dog health as a consumer product responsibility rather than systemic accountability for breeders and shelters"
+        ],
+        "language_to_borrow": [
+          "life-saving",
+          "senior dogs",
+          "responsible",
+          "meaningful work",
+          "giving them their best life"
+        ],
+        "recommended_next_step": "Create a validation post featuring a senior rescue dog thriving on the supplement with a transparent donation commitment to a specific rescue partner—ask the community which rescue organizations they'd want to see supported, giving them agency in the launch narrative"
+      }
+    },
+    {
+      "opportunity_id": "irl_community_and_sampling",
+      "opportunity_name": "IRL Community And Sampling",
+      "status": "candidate / needs validation",
+      "counts": {
+        "posts": 316,
+        "comments": 2179,
+        "high_signal_comments": 1736,
+        "total_comment_likes": 6837,
+        "median_comment_likes": 0
+      },
+      "representative_posts": [
+        {
+          "id": "instagram_thedogist_DPR55gFkXmL",
+          "title": "I had the incredible honor of meeting one of my heroes last week, Dr. Jane Goodall, and am deeply saddened by the news of her passing today. She dedicated her l",
+          "url": "https://www.instagram.com/thedogist/p/DPR55gFkXmL/",
+          "post_cluster": "Loss, grief, and memorial stories",
+          "captured_comments": 825,
+          "topic_comments": 82,
+          "high_signal_topic_comments": 66,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DSfktSdkeL4",
+          "title": "⭐️BIRTHDAY GIVEAWAY! ⭐️It’s my birthday today and I want to celebrate with one of you!I’m extremely lucky that I get to share the joy of dogs everyday for a liv",
+          "url": "https://www.instagram.com/thedogist/p/DSfktSdkeL4/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 857,
+          "topic_comments": 54,
+          "high_signal_topic_comments": 54,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DY5ialOxAJy",
+          "title": "I pet 27 dogs in 48 hours in Charleston! Not bad, but I think I can break that record on my next trip. Thank you @naphia_official for having me as your conferen",
+          "url": "https://www.instagram.com/thedogist/reel/DY5ialOxAJy/",
+          "post_cluster": "IRL community, walks, and events",
+          "captured_comments": 206,
+          "topic_comments": 56,
+          "high_signal_topic_comments": 45,
+          "topic_comment_likes": 59
+        },
+        {
+          "id": "instagram_thedogist_DNUFQhjRwcF",
+          "title": "thedogistVerified Edited•44wElsa’s favorite place on earth is Upstate, NY (so far). What’s your dog’s favorite place? Where should I take Els next? Ft: @giddyup",
+          "url": "https://www.instagram.com/thedogist/reel/DNUFQhjRwcF/",
+          "post_cluster": "IRL community, walks, and events",
+          "captured_comments": 581,
+          "topic_comments": 45,
+          "high_signal_topic_comments": 38,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DOrf76ekXEy",
+          "title": "Tika, Italian Greyhound (14 y/o), Spring & W Broadway, New York, NY • “We’re from Canada – we come here twice a year for New York Fashion Week. She’s always col",
+          "url": "https://www.instagram.com/thedogist/reel/DOrf76ekXEy/",
+          "post_cluster": "IRL community, walks, and events",
+          "captured_comments": 675,
+          "topic_comments": 46,
+          "high_signal_topic_comments": 31,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DX1qRXNz7YJ",
+          "title": "thedogistVerified Edited•6wTHE DOGIST WALK 🐾 MAY 17 | CENTRAL PARKThis community, all of you, are pretty awesome, and it’s been a while since I’ve done a fun m",
+          "url": "https://www.instagram.com/thedogist/reel/DX1qRXNz7YJ/",
+          "post_cluster": "IRL community, walks, and events",
+          "captured_comments": 194,
+          "topic_comments": 30,
+          "high_signal_topic_comments": 28,
+          "topic_comment_likes": 35
+        }
+      ],
+      "context_free": {
+        "signal_type": "community_affinity",
+        "signal_strength": "strong",
+        "summary": "This audience deeply values in-person connection and community around dogs, viewing the creator as a catalyst for meaningful real-world gatherings and shared experiences. They're motivated by exclusivity, local events, and the ability to participate in something larger than themselves—whether that's a walk in Central Park or a rescue mission.",
+        "key_motivations": [
+          "Desire to meet the creator and participate in IRL community events",
+          "Opportunity to connect with other dog lovers and build local networks",
+          "Involvement in rescue and animal welfare causes",
+          "Personal recognition and inclusion in the creator's journey"
+        ],
+        "key_concerns": [
+          "Geographic exclusion—missing events because they don't live in NYC or the event location",
+          "Animal welfare and systemic injustice toward animals",
+          "Fear of missing out on limited-time community experiences",
+          "Uncertainty about how to get involved or stay informed about upcoming events"
+        ],
+        "authentic_language": [
+          "I wish I still lived in NYC",
+          "please let us know",
+          "one of the most memorable and rewarding events of my life",
+          "my mom is a huge fan",
+          "this community, all of you, are pretty awesome",
+          "I am forever thankful"
+        ],
+        "best_quotes": [
+          {
+            "text": "Seems soo fun I wish I still lived in NYC If you ever hold an event in San Diego or LA please let us know My mom is a huge fan and always wanted me to be featured",
+            "post_url": "https://www.instagram.com/thedogist/reel/DYZoGV5xc-7/",
+            "why": "Directly expresses demand for expanded IRL events beyond NYC and reveals multi-generational interest in the community."
+          },
+          {
+            "text": "Being a part of this Rescue was one of the most memorable and rewarding events of my life Now we focus on rescuing the rest of the animals suffering in labs MBR Acres in New York tests on beagles bloodhounds cats ferrets guinea pigs and mice They have approximately 23 000 beagle house there This practice is no longer defensible and we must work to end it",
+            "post_url": "https://www.instagram.com/thedogist/reel/DX7q55aStyB/",
+            "why": "Shows how participation in creator-led events catalyzes broader activism and demonstrates the depth of audience commitment to animal causes."
+          },
+          {
+            "text": "Thank you Tony I got a call at 6am about a dog abandoned on the streets of brooklyn I picked him up brought him to the precinct and started desperately reaching out The second I made contact with Tony Lando was taken care of Tony and his team got Lando picked up took him to the vet found him a foster with amazing speed grace I am forever thankful that Lando is now a well taken care of thriving boy",
+            "post_url": "https://www.instagram.com/thedogist/reel/DYkzuZIRHFE/",
+            "why": "Reveals the audience has shifted from passive followers to active community participants taking real-world rescue action inspired by the creator."
+          }
+        ]
+      },
+      "business_context": {
+        "supplement_relevance": "adjacent",
+        "relevance_explanation": "This audience's desire for IRL community and shared experiences around dogs creates an opportunity to position the supplement launch as a community event rather than a transactional product—enabling the creator to deepen real-world connection while introducing the product authentically.",
+        "messaging_angles": [
+          "Position the supplement as a tool for dog owners to participate in a shared wellness mission—frame early adopters as part of an exclusive community making informed choices for their dogs' health",
+          "Leverage local sampling events and in-person demos as the primary launch vehicle, turning the supplement into a catalyst for meetups and real-world connection (addressing geographic FOMO by rotating cities)",
+          "Frame the product through the lens of rescue and animal welfare—connect blueberry benefits to longevity and quality of life for dogs, especially those from rescue backgrounds"
+        ],
+        "objections_to_address": [
+          "Geographic exclusion: Some followers won't have access to in-person sampling events—pre-emptively offer virtual community channels, local partner networks, or rotating pop-up locations",
+          "Skepticism about monetization: This audience follows for authentic dog stories, not ads—be transparent about why this product exists and how it ties to the creator's genuine beliefs about dog health",
+          "Concern about corporate greenwashing: Address whether this is a genuine wellness initiative or profit-driven—tie back to rescue/animal welfare values and show how proceeds might support animal causes"
+        ],
+        "language_to_borrow": [
+          "real-world connection",
+          "exclusive community",
+          "participate in something larger",
+          "authentic",
+          "local"
+        ],
+        "recommended_next_step": "Host a small, invite-only tasting/sampling event in NYC with 50-100 engaged followers (drawn from the IRL community cluster), document it authentically, and ask participants to share why dog health matters to them—use this feedback and UGC to validate messaging before broader launch, while simultaneously deepening the community bond."
+      }
+    },
+    {
+      "opportunity_id": "grief_loss_and_memorial_language",
+      "opportunity_name": "Grief, Loss, And Memorial Language",
+      "status": "candidate / needs validation",
+      "counts": {
+        "posts": 275,
+        "comments": 1908,
+        "high_signal_comments": 1632,
+        "total_comment_likes": 8116,
+        "median_comment_likes": 0
+      },
+      "representative_posts": [
+        {
+          "id": "instagram_thedogist_DSfktSdkeL4",
+          "title": "⭐️BIRTHDAY GIVEAWAY! ⭐️It’s my birthday today and I want to celebrate with one of you!I’m extremely lucky that I get to share the joy of dogs everyday for a liv",
+          "url": "https://www.instagram.com/thedogist/p/DSfktSdkeL4/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 857,
+          "topic_comments": 94,
+          "high_signal_topic_comments": 94,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DTOpuOGkYp-",
+          "title": "I’m grateful to have met Jack yesterday, whose owner reminded me of the lengths people go to care for their dogs as they age. The love people have for their dog",
+          "url": "https://www.instagram.com/thedogist/reel/DTOpuOGkYp-/",
+          "post_cluster": "Health, senior, and care stories",
+          "captured_comments": 669,
+          "topic_comments": 75,
+          "high_signal_topic_comments": 72,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DNeVpGVxWGV",
+          "title": "Sprinkle Donut & Dewey, mix & Poodle/Siberian Husky mix (2.5 & 5 y/o), McCarren Park, Brooklyn, NY • “Sprinkles was brought in as a stray – she was super pregna",
+          "url": "https://www.instagram.com/thedogist/reel/DNeVpGVxWGV/",
+          "post_cluster": "Loss, grief, and memorial stories",
+          "captured_comments": 404,
+          "topic_comments": 80,
+          "high_signal_topic_comments": 65,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DMTOgH0xKpl",
+          "title": "Dory, Labradoodle (14 y/o), 64th & 3rd Ave., New York, NY • “This dog has survived a splenectomy with a bleeding tumor the size of a grapefruit, ocular melanoma",
+          "url": "https://www.instagram.com/thedogist/reel/DMTOgH0xKpl/",
+          "post_cluster": "Loss, grief, and memorial stories",
+          "captured_comments": 634,
+          "topic_comments": 78,
+          "high_signal_topic_comments": 62,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DPR55gFkXmL",
+          "title": "I had the incredible honor of meeting one of my heroes last week, Dr. Jane Goodall, and am deeply saddened by the news of her passing today. She dedicated her l",
+          "url": "https://www.instagram.com/thedogist/p/DPR55gFkXmL/",
+          "post_cluster": "Loss, grief, and memorial stories",
+          "captured_comments": 825,
+          "topic_comments": 82,
+          "high_signal_topic_comments": 60,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DPMotkkEay5",
+          "title": "RIP Roscoe Hamilton, English Bulldog (9 y/o), Grand Army Plaza, New York, NY • I had the privilege of meeting @lewishamilton dog Roscoe four years ago, though t",
+          "url": "https://www.instagram.com/thedogist/p/DPMotkkEay5/",
+          "post_cluster": "Loss, grief, and memorial stories",
+          "captured_comments": 557,
+          "topic_comments": 104,
+          "high_signal_topic_comments": 46,
+          "topic_comment_likes": 0
+        }
+      ],
+      "context_free": {
+        "signal_type": "community_affinity",
+        "signal_strength": "strong",
+        "summary": "This audience uses dog content as a vehicle for processing profound grief and loss, particularly around end-of-life care and memorial. They're deeply emotionally invested in honoring their dogs' legacies and find solace in shared stories of aging, illness, and saying goodbye.",
+        "key_motivations": [
+          "Processing and memorializing the loss of beloved dogs",
+          "Finding community and validation in shared grief experiences",
+          "Celebrating dogs' resilience through illness and old age",
+          "Honoring the transformative role dogs play in their lives"
+        ],
+        "key_concerns": [
+          "Fear of losing their dogs and the anticipatory grief",
+          "Wanting to ensure their aging/sick dogs receive proper care and dignity",
+          "Animal welfare and protection, particularly for vulnerable animals",
+          "The unprepared emotional devastation of pet loss"
+        ],
+        "authentic_language": [
+          "crossed the rainbow bridge",
+          "they are not pets they are ANGELS",
+          "I am ugly crying",
+          "I miss him so much",
+          "nothing prepares you for the loss of a dog",
+          "We miss him so much"
+        ],
+        "best_quotes": [
+          {
+            "text": "I adopted a senior beagle 5 years ago He completely changed me for the best I had to put him down one month ago and though I have cried everyday because I miss him so much he was here to heal me and help me open my heart again They are not numbers they are not pets they are ANGELS",
+            "post_url": "https://www.instagram.com/thedogist/reel/DYIPkVcP3QY/",
+            "why": "Reveals how this audience sacralizes dogs as transformative spiritual beings rather than possessions, and articulates grief as an ongoing, acceptable emotional state."
+          },
+          {
+            "text": "We lost our almost 18 year old dog in November We adopted him when he was about 9 after he spent a year at a shelter We used to tell him jokingly that he has to spend more time with us than he did with his previous family Never knowing that he would take the challenge seriously During his last days he went on a trip he loved traveling and a picnic to his favorite place We miss him so much",
+            "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+            "why": "Shows intentional end-of-life caregiving practices and the desire to memorialize through life review and ritual, indicating deep emotional labor around dog mortality."
+          },
+          {
+            "text": "She s beautiful When my Pomeranian Lucy went blind I took out my dining room table and made everything easier for her to get around She crossed the rainbow bridge almost a year ago at 17 Miss my bossy little girl",
+            "post_url": "https://www.instagram.com/thedogist/p/DYsm8CwkfTu/",
+            "why": "Demonstrates practical, loving adaptation to aging/illness and the use of euphemistic language ('crossed the rainbow bridge') to soften the finality of death."
+          }
+        ]
+      },
+      "business_context": {
+        "supplement_relevance": "adjacent",
+        "relevance_explanation": "This audience is deeply invested in their dogs' health, longevity, and quality of life—especially during aging and illness. A supplement positioning around cognitive health, vitality, and extending active years directly serves their core motivation to give their dogs the best care possible.",
+        "messaging_angles": [
+          "Position blueberries as supporting brain health and cognitive function in aging dogs—helping owners give their dogs more 'good years' together",
+          "Frame the supplement as part of honoring and protecting dogs through their lifespan, emphasizing preventative care and dignity in aging",
+          "Use before/after or longevity narratives featuring older dogs whose owners used the supplement to support quality of life during their senior years"
+        ],
+        "objections_to_address": [
+          "Is this supplement a substitute for veterinary care? (Address head-on: it's complementary to vet guidance, not a replacement)",
+          "Will this actually prevent or delay the inevitable loss? (Be honest about what supplements can and cannot do; avoid false hope)",
+          "Is The Dogist selling out or just promoting another product? (Emphasize authentic testing, genuine belief in efficacy, and transparency about why this specific ingredient)"
+        ],
+        "language_to_borrow": [
+          "legacy",
+          "resilience",
+          "dignity",
+          "proper care",
+          "transformative"
+        ],
+        "recommended_next_step": "Create a validation post featuring an older dog owner discussing how they've supported their aging dog's health and vitality—without mentioning the supplement yet. Capture authentic language around prevention, quality of life, and honoring their dog's journey to establish credibility before the launch."
+      }
+    },
+    {
+      "opportunity_id": "senior_health_and_care_companionship",
+      "opportunity_name": "Senior, Health, And Care Companionship",
+      "status": "candidate / needs validation",
+      "counts": {
+        "posts": 185,
+        "comments": 1334,
+        "high_signal_comments": 1216,
+        "total_comment_likes": 11259,
+        "median_comment_likes": 0
+      },
+      "representative_posts": [
+        {
+          "id": "instagram_thedogist_DTOpuOGkYp-",
+          "title": "I’m grateful to have met Jack yesterday, whose owner reminded me of the lengths people go to care for their dogs as they age. The love people have for their dog",
+          "url": "https://www.instagram.com/thedogist/reel/DTOpuOGkYp-/",
+          "post_cluster": "Health, senior, and care stories",
+          "captured_comments": 669,
+          "topic_comments": 149,
+          "high_signal_topic_comments": 143,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DTiUEM1kWLC",
+          "title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do",
+          "url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+          "post_cluster": "Food, treats, and recipes",
+          "captured_comments": 467,
+          "topic_comments": 124,
+          "high_signal_topic_comments": 124,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DZh1VloBr22",
+          "title": "I caught up with my mom, the founder of @breastcancerorg , to chat about caring for your dogs during cancer treatment and the care they provide to you. No surpr",
+          "url": "https://www.instagram.com/thedogist/reel/DZh1VloBr22/",
+          "post_cluster": "Health, senior, and care stories",
+          "captured_comments": 274,
+          "topic_comments": 78,
+          "high_signal_topic_comments": 76,
+          "topic_comment_likes": 601
+        },
+        {
+          "id": "instagram_thedogist_DXKTQR1xlMJ",
+          "title": "Moose, French Bulldog (10 y/o), Bleecker & W 10th St., New York, NY • “We’re probably gonna find out tomorrow why he lost his sight last week. He had an MRI and",
+          "url": "https://www.instagram.com/thedogist/reel/DXKTQR1xlMJ/",
+          "post_cluster": "Health, senior, and care stories",
+          "captured_comments": 375,
+          "topic_comments": 59,
+          "high_signal_topic_comments": 56,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DVOqoEwEc-P",
+          "title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+          "url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+          "post_cluster": "Food, treats, and recipes",
+          "captured_comments": 655,
+          "topic_comments": 55,
+          "high_signal_topic_comments": 54,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DSfktSdkeL4",
+          "title": "⭐️BIRTHDAY GIVEAWAY! ⭐️It’s my birthday today and I want to celebrate with one of you!I’m extremely lucky that I get to share the joy of dogs everyday for a liv",
+          "url": "https://www.instagram.com/thedogist/p/DSfktSdkeL4/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 857,
+          "topic_comments": 45,
+          "high_signal_topic_comments": 45,
+          "topic_comment_likes": 0
+        }
+      ],
+      "context_free": {
+        "signal_type": "community_affinity",
+        "signal_strength": "strong",
+        "summary": "This audience is deeply emotionally invested in aging and health-challenged dogs, viewing pet care as an act of profound love and commitment. They share personal experiences of managing chronic conditions, alternative treatments, and end-of-life care, creating a tight community bound by empathy and the desire to maximize quality time with their pets.",
+        "key_motivations": [
+          "Extending and enriching the lives of aging or ill dogs through proactive care",
+          "Sharing knowledge and emotional support with others navigating similar health challenges",
+          "Exploring alternative and complementary care options beyond conventional medicine",
+          "Honoring the bond and reciprocal emotional support dogs provide during human health crises"
+        ],
+        "key_concerns": [
+          "Managing chronic conditions like diabetes with unpredictable responses to treatment",
+          "Guilt and self-doubt about whether enough was done for their pet",
+          "Limited time with aging dogs and anxiety about making the most of remaining years",
+          "Lack of accessible, affordable senior dog adoption options and age-appropriate care resources"
+        ],
+        "authentic_language": [
+          "soul dog",
+          "we don't deserve dogs",
+          "troopers with all their treatments",
+          "They always know when they're needed",
+          "living with joyful intention",
+          "Diabetes won and it was so sad"
+        ],
+        "best_quotes": [
+          {
+            "text": "My staffy was diagnosed with a heart condition and was given 6-12 months I started making homemade meals and bumped up his vitamins after talking to a canine nutritionist that alone made a massive difference But then we started seeing an alternative vet who did acupuncture Chinese medicine laser therapy for his mobility in addition to his medication regimen We cherished every day always going for walks even investing in a large stroller so he didn t stress his heart or joints too much exploring new places lots of enrichment activities and just living with joyful intention I got an extra 2 5 years with my soul dog and I would do it all over again we don t deserve dogs but we should always try",
+            "post_url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+            "why": "Reveals the audience's willingness to pursue multi-modal care solutions and their philosophy of maximizing quality time despite terminal diagnoses."
+          },
+          {
+            "text": "we both did our best and canine diabetes is so dynamic It upsets me when people say their diabetic dog thrived on a homemade diet and lived for 6 more years as if I didn t try hard enough for my baby She was so inconsistently reacting to the insulin Her dose would not be enough to lower her sugars but if we upped the insulin she would drop too low I researched her diet extensively fed her like clockwork and it still wasn t enough Diabetes won and it was so sad We ll always keep them with us and I ll always feel a special connection to these diabetic pup parents since we know how hard it is",
+            "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+            "why": "Exposes the deep emotional toll and guilt owners carry when managing complex chronic conditions, plus the therapeutic need for community validation."
+          },
+          {
+            "text": "Also if you are a senior who may not want a very active dog or worry about the time span limited years you may have a senior is a perfect fit I started a program at our shelter called Seniors for Seniors half price adoption fees for any dog over 7 being adopted by a person over 65",
+            "post_url": "https://www.instagram.com/thedogist/reel/DXxZpZrSVod/",
+            "why": "Demonstrates audience members are actively creating systems and solutions for senior dog care, showing advocacy beyond personal pet ownership."
+          }
+        ]
+      },
+      "business_context": {
+        "supplement_relevance": "direct",
+        "relevance_explanation": "This audience is actively seeking proactive, alternative health interventions for aging and health-challenged dogs. A blueberry supplement positioned as cognitive, joint, or antioxidant support directly addresses their motivation to extend quality of life and explore complementary care options.",
+        "messaging_angles": [
+          "Blueberries as a natural way to support cognitive sharpness and mobility in senior dogs, positioning the supplement as part of a holistic aging care routine",
+          "Framing the supplement as an accessible addition to conventional vet care—not a replacement—that empowers owners to take proactive steps for dogs with chronic conditions",
+          "Emphasizing the supplement's role in maximizing quality time: helping dogs stay more active, alert, and engaged during their remaining years together"
+        ],
+        "objections_to_address": [
+          "Skepticism about supplement efficacy and whether it's worth the cost vs. proven conventional treatments, especially for owners managing expensive chronic condition care",
+          "Fear that a supplement might interact negatively with existing medications or worsen their dog's unpredictable health responses",
+          "Guilt or concern that promoting supplements implies they haven't done enough already for their aging dogs, or that it's a substitute for vet care"
+        ],
+        "language_to_borrow": [
+          "quality time",
+          "proactive care",
+          "alternative options",
+          "maximize",
+          "honoring the bond"
+        ],
+        "recommended_next_step": "Post a candid, behind-the-scenes story about why you developed this supplement—grounded in a specific senior dog story from your community. Ask followers: 'What health challenges are you managing with your aging dog, and what would help you feel more proactive?' Use responses to validate messaging angles and identify the most urgent health concerns to address in product positioning."
+      }
+    },
+    {
+      "opportunity_id": "services_cost_and_access_pain_points",
+      "opportunity_name": "Services, Cost, And Access Pain Points",
+      "status": "candidate / needs validation",
+      "counts": {
+        "posts": 208,
+        "comments": 856,
+        "high_signal_comments": 766,
+        "total_comment_likes": 3086,
+        "median_comment_likes": 0
+      },
+      "representative_posts": [
+        {
+          "id": "instagram_thedogist_DWJpicKBfLP",
+          "title": "Luna, Labrador Retriever (5 y/o), Broome & Greene St., New York, NY • “She’s for anxiety. She will alert to oncoming signs of anxiety, and she’ll respond to pan",
+          "url": "https://www.instagram.com/thedogist/reel/DWJpicKBfLP/",
+          "post_cluster": "Services, cost, and owner logistics",
+          "captured_comments": 386,
+          "topic_comments": 68,
+          "high_signal_topic_comments": 62,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DTqcUAdkR4K",
+          "title": "Hampton, Standard Poodle (6 y/o), Armstrong & Travis St., Dallas, TX • “I get him groomed about once every two months. I try to do it myself, sometimes. He’s al",
+          "url": "https://www.instagram.com/thedogist/p/DTqcUAdkR4K/",
+          "post_cluster": "Services, cost, and owner logistics",
+          "captured_comments": 670,
+          "topic_comments": 45,
+          "high_signal_topic_comments": 42,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DTiUEM1kWLC",
+          "title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do",
+          "url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+          "post_cluster": "Food, treats, and recipes",
+          "captured_comments": 467,
+          "topic_comments": 34,
+          "high_signal_topic_comments": 34,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DSfktSdkeL4",
+          "title": "⭐️BIRTHDAY GIVEAWAY! ⭐️It’s my birthday today and I want to celebrate with one of you!I’m extremely lucky that I get to share the joy of dogs everyday for a liv",
+          "url": "https://www.instagram.com/thedogist/p/DSfktSdkeL4/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 857,
+          "topic_comments": 32,
+          "high_signal_topic_comments": 30,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DTOpuOGkYp-",
+          "title": "I’m grateful to have met Jack yesterday, whose owner reminded me of the lengths people go to care for their dogs as they age. The love people have for their dog",
+          "url": "https://www.instagram.com/thedogist/reel/DTOpuOGkYp-/",
+          "post_cluster": "Health, senior, and care stories",
+          "captured_comments": 669,
+          "topic_comments": 28,
+          "high_signal_topic_comments": 28,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DMRQrp9RUCS",
+          "title": "I got to pay another visit to @theseeingeye and learn more about their process of raising and training guide dogs for the blind and visually impaired. I was als",
+          "url": "https://www.instagram.com/thedogist/reel/DMRQrp9RUCS/",
+          "post_cluster": "Services, cost, and owner logistics",
+          "captured_comments": 324,
+          "topic_comments": 26,
+          "high_signal_topic_comments": 24,
+          "topic_comment_likes": 0
+        }
+      ],
+      "context_free": {
+        "signal_type": "pain_point",
+        "signal_strength": "strong",
+        "summary": "Dog owners are deeply concerned about accessing reliable, trustworthy services for their pets' care—from professional grooming to dog walking to veterinary support—and struggle with both affordability and finding people they can trust with their animals. There's also significant anxiety about misinformation in dog training practices and genuine emotional burden around managing pets' health needs, especially for elderly or disabled dogs.",
+        "key_motivations": [
+          "Finding trustworthy, reliable caregivers for their dogs",
+          "Achieving specific grooming styles and standards",
+          "Supporting dogs through aging and health challenges",
+          "Learning evidence-based approaches to dog training and behavior"
+        ],
+        "key_concerns": [
+          "Safety and trustworthiness when leaving dogs in others' care",
+          "High costs of veterinary care and pet services",
+          "Difficulty finding groomers who understand specific breed preferences",
+          "Misinformation spreading about harmful training methods"
+        ],
+        "authentic_language": [
+          "precious fur baby",
+          "I read too many bad stories",
+          "painful tools should not be used",
+          "incredibly expensive to care for animals like this",
+          "scares me",
+          "trust worthy dog walker"
+        ],
+        "best_quotes": [
+          {
+            "text": "I admire dog walkers I want to be one But the thought of someone walking my precious fur baby that I dont really know or that my fur baby doesn t know is beside me - scares me I read too many bad stories but she seems like a trust worthy dog walker and kind and sweet",
+            "post_url": "https://www.instagram.com/thedogist/reel/DTlJZLnkYvq/",
+            "why": "Exposes the core tension between needing dog services and deep anxiety about trusting strangers with beloved pets, despite wanting to support the profession."
+          },
+          {
+            "text": "I have a dear friend who recently started a nonprofit calledMulligans Misfits Dog Hospice there s an insta and FB page as well as TikTok I believe and she takes in elderly disabled and generally unwanted dogs and gives them the best life she can for the time she has them It's incredibly expensive to care for animals like this with all the vet visits and medications and emergency visits but she never asks for anything",
+            "post_url": "https://www.instagram.com/thedogist/reel/DTOpuOGkYp-/",
+            "why": "Reveals the financial burden of specialized dog care and the gap between available support and actual costs, showing audience values care over affordability."
+          },
+          {
+            "text": "I can never get my groomer to do it this way for my mini schnauz Millie She is white wheaten and 4 5 years old",
+            "post_url": "https://www.instagram.com/thedogist/reel/DWopDXaRhM_/",
+            "why": "Demonstrates difficulty accessing grooming services that meet specific breed and aesthetic preferences, highlighting a gap between owner expectations and groomer capabilities."
+          }
+        ]
+      },
+      "business_context": {
+        "supplement_relevance": "adjacent",
+        "relevance_explanation": "This audience is deeply invested in their dogs' health and aging, and anxious about making trustworthy care decisions—including what they feed/give their pets. A supplement positioned as evidence-based and trustworthy directly addresses their need for reliable, transparent pet health solutions, though it's not a core service/access pain point.",
+        "messaging_angles": [
+          "Position blueberry supplement as 'evidence-based' and transparent—contrast with misinformation in pet health (mirrors their concern about harmful training methods)",
+          "Frame as supporting dogs through aging and cognitive health—directly addresses their anxiety about managing elderly/senior dog wellness",
+          "Emphasize trustworthiness and ingredient transparency—capitalize on their need to feel confident in what they're giving their pets"
+        ],
+        "objections_to_address": [
+          "Skepticism about whether the supplement is actually necessary or just marketing (given audience fatigue with pet product ads and misinformation)",
+          "Cost concerns—this audience is already stretched by vet bills and pet services; position value clearly or risk rejection as unaffordable luxury",
+          "Lack of veterinary credibility—address whether vets recommend it and why, since audience trusts evidence-based expert validation"
+        ],
+        "language_to_borrow": [
+          "trustworthy",
+          "evidence-based",
+          "aging dogs",
+          "reliable",
+          "misinformation"
+        ],
+        "recommended_next_step": "Post a poll or story series asking followers what health concerns they have about their dogs (especially aging/cognitive), without mentioning the supplement—use responses to validate that blueberry/cognitive support is a real need, then test messaging in comments before official launch"
+      }
+    },
+    {
+      "opportunity_id": "product_commerce_and_merch_pull",
+      "opportunity_name": "Product, Commerce, And Merch Pull",
+      "status": "weak / noisy heuristic / needs Claude cleanup",
+      "counts": {
+        "posts": 230,
+        "comments": 853,
+        "high_signal_comments": 759,
+        "total_comment_likes": 1485,
+        "median_comment_likes": 0
+      },
+      "representative_posts": [
+        {
+          "id": "instagram_thedogist_DTiUEM1kWLC",
+          "title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do",
+          "url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+          "post_cluster": "Food, treats, and recipes",
+          "captured_comments": 467,
+          "topic_comments": 47,
+          "high_signal_topic_comments": 47,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DVOqoEwEc-P",
+          "title": "It’s time to start cheffing it up for Elsa 👨🏻‍🍳 Do you cook for your dog? Comment your go-to recipes below!",
+          "url": "https://www.instagram.com/thedogist/reel/DVOqoEwEc-P/",
+          "post_cluster": "Food, treats, and recipes",
+          "captured_comments": 655,
+          "topic_comments": 31,
+          "high_signal_topic_comments": 31,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DWJpicKBfLP",
+          "title": "Luna, Labrador Retriever (5 y/o), Broome & Greene St., New York, NY • “She’s for anxiety. She will alert to oncoming signs of anxiety, and she’ll respond to pan",
+          "url": "https://www.instagram.com/thedogist/reel/DWJpicKBfLP/",
+          "post_cluster": "Services, cost, and owner logistics",
+          "captured_comments": 386,
+          "topic_comments": 31,
+          "high_signal_topic_comments": 29,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DUjyiWGkThn",
+          "title": "Let’s spread some puppy love! ♥️",
+          "url": "https://www.instagram.com/thedogist/reel/DUjyiWGkThn/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 771,
+          "topic_comments": 31,
+          "high_signal_topic_comments": 29,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DSfktSdkeL4",
+          "title": "⭐️BIRTHDAY GIVEAWAY! ⭐️It’s my birthday today and I want to celebrate with one of you!I’m extremely lucky that I get to share the joy of dogs everyday for a liv",
+          "url": "https://www.instagram.com/thedogist/p/DSfktSdkeL4/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 857,
+          "topic_comments": 17,
+          "high_signal_topic_comments": 17,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DLni_YuRuwM",
+          "title": "thedogistVerified Edited•50wTori, Jack Russell Terrier (4 y/o), Lafayette & Bleecker St., New York, NY • “She’s very playful. She likes to just walk around New ",
+          "url": "https://www.instagram.com/thedogist/p/DLni_YuRuwM/",
+          "post_cluster": "Products, gear, and commerce",
+          "captured_comments": 443,
+          "topic_comments": 22,
+          "high_signal_topic_comments": 14,
+          "topic_comment_likes": 0
+        }
+      ],
+      "context_free": {
+        "signal_type": "mixed",
+        "signal_strength": "moderate",
+        "summary": "This audience is deeply invested in dog wellness, health practices, and pet parenting, but they're experiencing friction points with merch availability and broken donation links. They view themselves as thoughtful, informed dog owners seeking community validation and practical product access.",
+        "key_motivations": [
+          "Sharing personal dog health and wellness practices",
+          "Finding and purchasing dog-related merchandise",
+          "Supporting dog nonprofits and charitable causes",
+          "Validating their own pet parenting approaches"
+        ],
+        "key_concerns": [
+          "Difficulty accessing merch items shown in posts",
+          "Broken links preventing donations to featured nonprofits",
+          "Judgment from other dog owners about training methods and tools",
+          "Managing reactive dogs and behavioral challenges"
+        ],
+        "authentic_language": [
+          "cheffing it up",
+          "momager",
+          "reactive dog owner",
+          "happiest most cuddly dog at home",
+          "Doesn't everybody buy their house for their dog",
+          "I need it so badly"
+        ],
+        "best_quotes": [
+          {
+            "text": "checked your merch and I can t find the cap posted here and I need it so badly Where can I purchase",
+            "post_url": "https://www.instagram.com/thedogist/p/DVUlcT4keYo/",
+            "why": "Direct product demand signal—audience sees products in content and actively wants to buy them, but can't find them."
+          },
+          {
+            "text": "when I try to click on the link to donate on your page it says 'URL not found Xx",
+            "post_url": "https://www.instagram.com/thedogist/reel/DYkzuZIRHFE/",
+            "why": "Reveals high engagement intent: audience is motivated enough to click through and donate, but infrastructure failures block conversion."
+          },
+          {
+            "text": "As a reactive dog owner so many of the comments about collar types is something many of you simply don't know If you've owned a reactive dog or worked with trainers who use tools in humane ways you'd not be so quick to judge",
+            "post_url": "https://www.instagram.com/thedogist/p/DYP8IqWkbhN/",
+            "why": "Shows audience seeks validation and community understanding around specific dog challenges, not just surface-level pet content."
+          }
+        ]
+      },
+      "business_context": {
+        "supplement_relevance": "direct",
+        "relevance_explanation": "This audience is actively seeking dog health and wellness products, views themselves as informed pet parents, and wants to support creator-backed offerings. A supplement aligns perfectly with their stated motivations and existing friction around product access.",
+        "messaging_angles": [
+          "Position the supplement as backed by The Dogist's firsthand observation of what real dogs need—grounded in authentic dog stories, not generic marketing",
+          "Emphasize the thoughtful pet parenting angle: frame blueberry supplement as for owners who care deeply about preventative wellness and longevity",
+          "Highlight ease of access and avoid the merch friction—make ordering/availability seamless and communicate clearly about stock and shipping upfront"
+        ],
+        "objections_to_address": [
+          "Skepticism about whether this is just a cash grab—establish credibility by explaining The Dogist's personal dog health journey and why blueberries specifically",
+          "Concern about ingredient quality and safety—be transparent about sourcing, certifications, and vet backing to appeal to informed dog owners",
+          "Worry about fit for their individual dog's needs—acknowledge that different dogs have different health profiles and provide guidance on who benefits most"
+        ],
+        "language_to_borrow": [
+          "thoughtful dog parenting",
+          "informed pet owner",
+          "wellness practices",
+          "authentic stories",
+          "community validation"
+        ],
+        "recommended_next_step": "Create a pre-launch validation post showing your own dogs and their health routines—ask followers what wellness gaps they've noticed in their dogs' diets. Use this to prove demand and refine messaging before fall 2026 launch."
+      }
+    },
+    {
+      "opportunity_id": "behavior_anxiety_and_training",
+      "opportunity_name": "Behavior, Anxiety, And Training",
+      "status": "candidate / needs validation",
+      "counts": {
+        "posts": 186,
+        "comments": 751,
+        "high_signal_comments": 651,
+        "total_comment_likes": 3627,
+        "median_comment_likes": 0
+      },
+      "representative_posts": [
+        {
+          "id": "instagram_thedogist_DWJpicKBfLP",
+          "title": "Luna, Labrador Retriever (5 y/o), Broome & Greene St., New York, NY • “She’s for anxiety. She will alert to oncoming signs of anxiety, and she’ll respond to pan",
+          "url": "https://www.instagram.com/thedogist/reel/DWJpicKBfLP/",
+          "post_cluster": "Services, cost, and owner logistics",
+          "captured_comments": 386,
+          "topic_comments": 39,
+          "high_signal_topic_comments": 39,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DSfktSdkeL4",
+          "title": "⭐️BIRTHDAY GIVEAWAY! ⭐️It’s my birthday today and I want to celebrate with one of you!I’m extremely lucky that I get to share the joy of dogs everyday for a liv",
+          "url": "https://www.instagram.com/thedogist/p/DSfktSdkeL4/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 857,
+          "topic_comments": 28,
+          "high_signal_topic_comments": 28,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DTiUEM1kWLC",
+          "title": "Meeting Togo and Kodo was a reminder that every pet owner does things a little differently to support their dog’s health! So I’m curious… what are your daily do",
+          "url": "https://www.instagram.com/thedogist/reel/DTiUEM1kWLC/",
+          "post_cluster": "Food, treats, and recipes",
+          "captured_comments": 467,
+          "topic_comments": 27,
+          "high_signal_topic_comments": 27,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DUGIvxzkRlk",
+          "title": null,
+          "url": "https://www.instagram.com/thedogist/p/DUGIvxzkRlk/",
+          "post_cluster": "Services, cost, and owner logistics",
+          "captured_comments": 755,
+          "topic_comments": 31,
+          "high_signal_topic_comments": 26,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DNY2MaZxUNQ",
+          "title": "Daisy, Sato mix (5 y/o), N 14th & Berry St., Brooklyn, NY • “She’s not the most friendly dog – she barks a lot. I’m Puerto Rican, so I adopted her back home. I’",
+          "url": "https://www.instagram.com/thedogist/reel/DNY2MaZxUNQ/",
+          "post_cluster": "Services, cost, and owner logistics",
+          "captured_comments": 294,
+          "topic_comments": 30,
+          "high_signal_topic_comments": 26,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DQm2gBzkXxA",
+          "title": "Frankie, mix, Fort Greene Park, Brooklyn, NY • “She’s from @muddypawsrescuenyc – from Kentucky originally. We’ve had her for less than three months. I don’t kno",
+          "url": "https://www.instagram.com/thedogist/reel/DQm2gBzkXxA/",
+          "post_cluster": "Services, cost, and owner logistics",
+          "captured_comments": 413,
+          "topic_comments": 26,
+          "high_signal_topic_comments": 22,
+          "topic_comment_likes": 0
+        }
+      ],
+      "context_free": {
+        "signal_type": "pain_point",
+        "signal_strength": "strong",
+        "summary": "This audience is deeply divided on dog training methodology, with passionate disagreement between advocates of positive-only training and balanced/aversive methods. The conversation reveals genuine anxiety about dog behavior and reactivity, alongside frustration that different training philosophies are being judged rather than understood as contextual solutions.",
+        "key_motivations": [
+          "Finding effective solutions for reactive and anxious dogs",
+          "Defending training methods they've personally found successful",
+          "Seeking validation that their approach to dog training is legitimate",
+          "Understanding different perspectives on dog behavior management"
+        ],
+        "key_concerns": [
+          "Aversive training tools (e-collars, prong collars) causing harm vs. effectiveness debate",
+          "Dogs suppressing emotions rather than learning to regulate them",
+          "Being judged for training choices they believe are humane and balanced",
+          "Misinformation spreading about dog training and behavior science"
+        ],
+        "authentic_language": [
+          "balanced training",
+          "reactive dog owner",
+          "pouring gasoline on a fire",
+          "humane ways",
+          "properly used",
+          "trained stable reliable dog"
+        ],
+        "best_quotes": [
+          {
+            "text": "Your brother is punishing his dog for communicating that emotion so the dog is learning to suppress their emotions instead of dealing with them meanwhile learning that seeing you pain He is literally training his dog to bite out of nowhere",
+            "post_url": "https://www.instagram.com/thedogist/p/DYP8IqWkbhN/",
+            "why": "Articulates the core pain point: concern that aversive training creates behavioral regression and safety risks rather than solutions."
+          },
+          {
+            "text": "As a reactive dog owner so many of the comments about collar types is something many of you simply don't know If you've owned a reactive dog or worked with trainers who use tools in humane ways you'd not be so quick to judge",
+            "post_url": "https://www.instagram.com/thedogist/p/DYP8IqWkbhN/",
+            "why": "Reveals audience frustration with judgment and the lived experience gap—owners with reactive dogs feel misunderstood by absolutist positions."
+          },
+          {
+            "text": "A properly used prong or e-collar creates clarity communication and safety not fear A trained stable reliable dog will always matter more to me than internet stigma from people who don t understand balanced training",
+            "post_url": "https://www.instagram.com/thedogist/p/DYP8IqWkbhN/",
+            "why": "Shows the defender perspective prioritizes outcomes over ideology, and feels their practical expertise is being dismissed as ignorance or cruelty."
+          }
+        ]
+      },
+      "business_context": {
+        "supplement_relevance": "adjacent",
+        "relevance_explanation": "While this cluster focuses on training methodology debates, the underlying anxiety about dog behavior and reactivity creates openness to complementary wellness solutions that support emotional regulation and calm—exactly what a blueberry supplement positioned for cognitive health could address.",
+        "messaging_angles": [
+          "Position blueberries as supporting natural stress resilience and emotional balance in dogs, avoiding any implication that supplements replace training or behavior work",
+          "Frame the supplement as a tool that works alongside whatever training philosophy owners choose, emphasizing partnership with their existing approach rather than judgment",
+          "Lead with cognitive and nervous system benefits (antioxidants, brain health) rather than behavior claims, letting owners draw their own conclusions about anxiety support"
+        ],
+        "objections_to_address": [
+          "Skepticism that a supplement is being marketed as a behavior 'fix' or substitute for proper training and methodology",
+          "Concern that positioning implies their dog's anxiety is a deficiency rather than a normal response requiring training/environmental management",
+          "Wariness of supplement claims that lack transparency about scientific backing or feel like oversimplified solutions to complex behavioral issues"
+        ],
+        "language_to_borrow": [
+          "contextual solutions",
+          "authentic",
+          "balance",
+          "support their approach",
+          "legitimate"
+        ],
+        "recommended_next_step": "Create a behind-the-scenes content series featuring dogs with documented anxiety/reactivity issues whose owners use varied training methods, positioning the supplement as one optional tool in their toolkit—then ask followers which training philosophies they use, validating all approaches while subtly introducing the supplement as complementary, not prescriptive"
+      }
+    },
+    {
+      "opportunity_id": "travel_and_dog_friendly_places",
+      "opportunity_name": "Travel And Dog-Friendly Places",
+      "status": "candidate / needs validation",
+      "counts": {
+        "posts": 193,
+        "comments": 706,
+        "high_signal_comments": 586,
+        "total_comment_likes": 3899,
+        "median_comment_likes": 0
+      },
+      "representative_posts": [
+        {
+          "id": "instagram_thedogist_DRSxJXVEdom",
+          "title": "A surprise birthday trip for Sam – beaches, pitons, and local pups ❤️🌴🐕🎂 Any recommendations for places to go/things to do?",
+          "url": "https://www.instagram.com/thedogist/reel/DRSxJXVEdom/",
+          "post_cluster": "IRL community, walks, and events",
+          "captured_comments": 386,
+          "topic_comments": 39,
+          "high_signal_topic_comments": 27,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DNUFQhjRwcF",
+          "title": "thedogistVerified Edited•44wElsa’s favorite place on earth is Upstate, NY (so far). What’s your dog’s favorite place? Where should I take Els next? Ft: @giddyup",
+          "url": "https://www.instagram.com/thedogist/reel/DNUFQhjRwcF/",
+          "post_cluster": "IRL community, walks, and events",
+          "captured_comments": 581,
+          "topic_comments": 32,
+          "high_signal_topic_comments": 26,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DS7p32hEcvt",
+          "title": "thedogistVerified Edited•23wLondon, Great Pyrenees mix, N 8th & Berry St., Brooklyn, NY • “She’s a rescue through @muddypawsrescue, and they got her from a shel",
+          "url": "https://www.instagram.com/thedogist/reel/DS7p32hEcvt/",
+          "post_cluster": "IRL community, walks, and events",
+          "captured_comments": 659,
+          "topic_comments": 29,
+          "high_signal_topic_comments": 25,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DSfktSdkeL4",
+          "title": "⭐️BIRTHDAY GIVEAWAY! ⭐️It’s my birthday today and I want to celebrate with one of you!I’m extremely lucky that I get to share the joy of dogs everyday for a liv",
+          "url": "https://www.instagram.com/thedogist/p/DSfktSdkeL4/",
+          "post_cluster": "Rescue and adoption stories",
+          "captured_comments": 857,
+          "topic_comments": 21,
+          "high_signal_topic_comments": 21,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DNmCr7mRajv",
+          "title": "Elsa takes the Hamptons! Elsa accompanied us on our trip to Montauk, where we enjoyed all the best summer activities… the beach, tennis, cornhole, and s’mores b",
+          "url": "https://www.instagram.com/thedogist/reel/DNmCr7mRajv/",
+          "post_cluster": "IRL community, walks, and events",
+          "captured_comments": 216,
+          "topic_comments": 31,
+          "high_signal_topic_comments": 20,
+          "topic_comment_likes": 0
+        },
+        {
+          "id": "instagram_thedogist_DZNHogCxDr9",
+          "title": "At least Elsa doesn’t reject all healthy foods… Any ideas where I can find an ube (purple yam) in NYC??",
+          "url": "https://www.instagram.com/thedogist/reel/DZNHogCxDr9/",
+          "post_cluster": "IRL community, walks, and events",
+          "captured_comments": 258,
+          "topic_comments": 23,
+          "high_signal_topic_comments": 20,
+          "topic_comment_likes": 138
+        }
+      ],
+      "context_free": {
+        "signal_type": "community_affinity",
+        "signal_strength": "strong",
+        "summary": "This audience is deeply emotionally invested in travel experiences with their dogs, viewing trips as meaningful bonding opportunities and life milestones. They actively seek recommendations for dog-friendly destinations and eagerly share their own travel plans and favorite locations, creating a supportive community around dog-centric adventures.",
+        "key_motivations": [
+          "Creating memorable travel experiences and bonding with their dogs",
+          "Finding and discovering dog-friendly destinations and accommodations",
+          "Sharing personal dog stories and travel experiences with others",
+          "Seeking validation and recommendations from a like-minded community"
+        ],
+        "key_concerns": [
+          "Managing dog health conditions while traveling (diabetes, age-related issues)",
+          "Finding appropriate accommodations that truly welcome dogs",
+          "Dogs' comfort and preferences during travel (water sensitivity, climate)",
+          "Uncertainty about which destinations and activities are genuinely dog-friendly"
+        ],
+        "authentic_language": [
+          "dog-friendly hotel and restaurant",
+          "forever home",
+          "favorite place on earth",
+          "I'm so excited it's our first real trip together",
+          "We miss him so much",
+          "he loved traveling"
+        ],
+        "best_quotes": [
+          {
+            "text": "We lost our almost 18 year old dog in November We adopted him when he was about 9 after he spent a year at a shelter We used to tell him jokingly that he has to spend more time with us than he did with his previous family Never knowing that he would take the challenge seriously During his last days he went on a trip he loved traveling and a picnic to his favorite place We miss him so much",
+            "post_url": "https://www.instagram.com/thedogist/reel/DTL78iCkQE7/",
+            "why": "Reveals that travel experiences with dogs are deeply meaningful life memories, even becoming a legacy at the end of a dog's life."
+          },
+          {
+            "text": "I'm taking my dog to a fabulous dog-friendly Hotel in the Austrian Apps for a week I'm so excited it's our first real trip together I just hope that it won't rain because Winnie hates getting wet",
+            "post_url": "https://www.instagram.com/thedogist/reel/DNmCr7mRajv/",
+            "why": "Shows how much the audience plans around their dog's comfort and preferences, viewing the trip as a shared milestone moment."
+          },
+          {
+            "text": "come to Long Beach and we can walk the bike path from Shoreline Village to Rosie s Dog Beach",
+            "post_url": "https://www.instagram.com/thedogist/p/DYdbhzSEdAy/",
+            "why": "Demonstrates the community's eagerness to proactively recommend specific dog-friendly locations and invite others to experience them together."
+          }
+        ]
+      },
+      "business_context": {
+        "supplement_relevance": "adjacent",
+        "relevance_explanation": "Travel-focused dog owners are deeply invested in their dogs' health and wellbeing during active experiences, making them receptive to supplements that support vitality and comfort—especially for managing conditions during travel stress.",
+        "messaging_angles": [
+          "Position blueberry supplement as travel-essential: supporting joint health, cognitive function, and stress resilience during trips and new environments",
+          "Emphasize natural, whole-food ingredient story aligned with authentic dog care philosophy the audience already practices",
+          "Frame supplement as enabling more adventurous travel experiences by helping aging or health-challenged dogs stay comfortable and active longer"
+        ],
+        "objections_to_address": [
+          "Skepticism about whether supplements actually work or are just marketing—address with transparent efficacy data and veterinary backing",
+          "Concern that supplements might conflict with existing health conditions or medications dogs take while traveling",
+          "Uncertainty about whether their specific dog needs this product versus skepticism that it's one-size-fits-all"
+        ],
+        "language_to_borrow": [
+          "bonding",
+          "genuine/authentic",
+          "dog-friendly",
+          "comfort",
+          "meaningful experiences"
+        ],
+        "recommended_next_step": "Create a validation post featuring a dog with a travel-related health challenge (e.g., aging dog, joint issues) and ask followers: 'What health concerns keep your dog from adventures they'd love?' This surfaces which health issues matter most to this segment and pre-qualifies their supplement need."
+      }
+    }
+  ]
+}

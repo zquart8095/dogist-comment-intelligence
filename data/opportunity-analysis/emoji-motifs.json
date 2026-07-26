@@ -1,0 +1,4228 @@
+{
+  "summary": {
+    "emoji_comments": 60984,
+    "emoji_only_comments": 14495,
+    "repeated_emoji_comments": 19244,
+    "top_emojis": [
+      {
+        "value": "❤️",
+        "count": 45709
+      },
+      {
+        "value": "😍",
+        "count": 22334
+      },
+      {
+        "value": "🐾",
+        "count": 10404
+      },
+      {
+        "value": "😂",
+        "count": 10268
+      },
+      {
+        "value": "🥰",
+        "count": 5703
+      },
+      {
+        "value": "👏",
+        "count": 5439
+      },
+      {
+        "value": "🐶",
+        "count": 3202
+      },
+      {
+        "value": "🥹",
+        "count": 2894
+      },
+      {
+        "value": "♥️",
+        "count": 1913
+      },
+      {
+        "value": "🤍",
+        "count": 1795
+      },
+      {
+        "value": "🤣",
+        "count": 1787
+      },
+      {
+        "value": "🙌",
+        "count": 1786
+      },
+      {
+        "value": "💕",
+        "count": 1784
+      },
+      {
+        "value": "🙏",
+        "count": 1523
+      },
+      {
+        "value": "😭",
+        "count": 1514
+      },
+      {
+        "value": "🔥",
+        "count": 1392
+      },
+      {
+        "value": "🩷",
+        "count": 1119
+      },
+      {
+        "value": "😢",
+        "count": 1115
+      },
+      {
+        "value": "💙",
+        "count": 985
+      },
+      {
+        "value": "💜",
+        "count": 829
+      },
+      {
+        "value": "🖤",
+        "count": 819
+      },
+      {
+        "value": "💖",
+        "count": 757
+      },
+      {
+        "value": "💔",
+        "count": 576
+      },
+      {
+        "value": "✨",
+        "count": 559
+      },
+      {
+        "value": "🐕",
+        "count": 530
+      }
+    ],
+    "top_emoji_sequences": [
+      {
+        "value": "❤️",
+        "count": 7780
+      },
+      {
+        "value": "😍",
+        "count": 5529
+      },
+      {
+        "value": "😂",
+        "count": 2403
+      },
+      {
+        "value": "❤️❤️❤️",
+        "count": 2327
+      },
+      {
+        "value": "🥰",
+        "count": 1501
+      },
+      {
+        "value": "❤️❤️",
+        "count": 1365
+      },
+      {
+        "value": "😍😍😍",
+        "count": 1210
+      },
+      {
+        "value": "❤️❤️❤️❤️",
+        "count": 809
+      },
+      {
+        "value": "😍😍",
+        "count": 733
+      },
+      {
+        "value": "🐾",
+        "count": 631
+      },
+      {
+        "value": "🥹",
+        "count": 618
+      },
+      {
+        "value": "😂😂😂",
+        "count": 531
+      },
+      {
+        "value": "😍😍😍😍",
+        "count": 526
+      },
+      {
+        "value": "❤️🐾",
+        "count": 478
+      },
+      {
+        "value": "❤️❤️❤️❤️❤️",
+        "count": 475
+      },
+      {
+        "value": "😂😂",
+        "count": 468
+      },
+      {
+        "value": "😍❤️",
+        "count": 392
+      },
+      {
+        "value": "🐾❤️",
+        "count": 339
+      },
+      {
+        "value": "💕",
+        "count": 333
+      },
+      {
+        "value": "😢",
+        "count": 316
+      }
+    ],
+    "top_emoji_cooccurrences": [
+      {
+        "value": "❤️ 🐾",
+        "count": 3132
+      },
+      {
+        "value": "❤️ 😍",
+        "count": 1887
+      },
+      {
+        "value": "🐶 🐾",
+        "count": 994
+      },
+      {
+        "value": "❤️ 🐶",
+        "count": 953
+      },
+      {
+        "value": "🐾 🥰",
+        "count": 873
+      },
+      {
+        "value": "❤️ 👏",
+        "count": 864
+      },
+      {
+        "value": "🐾 😍",
+        "count": 746
+      },
+      {
+        "value": "❤️ 🥰",
+        "count": 727
+      },
+      {
+        "value": "❤️ 😂",
+        "count": 711
+      },
+      {
+        "value": "❤️ 🙌",
+        "count": 599
+      },
+      {
+        "value": "😂 😍",
+        "count": 497
+      },
+      {
+        "value": "❤️ 🥹",
+        "count": 413
+      },
+      {
+        "value": "👏 😍",
+        "count": 407
+      },
+      {
+        "value": "🐶 🥰",
+        "count": 362
+      },
+      {
+        "value": "😍 🥰",
+        "count": 357
+      },
+      {
+        "value": "🐾 💕",
+        "count": 352
+      },
+      {
+        "value": "♥️ 🐾",
+        "count": 321
+      },
+      {
+        "value": "🐾 👏",
+        "count": 290
+      },
+      {
+        "value": "❤️ 🙏",
+        "count": 286
+      },
+      {
+        "value": "❤️ 🔥",
+        "count": 282
+      }
+    ]
+  },
+  "motifs": [
+    {
+      "motif_id": "high_volume_affection",
+      "label": "High-volume affection reactions",
+      "comment_count": 41101,
+      "post_count": 366,
+      "emoji_only_comments": 11651,
+      "text_and_emoji_comments": 29450,
+      "top_emojis": [
+        {
+          "value": "❤️",
+          "count": 45709
+        },
+        {
+          "value": "😍",
+          "count": 22334
+        },
+        {
+          "value": "🐾",
+          "count": 7391
+        },
+        {
+          "value": "🥰",
+          "count": 5703
+        },
+        {
+          "value": "👏",
+          "count": 2731
+        },
+        {
+          "value": "😂",
+          "count": 2059
+        },
+        {
+          "value": "🐶",
+          "count": 2047
+        },
+        {
+          "value": "♥️",
+          "count": 1913
+        },
+        {
+          "value": "🤍",
+          "count": 1795
+        },
+        {
+          "value": "💕",
+          "count": 1784
+        },
+        {
+          "value": "🩷",
+          "count": 1119
+        },
+        {
+          "value": "🥹",
+          "count": 1099
+        },
+        {
+          "value": "💙",
+          "count": 985
+        },
+        {
+          "value": "🙌",
+          "count": 967
+        }
+      ],
+      "top_emoji_sequences": [
+        {
+          "value": "❤️",
+          "count": 7780
+        },
+        {
+          "value": "😍",
+          "count": 5529
+        },
+        {
+          "value": "❤️❤️❤️",
+          "count": 2327
+        },
+        {
+          "value": "🥰",
+          "count": 1501
+        },
+        {
+          "value": "❤️❤️",
+          "count": 1365
+        },
+        {
+          "value": "😍😍😍",
+          "count": 1210
+        },
+        {
+          "value": "❤️❤️❤️❤️",
+          "count": 809
+        },
+        {
+          "value": "😍😍",
+          "count": 733
+        },
+        {
+          "value": "😍😍😍😍",
+          "count": 526
+        },
+        {
+          "value": "❤️🐾",
+          "count": 478
+        }
+      ],
+      "related_event_ids": [
+        {
+          "value": "knicks_2026_nba_finals_win",
+          "count": 669
+        },
+        {
+          "value": "justice_for_jameson_discourse",
+          "count": 619
+        },
+        {
+          "value": "knicks_2026_championship_parade_meetup",
+          "count": 547
+        }
+      ],
+      "evidence_quotes": [
+        {
+          "comment_id": "dogist_DRfHWUmEVx6_4829b30b",
+          "post_id": "instagram_thedogist_DRfHWUmEVx6",
+          "post_url": "https://www.instagram.com/thedogist/reel/DRfHWUmEVx6/",
+          "posted_date": "2025-11-25T16:49:14.000Z",
+          "author": "underprotest27",
+          "likes": 0,
+          "raw_text": "🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰❤️🐶🐕🐩🐕🐶🐕🐩🐕🐶🐕🐩🐕🐶🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+          "emojis": [
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "❤️",
+            "🐶",
+            "🐕",
+            "🐩",
+            "🐕",
+            "🐶",
+            "🐕",
+            "🐩",
+            "🐕",
+            "🐶",
+            "🐕",
+            "🐩",
+            "🐕",
+            "🐶",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 4,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DUPAaofEbgy_e51d5ad6",
+          "post_id": "instagram_thedogist_DUPAaofEbgy",
+          "post_url": "https://www.instagram.com/thedogist/p/DUPAaofEbgy/",
+          "posted_date": "2026-02-01T23:54:51.000Z",
+          "author": "tinytub88",
+          "likes": 0,
+          "raw_text": "😍😍😍😍😍😍😘😘😘😘😘😘🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏❤️❤️❤️",
+          "emojis": [
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😘",
+            "😘",
+            "😘",
+            "😘",
+            "😘",
+            "😘",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "❤️",
+            "❤️",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection",
+            "gratitude_prayer",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation",
+            "call_to_action"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 5,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DYp4B3jgwSn_46bef16b",
+          "post_id": "instagram_thedogist_DYp4B3jgwSn",
+          "post_url": "https://www.instagram.com/shortyawards/reel/DYp4B3jgwSn/",
+          "posted_date": "2026-05-22T20:29:44.000Z",
+          "author": "junesalv",
+          "likes": 0,
+          "raw_text": "🔥🔥🔥🔥🔥So proud.... So well deserved. We love you and all you do .... 💕💕💕💕💕💕💕💕💕💕💕💕💕💕💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯",
+          "emojis": [
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯"
+          ],
+          "hashtags": [],
+          "language": "en",
+          "affect_tags": [
+            "affection",
+            "celebration"
+          ],
+          "stance_tags": [
+            "praise_affirmation",
+            "personal_testimony"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 9,
+          "centroid_similarity": 0.6283
+        },
+        {
+          "comment_id": "dogist_DXsHI8VkbUP_dbcdf977",
+          "post_id": "instagram_thedogist_DXsHI8VkbUP",
+          "post_url": "https://www.instagram.com/thedogist/reel/DXsHI8VkbUP/",
+          "posted_date": "2026-04-28T20:49:21.000Z",
+          "author": "rguloor",
+          "likes": 0,
+          "raw_text": "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+          "emojis": [
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 2,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DUUvbVpDVqG_d0ef6e76",
+          "post_id": "instagram_thedogist_DUUvbVpDVqG",
+          "post_url": "https://www.instagram.com/thedogist/p/DUUvbVpDVqG/",
+          "posted_date": "2026-02-04T05:21:50.000Z",
+          "author": "kathygrossheim",
+          "likes": 0,
+          "raw_text": "🐾❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️🐾 Absolutely beautiful Doberman Pincher bitch Congratulations for the 1st Dobe to win after 37 years and at the 150 Anniversary of Westminster Dog Show. GO PENNY❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+          "emojis": [
+            "🐾",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "en",
+          "affect_tags": [
+            "affection",
+            "celebration"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": 0.6608
+        },
+        {
+          "comment_id": "dogist_DQNWvUWkTPU_74e0a216",
+          "post_id": "instagram_thedogist_DQNWvUWkTPU",
+          "post_url": "https://www.instagram.com/thedogist/p/DQNWvUWkTPU/",
+          "posted_date": "2025-10-24T22:25:52.000Z",
+          "author": "claudia.547",
+          "likes": 0,
+          "raw_text": "🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾",
+          "emojis": [
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "repeat_regular",
+          "author_comment_count": 44,
+          "centroid_similarity": null
+        }
+      ],
+      "interpretation_boundary": "Signals warmth or approval, but does not by itself explain why the audience reacted."
+    },
+    {
+      "motif_id": "emoji_only_reactions",
+      "label": "Emoji-only reactions",
+      "comment_count": 14495,
+      "post_count": 361,
+      "emoji_only_comments": 14495,
+      "text_and_emoji_comments": 0,
+      "top_emojis": [
+        {
+          "value": "❤️",
+          "count": 21747
+        },
+        {
+          "value": "😍",
+          "count": 9519
+        },
+        {
+          "value": "😂",
+          "count": 3036
+        },
+        {
+          "value": "👏",
+          "count": 2889
+        },
+        {
+          "value": "🐾",
+          "count": 2811
+        },
+        {
+          "value": "🥰",
+          "count": 1332
+        },
+        {
+          "value": "🥹",
+          "count": 673
+        },
+        {
+          "value": "🙏",
+          "count": 669
+        },
+        {
+          "value": "🤍",
+          "count": 619
+        },
+        {
+          "value": "🙌",
+          "count": 588
+        },
+        {
+          "value": "♥️",
+          "count": 567
+        },
+        {
+          "value": "🔥",
+          "count": 543
+        },
+        {
+          "value": "🐶",
+          "count": 533
+        },
+        {
+          "value": "😢",
+          "count": 434
+        }
+      ],
+      "top_emoji_sequences": [
+        {
+          "value": "❤️",
+          "count": 1468
+        },
+        {
+          "value": "❤️❤️❤️",
+          "count": 1289
+        },
+        {
+          "value": "😍",
+          "count": 916
+        },
+        {
+          "value": "😍😍😍",
+          "count": 653
+        },
+        {
+          "value": "❤️❤️",
+          "count": 502
+        },
+        {
+          "value": "❤️❤️❤️❤️",
+          "count": 499
+        },
+        {
+          "value": "❤️❤️❤️❤️❤️",
+          "count": 353
+        },
+        {
+          "value": "😍😍😍😍",
+          "count": 327
+        },
+        {
+          "value": "😍😍",
+          "count": 295
+        },
+        {
+          "value": "😂",
+          "count": 222
+        }
+      ],
+      "related_event_ids": [
+        {
+          "value": "knicks_2026_nba_finals_win",
+          "count": 221
+        },
+        {
+          "value": "justice_for_jameson_discourse",
+          "count": 200
+        },
+        {
+          "value": "knicks_2026_championship_parade_meetup",
+          "count": 171
+        }
+      ],
+      "evidence_quotes": [
+        {
+          "comment_id": "dogist_DRfHWUmEVx6_4829b30b",
+          "post_id": "instagram_thedogist_DRfHWUmEVx6",
+          "post_url": "https://www.instagram.com/thedogist/reel/DRfHWUmEVx6/",
+          "posted_date": "2025-11-25T16:49:14.000Z",
+          "author": "underprotest27",
+          "likes": 0,
+          "raw_text": "🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰❤️🐶🐕🐩🐕🐶🐕🐩🐕🐶🐕🐩🐕🐶🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+          "emojis": [
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "❤️",
+            "🐶",
+            "🐕",
+            "🐩",
+            "🐕",
+            "🐶",
+            "🐕",
+            "🐩",
+            "🐕",
+            "🐶",
+            "🐕",
+            "🐩",
+            "🐕",
+            "🐶",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "🥰",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 4,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DUPAaofEbgy_e51d5ad6",
+          "post_id": "instagram_thedogist_DUPAaofEbgy",
+          "post_url": "https://www.instagram.com/thedogist/p/DUPAaofEbgy/",
+          "posted_date": "2026-02-01T23:54:51.000Z",
+          "author": "tinytub88",
+          "likes": 0,
+          "raw_text": "😍😍😍😍😍😍😘😘😘😘😘😘🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏❤️❤️❤️",
+          "emojis": [
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😘",
+            "😘",
+            "😘",
+            "😘",
+            "😘",
+            "😘",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "❤️",
+            "❤️",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection",
+            "gratitude_prayer",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation",
+            "call_to_action"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 5,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DXsHI8VkbUP_dbcdf977",
+          "post_id": "instagram_thedogist_DXsHI8VkbUP",
+          "post_url": "https://www.instagram.com/thedogist/reel/DXsHI8VkbUP/",
+          "posted_date": "2026-04-28T20:49:21.000Z",
+          "author": "rguloor",
+          "likes": 0,
+          "raw_text": "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+          "emojis": [
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 2,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DQNWvUWkTPU_74e0a216",
+          "post_id": "instagram_thedogist_DQNWvUWkTPU",
+          "post_url": "https://www.instagram.com/thedogist/p/DQNWvUWkTPU/",
+          "posted_date": "2025-10-24T22:25:52.000Z",
+          "author": "claudia.547",
+          "likes": 0,
+          "raw_text": "🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾❤️❤️🐾",
+          "emojis": [
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾",
+            "❤️",
+            "❤️",
+            "🐾"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "repeat_regular",
+          "author_comment_count": 44,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DLIznI5xR9i_3e4d4ddb",
+          "post_id": "instagram_thedogist_DLIznI5xR9i",
+          "post_url": "https://www.instagram.com/thedogist/reel/DLIznI5xR9i/",
+          "posted_date": "2025-06-20T21:27:31.000Z",
+          "author": "abeqnyc",
+          "likes": 0,
+          "raw_text": "🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥",
+          "emojis": [
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "celebration"
+          ],
+          "stance_tags": [],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DV13NSXkcuk_7d5404b6",
+          "post_id": "instagram_thedogist_DV13NSXkcuk",
+          "post_url": "https://www.instagram.com/thedogist/reel/DV13NSXkcuk/",
+          "posted_date": null,
+          "author": "auntiegwenn",
+          "likes": 0,
+          "raw_text": "😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂",
+          "emojis": [
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "laughter_play"
+          ],
+          "stance_tags": [],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 2,
+          "centroid_similarity": null
+        }
+      ],
+      "interpretation_boundary": "Emoji-only comments are engagement and affect signals; their meaning should stay broad unless repeated with text context."
+    },
+    {
+      "motif_id": "laughter_play",
+      "label": "Play, laughter, and comic recognition",
+      "comment_count": 7143,
+      "post_count": 331,
+      "emoji_only_comments": 1282,
+      "text_and_emoji_comments": 5861,
+      "top_emojis": [
+        {
+          "value": "😂",
+          "count": 10268
+        },
+        {
+          "value": "🤣",
+          "count": 1787
+        },
+        {
+          "value": "❤️",
+          "count": 1357
+        },
+        {
+          "value": "😍",
+          "count": 869
+        },
+        {
+          "value": "🐾",
+          "count": 360
+        },
+        {
+          "value": "😅",
+          "count": 309
+        },
+        {
+          "value": "😆",
+          "count": 306
+        },
+        {
+          "value": "👏",
+          "count": 305
+        },
+        {
+          "value": "🥰",
+          "count": 222
+        },
+        {
+          "value": "🐶",
+          "count": 178
+        },
+        {
+          "value": "😮",
+          "count": 87
+        },
+        {
+          "value": "🔥",
+          "count": 82
+        },
+        {
+          "value": "🙌",
+          "count": 73
+        },
+        {
+          "value": "🌭",
+          "count": 70
+        }
+      ],
+      "top_emoji_sequences": [
+        {
+          "value": "😂",
+          "count": 2403
+        },
+        {
+          "value": "😂😂😂",
+          "count": 531
+        },
+        {
+          "value": "😂😂",
+          "count": 468
+        },
+        {
+          "value": "🤣",
+          "count": 306
+        },
+        {
+          "value": "😂❤️",
+          "count": 204
+        },
+        {
+          "value": "😂😂😂😂",
+          "count": 201
+        },
+        {
+          "value": "😅",
+          "count": 189
+        },
+        {
+          "value": "😆",
+          "count": 127
+        },
+        {
+          "value": "😂😂😂😂😂",
+          "count": 102
+        },
+        {
+          "value": "😂😍",
+          "count": 97
+        }
+      ],
+      "related_event_ids": [
+        {
+          "value": "knicks_2026_nba_finals_win",
+          "count": 59
+        },
+        {
+          "value": "justice_for_jameson_discourse",
+          "count": 58
+        },
+        {
+          "value": "knicks_2026_championship_parade_meetup",
+          "count": 46
+        }
+      ],
+      "evidence_quotes": [
+        {
+          "comment_id": "dogist_DT6fNUCEXI1_bf539260",
+          "post_id": "instagram_thedogist_DT6fNUCEXI1",
+          "post_url": "https://www.instagram.com/thedogist/reel/DT6fNUCEXI1/",
+          "posted_date": null,
+          "author": "kimstensionssalon",
+          "likes": 0,
+          "raw_text": "@theprettyoctopus 🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂 🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣 😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣",
+          "emojis": [
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣"
+          ],
+          "hashtags": [],
+          "language": "und",
+          "affect_tags": [
+            "laughter_play"
+          ],
+          "stance_tags": [],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DZdh9E2RNif_1b1798e6",
+          "post_id": "instagram_thedogist_DZdh9E2RNif",
+          "post_url": "https://www.instagram.com/thedogist/reel/DZdh9E2RNif/",
+          "posted_date": "2026-06-11T22:08:27.000Z",
+          "author": "gu.listan3137",
+          "likes": 0,
+          "raw_text": "😮😮😮😮😮😍😍😍9дб😂😂😂😂😂😂😂😮😂9щззз😮😮😂😂😮😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😢🔥🔥🔥🔥",
+          "emojis": [
+            "😮",
+            "😮",
+            "😮",
+            "😮",
+            "😮",
+            "😍",
+            "😍",
+            "😍",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😮",
+            "😂",
+            "😮",
+            "😮",
+            "😂",
+            "😂",
+            "😮",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😢",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥"
+          ],
+          "hashtags": [],
+          "language": "und_non_latin",
+          "affect_tags": [
+            "affection",
+            "laughter_play",
+            "grief_memorial",
+            "celebration",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 3,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DV13NSXkcuk_7d5404b6",
+          "post_id": "instagram_thedogist_DV13NSXkcuk",
+          "post_url": "https://www.instagram.com/thedogist/reel/DV13NSXkcuk/",
+          "posted_date": null,
+          "author": "auntiegwenn",
+          "likes": 0,
+          "raw_text": "😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂",
+          "emojis": [
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "laughter_play"
+          ],
+          "stance_tags": [],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 2,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DPJtlRckQd9_9a347e85",
+          "post_id": "instagram_thedogist_DPJtlRckQd9",
+          "post_url": "https://www.instagram.com/thedogist/p/DPJtlRckQd9/",
+          "posted_date": "2025-09-28T15:57:06.000Z",
+          "author": "ll64611",
+          "likes": 0,
+          "raw_text": "X ez🙌🔥👏👏😢😍😢😍😍😮😮😮😮😂😂😂❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️b v❤️❤️🙌",
+          "emojis": [
+            "🙌",
+            "🔥",
+            "👏",
+            "👏",
+            "😢",
+            "😍",
+            "😢",
+            "😍",
+            "😍",
+            "😮",
+            "😮",
+            "😮",
+            "😮",
+            "😂",
+            "😂",
+            "😂",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "🙌"
+          ],
+          "hashtags": [],
+          "language": "und",
+          "affect_tags": [
+            "affection",
+            "laughter_play",
+            "grief_memorial",
+            "celebration",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DTRBduZEV6q_fef99885",
+          "post_id": "instagram_thedogist_DTRBduZEV6q",
+          "post_url": "https://www.instagram.com/thedogist/reel/DTRBduZEV6q/",
+          "posted_date": null,
+          "author": "ginalove9381",
+          "likes": 0,
+          "raw_text": "@ashleyrosstattoos 😂😁😂😁😂😁😂😁😂🤣🤣🤣🤣🤣😂😂😂😂🤣🤣🤣. LOVE IT !! X",
+          "emojis": [
+            "😂",
+            "😁",
+            "😂",
+            "😁",
+            "😂",
+            "😁",
+            "😂",
+            "😁",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "🤣",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🤣",
+            "🤣",
+            "🤣"
+          ],
+          "hashtags": [],
+          "language": "en",
+          "affect_tags": [
+            "affection",
+            "laughter_play"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DMN51J1xp4T_39e3d11b",
+          "post_id": "instagram_thedogist_DMN51J1xp4T",
+          "post_url": "https://www.instagram.com/thedogist/reel/DMN51J1xp4T/",
+          "posted_date": "2025-07-17T17:27:56.000Z",
+          "author": "chelsea_la_beagle_and_meghan",
+          "likes": 0,
+          "raw_text": "😂😂😂😂🐶🐾🐾🥰🥹😍😍😍😍😍❤️❤️❤️❤️❤️❤️❤️",
+          "emojis": [
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "🐶",
+            "🐾",
+            "🐾",
+            "🥰",
+            "🥹",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection",
+            "laughter_play",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 2,
+          "centroid_similarity": null
+        }
+      ],
+      "interpretation_boundary": "Often marks amused recognition; avoid reading it as product intent."
+    },
+    {
+      "motif_id": "applause_celebration",
+      "label": "Applause, celebration, and approval",
+      "comment_count": 4913,
+      "post_count": 361,
+      "emoji_only_comments": 1525,
+      "text_and_emoji_comments": 3388,
+      "top_emojis": [
+        {
+          "value": "👏",
+          "count": 5439
+        },
+        {
+          "value": "❤️",
+          "count": 3057
+        },
+        {
+          "value": "🙌",
+          "count": 1786
+        },
+        {
+          "value": "🔥",
+          "count": 1392
+        },
+        {
+          "value": "😍",
+          "count": 1189
+        },
+        {
+          "value": "🐾",
+          "count": 933
+        },
+        {
+          "value": "✨",
+          "count": 559
+        },
+        {
+          "value": "😂",
+          "count": 413
+        },
+        {
+          "value": "🎉",
+          "count": 260
+        },
+        {
+          "value": "🐶",
+          "count": 236
+        },
+        {
+          "value": "🥰",
+          "count": 203
+        },
+        {
+          "value": "🏆",
+          "count": 193
+        },
+        {
+          "value": "♥️",
+          "count": 165
+        },
+        {
+          "value": "🙏",
+          "count": 129
+        }
+      ],
+      "top_emoji_sequences": [
+        {
+          "value": "🙌",
+          "count": 304
+        },
+        {
+          "value": "👏",
+          "count": 284
+        },
+        {
+          "value": "👏👏👏",
+          "count": 203
+        },
+        {
+          "value": "🔥",
+          "count": 162
+        },
+        {
+          "value": "👏👏",
+          "count": 111
+        },
+        {
+          "value": "🙌❤️",
+          "count": 100
+        },
+        {
+          "value": "👏👏👏👏",
+          "count": 71
+        },
+        {
+          "value": "❤️🙌",
+          "count": 64
+        },
+        {
+          "value": "👏❤️",
+          "count": 63
+        },
+        {
+          "value": "👏👏❤️❤️",
+          "count": 61
+        }
+      ],
+      "related_event_ids": [
+        {
+          "value": "knicks_2026_nba_finals_win",
+          "count": 70
+        },
+        {
+          "value": "justice_for_jameson_discourse",
+          "count": 66
+        },
+        {
+          "value": "knicks_2026_championship_parade_meetup",
+          "count": 58
+        }
+      ],
+      "evidence_quotes": [
+        {
+          "comment_id": "dogist_DYp4B3jgwSn_46bef16b",
+          "post_id": "instagram_thedogist_DYp4B3jgwSn",
+          "post_url": "https://www.instagram.com/shortyawards/reel/DYp4B3jgwSn/",
+          "posted_date": "2026-05-22T20:29:44.000Z",
+          "author": "junesalv",
+          "likes": 0,
+          "raw_text": "🔥🔥🔥🔥🔥So proud.... So well deserved. We love you and all you do .... 💕💕💕💕💕💕💕💕💕💕💕💕💕💕💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯",
+          "emojis": [
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💕",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯",
+            "💯"
+          ],
+          "hashtags": [],
+          "language": "en",
+          "affect_tags": [
+            "affection",
+            "celebration"
+          ],
+          "stance_tags": [
+            "praise_affirmation",
+            "personal_testimony"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 9,
+          "centroid_similarity": 0.6283
+        },
+        {
+          "comment_id": "dogist_DLIznI5xR9i_3e4d4ddb",
+          "post_id": "instagram_thedogist_DLIznI5xR9i",
+          "post_url": "https://www.instagram.com/thedogist/reel/DLIznI5xR9i/",
+          "posted_date": "2025-06-20T21:27:31.000Z",
+          "author": "abeqnyc",
+          "likes": 0,
+          "raw_text": "🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥",
+          "emojis": [
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "celebration"
+          ],
+          "stance_tags": [],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DZdh9E2RNif_1b1798e6",
+          "post_id": "instagram_thedogist_DZdh9E2RNif",
+          "post_url": "https://www.instagram.com/thedogist/reel/DZdh9E2RNif/",
+          "posted_date": "2026-06-11T22:08:27.000Z",
+          "author": "gu.listan3137",
+          "likes": 0,
+          "raw_text": "😮😮😮😮😮😍😍😍9дб😂😂😂😂😂😂😂😮😂9щззз😮😮😂😂😮😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😢🔥🔥🔥🔥",
+          "emojis": [
+            "😮",
+            "😮",
+            "😮",
+            "😮",
+            "😮",
+            "😍",
+            "😍",
+            "😍",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😮",
+            "😂",
+            "😮",
+            "😮",
+            "😂",
+            "😂",
+            "😮",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😢",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥"
+          ],
+          "hashtags": [],
+          "language": "und_non_latin",
+          "affect_tags": [
+            "affection",
+            "laughter_play",
+            "grief_memorial",
+            "celebration",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 3,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DPJtlRckQd9_9a347e85",
+          "post_id": "instagram_thedogist_DPJtlRckQd9",
+          "post_url": "https://www.instagram.com/thedogist/p/DPJtlRckQd9/",
+          "posted_date": "2025-09-28T15:57:06.000Z",
+          "author": "ll64611",
+          "likes": 0,
+          "raw_text": "X ez🙌🔥👏👏😢😍😢😍😍😮😮😮😮😂😂😂❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️b v❤️❤️🙌",
+          "emojis": [
+            "🙌",
+            "🔥",
+            "👏",
+            "👏",
+            "😢",
+            "😍",
+            "😢",
+            "😍",
+            "😍",
+            "😮",
+            "😮",
+            "😮",
+            "😮",
+            "😂",
+            "😂",
+            "😂",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "🙌"
+          ],
+          "hashtags": [],
+          "language": "und",
+          "affect_tags": [
+            "affection",
+            "laughter_play",
+            "grief_memorial",
+            "celebration",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DS46gCZEVua_9d44e351",
+          "post_id": "instagram_thedogist_DS46gCZEVua",
+          "post_url": "https://www.instagram.com/thedogist/reel/DS46gCZEVua/",
+          "posted_date": "2025-12-30T13:29:18.000Z",
+          "author": "yocarop",
+          "likes": 0,
+          "raw_text": "🙏💙🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾💖🙌",
+          "emojis": [
+            "🙏",
+            "💙",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "💖",
+            "🙌"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "celebration",
+            "gratitude_prayer",
+            "care_concern",
+            "local_sports_identity"
+          ],
+          "stance_tags": [
+            "call_to_action"
+          ],
+          "commenter_segment": "highly_engaged_regular",
+          "author_comment_count": 160,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DMoNrYixyMh_462516d0",
+          "post_id": "instagram_thedogist_DMoNrYixyMh",
+          "post_url": "https://www.instagram.com/thedogist/p/DMoNrYixyMh/",
+          "posted_date": "2025-07-27T22:40:36.000Z",
+          "author": "gobugg9",
+          "likes": 0,
+          "raw_text": "😍😍😍😍😍😍😍😍😍😍😢😢😢😢😢😢😢🔥🔥🔥🔥😍😍",
+          "emojis": [
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😢",
+            "😢",
+            "😢",
+            "😢",
+            "😢",
+            "😢",
+            "😢",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥",
+            "😍",
+            "😍"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection",
+            "grief_memorial",
+            "celebration",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": null
+        }
+      ],
+      "interpretation_boundary": "Can mark celebration, hype, or social approval depending on text and post context."
+    },
+    {
+      "motif_id": "grief_memorial",
+      "label": "Grief, memorial, and care",
+      "comment_count": 2999,
+      "post_count": 315,
+      "emoji_only_comments": 731,
+      "text_and_emoji_comments": 2268,
+      "top_emojis": [
+        {
+          "value": "🙏",
+          "count": 1523
+        },
+        {
+          "value": "😭",
+          "count": 1514
+        },
+        {
+          "value": "❤️",
+          "count": 1251
+        },
+        {
+          "value": "😢",
+          "count": 1115
+        },
+        {
+          "value": "💔",
+          "count": 576
+        },
+        {
+          "value": "🐾",
+          "count": 494
+        },
+        {
+          "value": "😍",
+          "count": 249
+        },
+        {
+          "value": "🥹",
+          "count": 218
+        },
+        {
+          "value": "🌈",
+          "count": 207
+        },
+        {
+          "value": "❤️‍🩹",
+          "count": 174
+        },
+        {
+          "value": "♥️",
+          "count": 161
+        },
+        {
+          "value": "👏",
+          "count": 154
+        },
+        {
+          "value": "🥰",
+          "count": 110
+        },
+        {
+          "value": "😂",
+          "count": 100
+        }
+      ],
+      "top_emoji_sequences": [
+        {
+          "value": "😢",
+          "count": 316
+        },
+        {
+          "value": "😭",
+          "count": 243
+        },
+        {
+          "value": "🙏",
+          "count": 137
+        },
+        {
+          "value": "💔",
+          "count": 134
+        },
+        {
+          "value": "😭😭😭",
+          "count": 78
+        },
+        {
+          "value": "😢❤️",
+          "count": 56
+        },
+        {
+          "value": "😭😭",
+          "count": 43
+        },
+        {
+          "value": "🙏❤️",
+          "count": 42
+        },
+        {
+          "value": "😭❤️",
+          "count": 37
+        },
+        {
+          "value": "😢😢😢",
+          "count": 35
+        }
+      ],
+      "related_event_ids": [
+        {
+          "value": "knicks_2026_nba_finals_win",
+          "count": 31
+        },
+        {
+          "value": "justice_for_jameson_discourse",
+          "count": 27
+        },
+        {
+          "value": "knicks_2026_championship_parade_meetup",
+          "count": 25
+        }
+      ],
+      "evidence_quotes": [
+        {
+          "comment_id": "dogist_DUPAaofEbgy_e51d5ad6",
+          "post_id": "instagram_thedogist_DUPAaofEbgy",
+          "post_url": "https://www.instagram.com/thedogist/p/DUPAaofEbgy/",
+          "posted_date": "2026-02-01T23:54:51.000Z",
+          "author": "tinytub88",
+          "likes": 0,
+          "raw_text": "😍😍😍😍😍😍😘😘😘😘😘😘🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏❤️❤️❤️",
+          "emojis": [
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😘",
+            "😘",
+            "😘",
+            "😘",
+            "😘",
+            "😘",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "❤️",
+            "❤️",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection",
+            "gratitude_prayer",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation",
+            "call_to_action"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 5,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DZdh9E2RNif_1b1798e6",
+          "post_id": "instagram_thedogist_DZdh9E2RNif",
+          "post_url": "https://www.instagram.com/thedogist/reel/DZdh9E2RNif/",
+          "posted_date": "2026-06-11T22:08:27.000Z",
+          "author": "gu.listan3137",
+          "likes": 0,
+          "raw_text": "😮😮😮😮😮😍😍😍9дб😂😂😂😂😂😂😂😮😂9щззз😮😮😂😂😮😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😢🔥🔥🔥🔥",
+          "emojis": [
+            "😮",
+            "😮",
+            "😮",
+            "😮",
+            "😮",
+            "😍",
+            "😍",
+            "😍",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😂",
+            "😮",
+            "😂",
+            "😮",
+            "😮",
+            "😂",
+            "😂",
+            "😮",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😢",
+            "🔥",
+            "🔥",
+            "🔥",
+            "🔥"
+          ],
+          "hashtags": [],
+          "language": "und_non_latin",
+          "affect_tags": [
+            "affection",
+            "laughter_play",
+            "grief_memorial",
+            "celebration",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 3,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DWSAT71xd0u_2f6fda61",
+          "post_id": "instagram_thedogist_DWSAT71xd0u",
+          "post_url": "https://www.instagram.com/thedogist/reel/DWSAT71xd0u/",
+          "posted_date": "2026-03-24T22:23:48.000Z",
+          "author": "crystalthecloser__",
+          "likes": 0,
+          "raw_text": "@lovesanimalrescue 🐾🐶❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏",
+          "emojis": [
+            "🐾",
+            "🐶",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏"
+          ],
+          "hashtags": [],
+          "language": "und",
+          "affect_tags": [
+            "affection",
+            "gratitude_prayer",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation",
+            "call_to_action"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 2,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DPJtlRckQd9_9a347e85",
+          "post_id": "instagram_thedogist_DPJtlRckQd9",
+          "post_url": "https://www.instagram.com/thedogist/p/DPJtlRckQd9/",
+          "posted_date": "2025-09-28T15:57:06.000Z",
+          "author": "ll64611",
+          "likes": 0,
+          "raw_text": "X ez🙌🔥👏👏😢😍😢😍😍😮😮😮😮😂😂😂❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️b v❤️❤️🙌",
+          "emojis": [
+            "🙌",
+            "🔥",
+            "👏",
+            "👏",
+            "😢",
+            "😍",
+            "😢",
+            "😍",
+            "😍",
+            "😮",
+            "😮",
+            "😮",
+            "😮",
+            "😂",
+            "😂",
+            "😂",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "🙌"
+          ],
+          "hashtags": [],
+          "language": "und",
+          "affect_tags": [
+            "affection",
+            "laughter_play",
+            "grief_memorial",
+            "celebration",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DOPUvMyEbVy_03c6fc29",
+          "post_id": "instagram_thedogist_DOPUvMyEbVy",
+          "post_url": "https://www.instagram.com/thedogist/reel/DOPUvMyEbVy/",
+          "posted_date": "2025-09-05T23:44:51.000Z",
+          "author": "itssanmarycris",
+          "likes": 0,
+          "raw_text": "♥️♥️♥️🐾♥️♥️♥️🐾♥️♥️♥️🐾♥️♥️♥️🐾♥️♥️♥️🐾♥️♥️♥️🐾🙏🙏🙏🙏🙏🙏🙏🙏",
+          "emojis": [
+            "♥️",
+            "♥️",
+            "♥️",
+            "🐾",
+            "♥️",
+            "♥️",
+            "♥️",
+            "🐾",
+            "♥️",
+            "♥️",
+            "♥️",
+            "🐾",
+            "♥️",
+            "♥️",
+            "♥️",
+            "🐾",
+            "♥️",
+            "♥️",
+            "♥️",
+            "🐾",
+            "♥️",
+            "♥️",
+            "♥️",
+            "🐾",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection",
+            "gratitude_prayer",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "call_to_action"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 5,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DPMotkkEay5_8a81335e",
+          "post_id": "instagram_thedogist_DPMotkkEay5",
+          "post_url": "https://www.instagram.com/thedogist/p/DPMotkkEay5/",
+          "posted_date": "2025-09-29T19:12:16.000Z",
+          "author": "tatersgold",
+          "likes": 0,
+          "raw_text": "🌈🐾🌈🐾🌈🐾🌈🐾🌈🐾🌈🐾🌈🐾🌈🐾🌈🐾❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+          "emojis": [
+            "🌈",
+            "🐾",
+            "🌈",
+            "🐾",
+            "🌈",
+            "🐾",
+            "🌈",
+            "🐾",
+            "🌈",
+            "🐾",
+            "🌈",
+            "🐾",
+            "🌈",
+            "🐾",
+            "🌈",
+            "🐾",
+            "🌈",
+            "🐾",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection",
+            "grief_memorial"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": null
+        }
+      ],
+      "interpretation_boundary": "Affective grief markers require text/post context before inferring a memorial narrative."
+    },
+    {
+      "motif_id": "prayer_gratitude",
+      "label": "Prayer, gratitude, and blessing",
+      "comment_count": 1208,
+      "post_count": 207,
+      "emoji_only_comments": 361,
+      "text_and_emoji_comments": 847,
+      "top_emojis": [
+        {
+          "value": "🙏",
+          "count": 1523
+        },
+        {
+          "value": "❤️",
+          "count": 773
+        },
+        {
+          "value": "🐾",
+          "count": 355
+        },
+        {
+          "value": "🙏🏻",
+          "count": 328
+        },
+        {
+          "value": "🙏🏼",
+          "count": 166
+        },
+        {
+          "value": "♥️",
+          "count": 139
+        },
+        {
+          "value": "😍",
+          "count": 101
+        },
+        {
+          "value": "👏",
+          "count": 86
+        },
+        {
+          "value": "💔",
+          "count": 85
+        },
+        {
+          "value": "🐶",
+          "count": 82
+        },
+        {
+          "value": "😢",
+          "count": 81
+        },
+        {
+          "value": "🙏🏽",
+          "count": 61
+        },
+        {
+          "value": "🙌",
+          "count": 57
+        },
+        {
+          "value": "🥰",
+          "count": 48
+        }
+      ],
+      "top_emoji_sequences": [
+        {
+          "value": "🙏",
+          "count": 137
+        },
+        {
+          "value": "🙏❤️",
+          "count": 42
+        },
+        {
+          "value": "❤️🙏",
+          "count": 35
+        },
+        {
+          "value": "🙏🏻",
+          "count": 29
+        },
+        {
+          "value": "🙏🙏🙏",
+          "count": 27
+        },
+        {
+          "value": "🙏🏼",
+          "count": 17
+        },
+        {
+          "value": "🙏🙏",
+          "count": 15
+        },
+        {
+          "value": "🙏🏻❤️",
+          "count": 15
+        },
+        {
+          "value": "🙏🙏🙏🙏",
+          "count": 9
+        },
+        {
+          "value": "🙏🏽",
+          "count": 7
+        }
+      ],
+      "related_event_ids": [
+        {
+          "value": "knicks_2026_nba_finals_win",
+          "count": 10
+        },
+        {
+          "value": "justice_for_jameson_discourse",
+          "count": 6
+        },
+        {
+          "value": "knicks_2026_championship_parade_meetup",
+          "count": 6
+        }
+      ],
+      "evidence_quotes": [
+        {
+          "comment_id": "dogist_DUPAaofEbgy_e51d5ad6",
+          "post_id": "instagram_thedogist_DUPAaofEbgy",
+          "post_url": "https://www.instagram.com/thedogist/p/DUPAaofEbgy/",
+          "posted_date": "2026-02-01T23:54:51.000Z",
+          "author": "tinytub88",
+          "likes": 0,
+          "raw_text": "😍😍😍😍😍😍😘😘😘😘😘😘🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏❤️❤️❤️",
+          "emojis": [
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😘",
+            "😘",
+            "😘",
+            "😘",
+            "😘",
+            "😘",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "❤️",
+            "❤️",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection",
+            "gratitude_prayer",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation",
+            "call_to_action"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 5,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DWSAT71xd0u_2f6fda61",
+          "post_id": "instagram_thedogist_DWSAT71xd0u",
+          "post_url": "https://www.instagram.com/thedogist/reel/DWSAT71xd0u/",
+          "posted_date": "2026-03-24T22:23:48.000Z",
+          "author": "crystalthecloser__",
+          "likes": 0,
+          "raw_text": "@lovesanimalrescue 🐾🐶❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏",
+          "emojis": [
+            "🐾",
+            "🐶",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏"
+          ],
+          "hashtags": [],
+          "language": "und",
+          "affect_tags": [
+            "affection",
+            "gratitude_prayer",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation",
+            "call_to_action"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 2,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DOPUvMyEbVy_03c6fc29",
+          "post_id": "instagram_thedogist_DOPUvMyEbVy",
+          "post_url": "https://www.instagram.com/thedogist/reel/DOPUvMyEbVy/",
+          "posted_date": "2025-09-05T23:44:51.000Z",
+          "author": "itssanmarycris",
+          "likes": 0,
+          "raw_text": "♥️♥️♥️🐾♥️♥️♥️🐾♥️♥️♥️🐾♥️♥️♥️🐾♥️♥️♥️🐾♥️♥️♥️🐾🙏🙏🙏🙏🙏🙏🙏🙏",
+          "emojis": [
+            "♥️",
+            "♥️",
+            "♥️",
+            "🐾",
+            "♥️",
+            "♥️",
+            "♥️",
+            "🐾",
+            "♥️",
+            "♥️",
+            "♥️",
+            "🐾",
+            "♥️",
+            "♥️",
+            "♥️",
+            "🐾",
+            "♥️",
+            "♥️",
+            "♥️",
+            "🐾",
+            "♥️",
+            "♥️",
+            "♥️",
+            "🐾",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏",
+            "🙏"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "affection",
+            "gratitude_prayer",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "call_to_action"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 5,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DS46gCZEVua_9d44e351",
+          "post_id": "instagram_thedogist_DS46gCZEVua",
+          "post_url": "https://www.instagram.com/thedogist/reel/DS46gCZEVua/",
+          "posted_date": "2025-12-30T13:29:18.000Z",
+          "author": "yocarop",
+          "likes": 0,
+          "raw_text": "🙏💙🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾💖🙌",
+          "emojis": [
+            "🙏",
+            "💙",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "💖",
+            "🙌"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "celebration",
+            "gratitude_prayer",
+            "care_concern",
+            "local_sports_identity"
+          ],
+          "stance_tags": [
+            "call_to_action"
+          ],
+          "commenter_segment": "highly_engaged_regular",
+          "author_comment_count": 160,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DYp4B3jgwSn_12f94028",
+          "post_id": "instagram_thedogist_DYp4B3jgwSn",
+          "post_url": "https://www.instagram.com/shortyawards/reel/DYp4B3jgwSn/",
+          "posted_date": "2026-05-22T20:29:44.000Z",
+          "author": "madames1",
+          "likes": 0,
+          "raw_text": "@thedogist 🙏🏽👏👏👏👏🥳🥳🥳🥳❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️😍😍😍😍🙏🏽",
+          "emojis": [
+            "🙏🏽",
+            "👏",
+            "👏",
+            "👏",
+            "👏",
+            "🥳",
+            "🥳",
+            "🥳",
+            "🥳",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "🙏🏽"
+          ],
+          "hashtags": [],
+          "language": "und",
+          "affect_tags": [
+            "affection",
+            "celebration",
+            "gratitude_prayer"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "repeat_regular",
+          "author_comment_count": 40,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DYIPkVcP3QY_65d40e3a",
+          "post_id": "instagram_thedogist_DYIPkVcP3QY",
+          "post_url": "https://www.instagram.com/thedogist/reel/DYIPkVcP3QY/",
+          "posted_date": "2026-05-09T18:58:12.000Z",
+          "author": "janegoodallinst",
+          "likes": 1258,
+          "raw_text": "@thedogist I adopted a senior beagle 5 years ago. He completely changed me for the best. I had to put him down one month ago and though I have cried everyday because I miss him so much, he was here to heal me and help me open my heart again! They are not numbers they are not pets they are ANGELS 😢😍😍😍😍😍😍😍😍😍😍😍😍🐾🐾🐾🙏🙏🙏❤️❤️❤️❤️❤️",
+          "emojis": [
+            "😢",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "😍",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🙏",
+            "🙏",
+            "🙏",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "en",
+          "affect_tags": [
+            "affection",
+            "grief_memorial",
+            "gratitude_prayer",
+            "care_concern"
+          ],
+          "stance_tags": [
+            "praise_affirmation",
+            "objection_refusal",
+            "call_to_action",
+            "personal_testimony"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 5,
+          "centroid_similarity": null
+        }
+      ],
+      "interpretation_boundary": "May express thanks, hope, mourning, or request; do not collapse all uses into faith."
+    },
+    {
+      "motif_id": "knicks_blue_orange",
+      "label": "Blue/orange Knicks-adjacent reactions",
+      "comment_count": 1009,
+      "post_count": 252,
+      "emoji_only_comments": 165,
+      "text_and_emoji_comments": 844,
+      "top_emojis": [
+        {
+          "value": "💙",
+          "count": 985
+        },
+        {
+          "value": "🧡",
+          "count": 407
+        },
+        {
+          "value": "🐾",
+          "count": 324
+        },
+        {
+          "value": "🏆",
+          "count": 193
+        },
+        {
+          "value": "❤️",
+          "count": 164
+        },
+        {
+          "value": "😍",
+          "count": 109
+        },
+        {
+          "value": "👏",
+          "count": 105
+        },
+        {
+          "value": "🐶",
+          "count": 92
+        },
+        {
+          "value": "🥰",
+          "count": 51
+        },
+        {
+          "value": "🖤",
+          "count": 47
+        },
+        {
+          "value": "🩵",
+          "count": 40
+        },
+        {
+          "value": "💛",
+          "count": 35
+        },
+        {
+          "value": "♥️",
+          "count": 33
+        },
+        {
+          "value": "😂",
+          "count": 32
+        }
+      ],
+      "top_emoji_sequences": [
+        {
+          "value": "💙",
+          "count": 159
+        },
+        {
+          "value": "🧡",
+          "count": 78
+        },
+        {
+          "value": "💙💙💙",
+          "count": 31
+        },
+        {
+          "value": "🏆",
+          "count": 29
+        },
+        {
+          "value": "💙💙",
+          "count": 26
+        },
+        {
+          "value": "💙🐾",
+          "count": 17
+        },
+        {
+          "value": "🐾💙",
+          "count": 15
+        },
+        {
+          "value": "💙🧡",
+          "count": 13
+        },
+        {
+          "value": "🧡💙",
+          "count": 10
+        },
+        {
+          "value": "🧡🧡🧡",
+          "count": 8
+        }
+      ],
+      "related_event_ids": [
+        {
+          "value": "knicks_2026_nba_finals_win",
+          "count": 48
+        },
+        {
+          "value": "justice_for_jameson_discourse",
+          "count": 43
+        },
+        {
+          "value": "knicks_2026_championship_parade_meetup",
+          "count": 41
+        }
+      ],
+      "evidence_quotes": [
+        {
+          "comment_id": "dogist_DS46gCZEVua_9d44e351",
+          "post_id": "instagram_thedogist_DS46gCZEVua",
+          "post_url": "https://www.instagram.com/thedogist/reel/DS46gCZEVua/",
+          "posted_date": "2025-12-30T13:29:18.000Z",
+          "author": "yocarop",
+          "likes": 0,
+          "raw_text": "🙏💙🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾🐾💖🙌",
+          "emojis": [
+            "🙏",
+            "💙",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "💖",
+            "🙌"
+          ],
+          "hashtags": [],
+          "language": "emoji_only",
+          "affect_tags": [
+            "celebration",
+            "gratitude_prayer",
+            "care_concern",
+            "local_sports_identity"
+          ],
+          "stance_tags": [
+            "call_to_action"
+          ],
+          "commenter_segment": "highly_engaged_regular",
+          "author_comment_count": 160,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DYxt7vXEfe-_7becf54d",
+          "post_id": "instagram_thedogist_DYxt7vXEfe-",
+          "post_url": "https://www.instagram.com/thedogist/p/DYxt7vXEfe-/",
+          "posted_date": "2026-05-25T21:32:22.000Z",
+          "author": "agall1960",
+          "likes": 0,
+          "raw_text": "ALL of them ... and I’m a Dodgers fan ❤️💙❤️💙💙❤️❤️💙❤️💙❤️❤️😍❤️😍😍❤️😍❤️😍❤️😍❤️",
+          "emojis": [
+            "❤️",
+            "💙",
+            "❤️",
+            "💙",
+            "💙",
+            "❤️",
+            "❤️",
+            "💙",
+            "❤️",
+            "💙",
+            "❤️",
+            "❤️",
+            "😍",
+            "❤️",
+            "😍",
+            "😍",
+            "❤️",
+            "😍",
+            "❤️",
+            "😍",
+            "❤️",
+            "😍",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "en",
+          "affect_tags": [
+            "affection",
+            "local_sports_identity"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": 0.5876
+        },
+        {
+          "comment_id": "dogist_DP1fsx0kRLT_3274598e",
+          "post_id": "instagram_thedogist_DP1fsx0kRLT",
+          "post_url": "https://www.instagram.com/thedogist/reel/DP1fsx0kRLT/",
+          "posted_date": "2025-10-16T01:43:19.000Z",
+          "author": "crisoljadelee",
+          "likes": 0,
+          "raw_text": "@jaredleto 🐾🐾🐾🧡🌀💚😉🧡✅️🐳🦅💛💜💗💕🎶✔️✨️🌈",
+          "emojis": [
+            "🐾",
+            "🐾",
+            "🐾",
+            "🧡",
+            "🌀",
+            "💚",
+            "😉",
+            "🧡",
+            "✅",
+            "🐳",
+            "🦅",
+            "💛",
+            "💜",
+            "💗",
+            "💕",
+            "🎶",
+            "✔️",
+            "✨",
+            "🌈"
+          ],
+          "hashtags": [],
+          "language": "und",
+          "affect_tags": [
+            "affection",
+            "grief_memorial",
+            "celebration",
+            "local_sports_identity"
+          ],
+          "stance_tags": [],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": null
+        },
+        {
+          "comment_id": "dogist_DUUvbVpDVqG_042ccb37",
+          "post_id": "instagram_thedogist_DUUvbVpDVqG",
+          "post_url": "https://www.instagram.com/thedogist/p/DUUvbVpDVqG/",
+          "posted_date": "2026-02-04T05:21:50.000Z",
+          "author": "janman813",
+          "likes": 0,
+          "raw_text": "Penny is a model Doberman. She is the queen Beautiful girl. 🏆🏆🏆🏆🏆🐾🐾🐾🐾❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+          "emojis": [
+            "🏆",
+            "🏆",
+            "🏆",
+            "🏆",
+            "🏆",
+            "🐾",
+            "🐾",
+            "🐾",
+            "🐾",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️",
+            "❤️"
+          ],
+          "hashtags": [],
+          "language": "en",
+          "affect_tags": [
+            "affection",
+            "celebration",
+            "local_sports_identity"
+          ],
+          "stance_tags": [
+            "praise_affirmation"
+          ],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": 0.6011
+        },
+        {
+          "comment_id": "dogist_DPR55gFkXmL_44fa6c08",
+          "post_id": "instagram_thedogist_DPR55gFkXmL",
+          "post_url": "https://www.instagram.com/thedogist/p/DPR55gFkXmL/",
+          "posted_date": "2025-10-01T20:18:39.000Z",
+          "author": "dlmandel",
+          "likes": 0,
+          "raw_text": "She really moved all of us humans to love and respect our beautiful creatures that we share this planet 🌎 with. Your already missed as we need you still to help us navigate this odd time in history. 💙❤️💜💕💕💚♥️♥️💕💚💚💚💚",
+          "emojis": [
+            "🌎",
+            "💙",
+            "❤️",
+            "💜",
+            "💕",
+            "💕",
+            "💚",
+            "♥️",
+            "♥️",
+            "💕",
+            "💚",
+            "💚",
+            "💚",
+            "💚"
+          ],
+          "hashtags": [],
+          "language": "en",
+          "affect_tags": [
+            "affection",
+            "local_sports_identity"
+          ],
+          "stance_tags": [
+            "praise_affirmation",
+            "call_to_action",
+            "personal_testimony"
+          ],
+          "commenter_segment": "repeat_commenter",
+          "author_comment_count": 2,
+          "centroid_similarity": 0.6227
+        },
+        {
+          "comment_id": "dogist_DWRHAqrEW4f_19299ff8",
+          "post_id": "instagram_thedogist_DWRHAqrEW4f",
+          "post_url": "https://www.instagram.com/thedogist/p/DWRHAqrEW4f/",
+          "posted_date": null,
+          "author": "br00keb0st0n",
+          "likes": 0,
+          "raw_text": "@muttscouts 💙💙💙💙💙💙💙💙💙💙💙💙💙💙",
+          "emojis": [
+            "💙",
+            "💙",
+            "💙",
+            "💙",
+            "💙",
+            "💙",
+            "💙",
+            "💙",
+            "💙",
+            "💙",
+            "💙",
+            "💙",
+            "💙",
+            "💙"
+          ],
+          "hashtags": [],
+          "language": "und",
+          "affect_tags": [
+            "local_sports_identity"
+          ],
+          "stance_tags": [],
+          "commenter_segment": "casual_commenter",
+          "author_comment_count": 1,
+          "centroid_similarity": null
+        }
+      ],
+      "interpretation_boundary": "This is event-adjacent color/sports context, not causal proof of why commenters posted."
+    }
+  ],
+  "interpretation_boundary": "Emoji motifs are cultural and affective evidence. They should change evidence selection and UI presentation, not become unsupported psychological claims."
+}
