@@ -39,13 +39,6 @@ Every quote in the report is looked up by a stable reference back to the origina
 comment — the model that writes an ad angle never has the text of the quote it's using, only a
 pointer to it, so nothing downstream can paraphrase or fabricate one.
 
-### Under the hood
-
-Same five steps, mapped to what actually runs at each one — and, importantly, which steps call
-the Claude API versus which are plain local computation:
-
-[![The same pipeline shown twice: the plain-language idea on the left, and on the right the specific script that runs at each step with a badge showing whether it calls the Claude API or runs entirely locally](docs/media/system-diagram.png)](docs/media/system-diagram.png)
-
 ### Why it's built this way
 
 **📐 [Technical design document](https://zquart8095.github.io/dogist-comment-intelligence/technical-design.html)** — the
