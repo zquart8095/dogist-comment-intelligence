@@ -36,10 +36,19 @@ ad angles a media buyer can actually spend against, read through a single scroll
 
 Every quote in the report is looked up by a stable reference back to the original captured
 comment — the model that writes an ad angle never has the text of the quote it's using, only a
-pointer to it, so nothing downstream can paraphrase or fabricate one. See
-[`docs/technical-design.md`](docs/technical-design.md) for the full architecture and the reasoning
-behind each pipeline stage, and [`docs/comment-intelligence-pipeline.md`](docs/comment-intelligence-pipeline.md)
-for a narrative walkthrough written for a case-study read.
+pointer to it, so nothing downstream can paraphrase or fabricate one.
+
+### Why it's built this way
+
+**📐 [Technical design document](https://zquart8095.github.io/dogist-comment-intelligence/technical-design.html)** — the
+architecture, and the nine key design decisions with the trade-off behind each one: why DOM
+scraping over API interception, why two unrelated clustering methods instead of one, why theme
+clustering deliberately *stops* using embeddings, and how the no-fabricated-quotes guarantee is
+enforced structurally rather than by asking the model nicely.
+(Also readable as markdown: [`docs/technical-design.md`](docs/technical-design.md).)
+
+**📖 [Pipeline walkthrough](docs/comment-intelligence-pipeline.md)** — a narrative, stage-by-stage
+read of how the corpus actually moves through the system.
 
 ## Stack
 

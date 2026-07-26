@@ -1,0 +1,839 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Technical design document for the Dogist comment intelligence pipeline: architecture, key design decisions and their trade-offs, data model, cost strategy, and limitations.">
+<title>Dogist Comment Intelligence — Technical Design</title>
+<style>
+  :root {
+    --paper: #F3F4EF;
+    --paper-raised: #EAECE4;
+    --ink: #181B19;
+    --ink-soft: #4B5049;
+    --rule: #D6D9CF;
+    --accent: #1E7A6B;
+    --accent-ink: #0E4A40;
+    --accent-soft: #DCEAE3;
+    --warn: #9C6B25;
+    --warn-soft: #F0E3CC;
+    --code-bg: #E7E9E0;
+    --shadow: rgba(24, 27, 25, 0.08);
+  }
+
+  :root[data-theme="dark"] {
+    --paper: #14171A;
+    --paper-raised: #1B1F22;
+    --ink: #E7E9E2;
+    --ink-soft: #A6ACA1;
+    --rule: #2B3033;
+    --accent: #45B39C;
+    --accent-ink: #9BDCCB;
+    --accent-soft: #16302A;
+    --warn: #D9A75C;
+    --warn-soft: #332813;
+    --code-bg: #1C2023;
+    --shadow: rgba(0, 0, 0, 0.35);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #14171A;
+      --paper-raised: #1B1F22;
+      --ink: #E7E9E2;
+      --ink-soft: #A6ACA1;
+      --rule: #2B3033;
+      --accent: #45B39C;
+      --accent-ink: #9BDCCB;
+      --accent-soft: #16302A;
+      --warn: #D9A75C;
+      --warn-soft: #332813;
+      --code-bg: #1C2023;
+      --shadow: rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--paper);
+    color: var(--ink);
+  }
+
+  body {
+    font-family: ui-serif, Charter, "Iowan Old Style", "Georgia", "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .mono {
+    font-family: ui-monospace, "SF Mono", "JetBrains Mono", "Cascadia Code", Menlo, Consolas, monospace;
+  }
+
+  a { color: var(--accent-ink); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:hover { color: var(--accent); }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* ---------- Shell ---------- */
+
+  .shell {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 32px 120px;
+    display: grid;
+    grid-template-columns: 200px minmax(0, 720px);
+    gap: 56px;
+    justify-content: center;
+  }
+
+  @media (max-width: 920px) {
+    .shell { grid-template-columns: minmax(0, 1fr); padding: 0 20px 80px; }
+    nav.toc { display: none; }
+  }
+
+  /* ---------- Header / hero ---------- */
+
+  header.doc-head {
+    grid-column: 1 / -1;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 72px 0 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .eyebrow {
+    font-family: ui-monospace, "SF Mono", "JetBrains Mono", monospace;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent-ink);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+
+  .eyebrow .dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent);
+    display: inline-block;
+  }
+
+  h1.doc-title {
+    font-size: clamp(30px, 4vw, 42px);
+    line-height: 1.15;
+    font-weight: 600;
+    margin: 0 0 20px;
+    text-wrap: balance;
+    letter-spacing: -0.01em;
+  }
+
+  .doc-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 22px;
+    font-family: ui-monospace, "SF Mono", "JetBrains Mono", monospace;
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 26px;
+  }
+
+  .doc-meta strong { color: var(--ink); font-weight: 600; }
+
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 3px 10px 3px 8px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent-ink);
+    font-family: ui-monospace, "SF Mono", "JetBrains Mono", monospace;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+  }
+
+  .pill::before {
+    content: "";
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent);
+  }
+
+  p.abstract {
+    font-size: 18px;
+    line-height: 1.65;
+    color: var(--ink-soft);
+    max-width: 62ch;
+  }
+
+  /* ---------- TOC ---------- */
+
+  nav.toc {
+    position: sticky;
+    top: 48px;
+    align-self: start;
+    padding-top: 6px;
+  }
+
+  nav.toc .toc-label {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 14px;
+  }
+
+  nav.toc ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  nav.toc a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    font-size: 13.5px;
+    line-height: 1.4;
+    display: block;
+  }
+
+  nav.toc a:hover { color: var(--accent-ink); }
+
+  nav.toc .n {
+    font-family: ui-monospace, "SF Mono", monospace;
+    color: var(--accent);
+    margin-right: 6px;
+  }
+
+  /* ---------- Main content ---------- */
+
+  main { min-width: 0; padding-top: 56px; }
+
+  section.doc-section {
+    padding-top: 8px;
+    margin-bottom: 64px;
+    scroll-margin-top: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    text-wrap: balance;
+  }
+
+  h2 .sec-n {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 16px;
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 34px 0 12px;
+    text-wrap: balance;
+  }
+
+  h3 .sub-n {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 13px;
+    color: var(--ink-soft);
+    font-weight: 500;
+    margin-right: 6px;
+  }
+
+  p { margin: 0 0 16px; }
+  section p:last-child { margin-bottom: 0; }
+
+  ul, ol.plain { margin: 0 0 16px; padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  li:last-child { margin-bottom: 0; }
+
+  strong { font-weight: 600; }
+
+  code.inline {
+    font-family: ui-monospace, "SF Mono", "JetBrains Mono", monospace;
+    font-size: 0.87em;
+    background: var(--code-bg);
+    padding: 0.1em 0.4em;
+    border-radius: 4px;
+  }
+
+  /* callout for design decisions / trade-offs */
+  .callout {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-soft);
+    padding: 14px 18px;
+    border-radius: 0 6px 6px 0;
+    margin: 16px 0 20px;
+  }
+
+  .callout.warn { border-left-color: var(--warn); background: var(--warn-soft); }
+
+  .callout .callout-label {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent-ink);
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .callout.warn .callout-label { color: var(--warn); }
+  .callout p { margin: 0; }
+  .callout p + p { margin-top: 10px; }
+
+  /* diagram / code panels */
+  .panel {
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    margin: 20px 0 24px;
+    box-shadow: 0 1px 2px var(--shadow);
+    overflow: hidden;
+  }
+
+  .panel-titlebar {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 11.5px;
+    color: var(--ink-soft);
+    padding: 9px 14px;
+    border-bottom: 1px solid var(--rule);
+    letter-spacing: 0.02em;
+  }
+
+  .panel pre {
+    margin: 0;
+    padding: 18px 20px;
+    overflow-x: auto;
+    font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+    font-size: 12.5px;
+    line-height: 1.65;
+    color: var(--ink);
+  }
+
+  .panel pre .tag { color: var(--accent); font-weight: 600; }
+  .panel pre .arrow { color: var(--ink-soft); }
+
+  /* table */
+  .table-wrap { overflow-x: auto; margin: 20px 0 24px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    min-width: 460px;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  th {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    font-weight: 500;
+  }
+
+  td.num, td.rate {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-variant-numeric: tabular-nums;
+    font-size: 13.5px;
+  }
+
+  /* funnel strip */
+  .funnel {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 24px 0 28px;
+  }
+
+  .funnel .cell {
+    background: var(--paper-raised);
+    padding: 16px 14px;
+    text-align: center;
+  }
+
+  .funnel .num {
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-variant-numeric: tabular-nums;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--accent-ink);
+    display: block;
+  }
+
+  .funnel .label {
+    font-size: 11.5px;
+    color: var(--ink-soft);
+    margin-top: 4px;
+    display: block;
+    line-height: 1.35;
+  }
+
+  @media (max-width: 640px) {
+    .funnel { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  footer.doc-foot {
+    grid-column: 1 / -1;
+    max-width: 720px;
+    margin: 0 auto;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 12.5px;
+    color: var(--ink-soft);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    header.doc-head { animation: rise 0.5s ease-out both; }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  }
+</style>
+</head>
+<body>
+
+
+<div class="shell">
+
+  <header class="doc-head">
+    <div class="eyebrow"><span class="dot"></span>Technical Design Document</div>
+    <h1 class="doc-title">Dogist Comment Intelligence — Technical Design</h1>
+    <div class="doc-meta">
+      <span><strong>Author</strong> Zach Quart</span>
+      <span class="pill">Shipped · in production</span>
+      <span><strong>Stack</strong> Node.js · Python · Claude (Haiku 4.5 / Sonnet 4.6)</span>
+    </div>
+    <p class="abstract">
+      How a 97,579-comment Instagram corpus with no API access became 60 fully sourced ad angles
+      for a supplement launch — engineered so no customer quote can ever be fabricated, and the
+      full pipeline runs for tens of dollars, not thousands.
+    </p>
+  </header>
+
+  <nav class="toc">
+    <div class="toc-label">Contents</div>
+    <ol>
+      <li><a href="#s1"><span class="n">1</span>Problem &amp; Constraints</a></li>
+      <li><a href="#s2"><span class="n">2</span>Goals &amp; Non-Goals</a></li>
+      <li><a href="#s3"><span class="n">3</span>System Architecture</a></li>
+      <li><a href="#s4"><span class="n">4</span>Key Design Decisions</a></li>
+      <li><a href="#s5"><span class="n">5</span>Data Model</a></li>
+      <li><a href="#s6"><span class="n">6</span>Cost &amp; Model Selection</a></li>
+      <li><a href="#s7"><span class="n">7</span>Testing &amp; Validation</a></li>
+      <li><a href="#s8"><span class="n">8</span>Limitations &amp; Future Work</a></li>
+    </ol>
+  </nav>
+
+  <main>
+
+    <section class="doc-section" id="s1">
+      <h2><span class="sec-n">01</span>Problem &amp; Constraints</h2>
+      <p>
+        Turn an unstructured, 97,579-comment Instagram corpus (370 posts, no API access to
+        Instagram's private endpoints) into a small set of business-usable, fully-sourced ad
+        angles for a product launch — without an LLM ever fabricating a customer quote, and
+        without burning API spend reading raw comments end-to-end.
+      </p>
+      <p>Hard constraints that shaped every downstream decision:</p>
+      <ul>
+        <li><strong>No official API.</strong> Instagram's public Graph API doesn't expose another
+          account's comment history. Any collection approach has to work against the logged-in
+          web client, which means it's inherently more fragile than a documented API and has to be
+          engineered for that fragility, not around it.</li>
+        <li><strong>Volume vs. LLM cost.</strong> 97,579 comments is roughly 3–5M tokens of raw
+          text. Sending that straight to a frontier model, per analysis pass, is both expensive
+          and a bad way to get reliable structure — LLMs are worse at exhaustive extraction over
+          huge unstructured context than at labeling and synthesizing already-reduced evidence.</li>
+        <li><strong>Trust.</strong> Every quote that reaches a marketer has to be a real comment.
+          An LLM that can paraphrase or invent a "close enough" quote is a liability in an
+          ad-review process, not a convenience.</li>
+        <li><strong>Interpretability under a business lens.</strong> The client's launch thesis (a
+          blueberry supplement) can bias what gets called "relevant" in the data. The system
+          needed to keep organic audience signal and business-motivated interpretation from
+          bleeding into each other.</li>
+      </ul>
+    </section>
+
+    <section class="doc-section" id="s2">
+      <h2><span class="sec-n">02</span>Goals &amp; Non-Goals</h2>
+      <h3>Goals</h3>
+      <ul>
+        <li>Deterministic, resumable data collection from a real (non-API) web surface.</li>
+        <li>Cheap, local-first reduction of the corpus before any model call.</li>
+        <li>Zero-hallucination guarantee on every customer quote that reaches an output surface.</li>
+        <li>A cost structure where the full pipeline runs for tens of dollars, not thousands.</li>
+        <li>Reusable pipeline — same architecture should work on the next corpus, not just this one.</li>
+      </ul>
+      <h3>Non-goals</h3>
+      <ul>
+        <li>Real-time or streaming analysis. This is a batch pipeline over a point-in-time snapshot.</li>
+        <li>A general-purpose social-listening product. Every stage is tuned for this corpus and
+          this launch's decision needs, not productized for arbitrary brands.</li>
+        <li>Perfect capture. The collector is instrumented to <em>measure</em> capture rate, not
+          guarantee 100% (§4.1) — Instagram's displayed comment counts include content the
+          logged-in web client can't always reach.</li>
+      </ul>
+    </section>
+
+    <section class="doc-section" id="s3">
+      <h2><span class="sec-n">03</span>System Architecture</h2>
+      <div class="panel">
+        <div class="panel-titlebar mono">architecture.txt</div>
+        <pre>Instagram (logged-in web session)
+        │
+        ▼
+<span class="tag">[1]</span> Blackhole Collector (Chrome extension, DOM-based)
+        │  manifest + NDJSON export
+        ▼
+<span class="tag">[2]</span> dogist-process.mjs  <span class="arrow">→</span>  comment-analysis-import.json   (single source of truth)
+        │
+        ├─► <span class="tag">[3a]</span> dogist-opportunity-analyze.mjs   — TF-IDF + k-means, keyword buckets  (local, no LLM)
+        ├─► <span class="tag">[3b]</span> dogist-event-resonance.mjs       — event-spike detection              (local, no LLM)
+        └─► <span class="tag">[3c]</span> dogist-cultural-discovery.py     — sentence embeddings + BERTopic     (local, no LLM)
+        │
+        ├─► <span class="tag">[4a]</span> dogist-claude-interpret.mjs      — interprets [3a] packets   (Haiku → Sonnet, 2-pass)
+        └─► <span class="tag">[4b]</span> dogist-cultural-interpret.mjs    — interprets [3c] packets   (Haiku, descriptive-only)
+        │
+        ▼
+<span class="tag">[5]</span> dogist-diet-analysis.mjs      — keyword+signal filter: 97,579 → 7,293 comments
+        ▼
+<span class="tag">[6]</span> dogist-pain-point-angles.mjs  — batched extraction + Claude-driven clustering → 912 signals → 31 themes
+        ▼
+<span class="tag">[7]</span> dogist-angle-messages.mjs     — top-10 themes × 6 codified angle types → 60 structured ad angles
+        ▼
+<span class="tag">[8]</span> Scrollytelling report (Next.js) — reads [6] and [7]'s output directly, no client-side fetching</pre>
+      </div>
+      <p>
+        Every arrow is a <strong>file boundary</strong>, not a function call — each stage reads a
+        committed/versioned JSON (or JSONL) artifact and writes another one. That's a deliberate
+        architectural choice: it makes every stage independently re-runnable, independently
+        testable, and independently inspectable without re-running anything upstream.
+      </p>
+    </section>
+
+    <section class="doc-section" id="s4">
+      <h2><span class="sec-n">04</span>Key Design Decisions</h2>
+
+      <h3><span class="sub-n">4.1</span>DOM scraping over GraphQL interception, with measured completeness</h3>
+      <p>
+        The collector reads the rendered page (<code class="inline">article</code>,
+        <code class="inline">time[datetime]</code>, <code class="inline">span[dir="auto"]</code>,
+        comment <code class="inline">&lt;li&gt;</code> rows) instead of intercepting Instagram's
+        internal GraphQL responses.
+      </p>
+      <div class="callout">
+        <span class="callout-label">Trade-off taken deliberately</span>
+        <p>
+          DOM scraping is slower and more brittle to markup changes than hooking network
+          responses. But it doesn't break every time Instagram rotates a private API schema or
+          GraphQL persisted-query hash, and it can target structural selectors (roles, attributes)
+          instead of frequently-rotated CSS class names. GraphQL interception would be faster to
+          build once and faster to run, but has a shorter half-life against a platform actively
+          fighting scraping.
+        </p>
+      </div>
+      <p>
+        What made this defensible in production: every post also gets scrape-quality telemetry —
+        displayed count vs. captured count, a <code class="inline">capture_rate_estimate</code>,
+        and a <code class="inline">stop_reason</code> / <code class="inline">exhaustion_reason</code>.
+        That turns "did this actually work?" from a guess into a measured field on every record,
+        which matters because Instagram's own displayed count sometimes includes comments the
+        logged-in web client structurally can't reach — so a sub-100% capture rate is expected
+        telemetry, not automatically a bug to chase.
+      </p>
+
+      <h3><span class="sub-n">4.2</span>Resilience as a first-class constraint, not a retry wrapper</h3>
+      <p>Two failure domains needed independent resilience strategies, and treating them the same would have been wrong for both:</p>
+      <ul>
+        <li><strong>The browser collector</strong> runs for hours against a UI that can crash the
+          tab, hit a login wall, or throw a challenge screen mid-run. State is checkpointed to
+          Chrome storage after every discovered post, comment batch, and event — not batched at
+          the end — specifically so a killed tab doesn't lose already-captured data. A resumed run
+          retries only queued/partial posts.</li>
+        <li><strong>The Claude batch pipeline</strong> (49 batches × 150 comments, 5 concurrent
+          workers) fails differently: a truncated response
+          (<code class="inline">stop_reason: max_tokens</code>) or a transient API error, not a
+          crashed process. I wrote a hand-rolled brace-matching salvage routine
+          (<code class="inline">salvageArrayField</code>,
+          <code class="inline">dogist-angle-messages.mjs:130</code>) that walks a truncated JSON
+          response character-by-character, tracking string/escape state and brace depth, and
+          recovers every <em>complete</em> array element instead of discarding the whole batch
+          over one incomplete trailing item. Two gitignored checkpoint files let a full run resume
+          without re-processing completed batches; both are deleted automatically on a clean
+          finish.</li>
+      </ul>
+
+      <h3><span class="sub-n">4.3</span>Local reduction before any LLM call — run two independent ways</h3>
+      <p>Before Claude ever sees the corpus, two <em>independent</em> unsupervised passes reduce it:</p>
+      <ul>
+        <li>A from-scratch <strong>TF-IDF + k-means</strong> implementation (sparse vectors, cosine
+          similarity, 8–9 iterations), run twice at different granularities — once over the whole
+          corpus, once over a high-signal subset only, so generic affection comments ("cute!",
+          "omg") don't drown out business-relevant language in the same clusters.</li>
+        <li>A second, methodologically unrelated pass using real sentence embeddings
+          (<code class="inline">paraphrase-multilingual-MiniLM-L12-v2</code>) through
+          <strong>BERTopic</strong> (UMAP → HDBSCAN → c-TF-IDF), plus rule-based affect tagging and
+          author-concentration risk flagging (is a cluster actually one prolific commenter, not a
+          real pattern?).</li>
+      </ul>
+      <div class="callout">
+        <span class="callout-label">Why two unrelated clustering methods, not one</span>
+        <p>
+          The hand-authored keyword-bucket topics from the first pass are auditable but can only
+          find what a human already thought to look for. Running BERTopic independently is a check
+          on that blind spot — if the unsupervised, embedding-based pass surfaces the same
+          structure the keyword buckets did, that's real signal validating the manual categories;
+          if it surfaces something the keyword buckets missed, that's new signal the hand-authored
+          approach couldn't have found. Neither pass is trusted as ground truth alone.
+        </p>
+      </div>
+      <p>
+        A <code class="inline">high_signal</code> heuristic
+        (<code class="inline">log2(likes+1)×1.4</code>, capped at 10, plus bonuses for length,
+        question marks, first-person pronouns, and intent verbs like need/want/buy/afford, minus a
+        penalty for generic short comments; signal if score ≥4 <strong>or</strong> likes ≥8) is
+        computed once and reused verbatim across every later filtering stage, so "what counts as
+        worth reading" doesn't silently drift between pipeline stages.
+      </p>
+
+      <h3><span class="sub-n">4.4</span>Claude only ever sees compacted evidence packets</h3>
+      <p>
+        All four LLM stages (opportunity interpretation, cultural interpretation, diet-pain-point
+        extraction, angle writing) read reduced output from a local stage, never the raw corpus.
+        This is both a cost decision and an accuracy decision: LLMs are meaningfully better at
+        labeling, synthesizing, and writing against a compact, already-structured packet than at
+        needle-in-haystack extraction over tens of thousands of raw records in one context.
+      </p>
+
+      <h3><span class="sub-n">4.5</span>Reference-based quotes: the model never generates the string it's quoting</h3>
+      <p>
+        This is the core anti-hallucination guarantee, and it's enforced at the interface level,
+        not by prompt instruction alone. During signal extraction, the model returns a
+        <code class="inline">comment_index</code> — a pointer into the batch it was given — never
+        the comment text itself. The actual quote, like count, and comment ID are looked up from
+        the source corpus <em>in code, after</em> the model call
+        (<code class="inline">dogist-angle-messages.mjs:303–309</code> does the same lookup at the
+        angle-writing stage).
+      </p>
+      <div class="callout">
+        <span class="callout-label">Why this holds under a code change, not just a careful prompt</span>
+        <p>
+          Because the model's output schema has no field where quote text <em>can</em> live,
+          there's no downstream step where a paraphrase, "improvement," or fabrication could enter
+          the chain — the constraint is structural, not just a prompt asking nicely for accuracy.
+        </p>
+      </div>
+
+      <h3><span class="sub-n">4.6</span>Theme clustering is Claude-driven, not embedding-based — a deliberate reversal</h3>
+      <p>
+        Stage 2 clustering (posts, comments) uses classic unsupervised methods (TF-IDF/k-means,
+        BERTopic). Stage 6's clustering of the 912 extracted pain-point <em>signals</em> into
+        themes does not — it's Claude Haiku clustering 8 independent groups into candidate themes,
+        then Claude Sonnet merging and deduplicating across all 8 groups' candidates into a final
+        set.
+      </p>
+      <div class="callout">
+        <span class="callout-label">Why the reversal</span>
+        <p>
+          By this stage the input is no longer raw text needing topic discovery — it's 912
+          already-extracted (problem, want) pairs, where "similar enough to merge" is a semantic
+          judgment ("picky eating" and "won't touch vegetables" are the same underlying theme) that
+          embedding-distance clustering handles less reliably than an LLM reading the actual pairs.
+          The prompt deliberately avoids forcing a target cluster count ("typically lands around
+          15–30 for a corpus this size, but go with what's real") — the actual output was 31, not
+          a number picked in advance.
+        </p>
+      </div>
+
+      <h3><span class="sub-n">4.7</span>Two-pass interpretation to separate organic signal from business framing</h3>
+      <p>
+        <code class="inline">dogist-claude-interpret.mjs</code> runs a <strong>context-free pass
+        first</strong> (what does this evidence say with no business framing at all) and only then
+        a <strong>business-context pass</strong>, fed the first pass's output plus the actual
+        launch brief. This ordering is the whole point: it guarantees the system can state what
+        the audience organically said <em>before</em> it's told what the business wants to hear,
+        so a launch-motivated interpretation never gets presented as something the audience said
+        unprompted. <code class="inline">dogist-cultural-interpret.mjs</code> (interpreting the
+        independent BERTopic packets) skips the business-context pass entirely and stays strictly
+        descriptive — "label and audit," with explicit counterevidence/unsupported-claims fields —
+        since that pass exists specifically as a check against business-lens bias in the other
+        track, not another lens on top of it.
+      </p>
+
+      <h3><span class="sub-n">4.8</span>Ad-angle generation as a schema-constrained fill-in, not open-ended writing</h3>
+      <p>
+        The six ad-angle types (pain-based, desire-based, problem/solution, social proof,
+        curiosity, niche-specific) are hard-coded config
+        (<code class="inline">ANGLE_TYPES</code>, <code class="inline">dogist-angle-messages.mjs:40–107</code>),
+        each carrying a hook formula, a fill-in-the-blank pattern, a worked example, and the
+        psychological rationale for why it works. That config is rendered verbatim into the prompt
+        as the model's output spec — the model's task is filling a proven structure with real
+        audience language, not deciding from scratch what a good ad angle is.
+      </p>
+      <div class="callout warn">
+        <span class="callout-label">A bug caught in review, fixed permanently</span>
+        <p>
+          A known bad pattern discovered during manual review — the model conflating "the problem"
+          and "the solution" when they shared an ingredient, i.e. circular reasoning — is now a
+          standing, hard-coded rule in the prompt, not a one-off correction. Output is constrained
+          to a strict JSON contract (exactly one angle per type, in a fixed order, five structural
+          fields each) rather than free text, which is what makes the downstream quote-lookup
+          substitution in §4.5 possible in the first place.
+        </p>
+      </div>
+
+      <h3><span class="sub-n">4.9</span>Model tiering by where quality compounds</h3>
+      <p>
+        Every stage picks between Claude Haiku and Claude Sonnet on one axis: does an error here
+        get fixed downstream, or does it propagate? High-volume, single-batch extraction (turning
+        one batch of 150 comments into structured signals) runs on Haiku — errors here are diluted
+        across 49 batches and caught at the clustering stage. Theme deduplication and final
+        ad-angle writing run on Sonnet — these are the steps a marketer reads directly, where a bad
+        merge or a weak hook has no downstream stage to correct it.
+      </p>
+    </section>
+
+    <section class="doc-section" id="s5">
+      <h2><span class="sec-n">05</span>Data Model</h2>
+      <div class="panel">
+        <div class="panel-titlebar mono">data-flow.txt</div>
+        <pre>comment-analysis-import.json        (normalized: videos[], comments[], derived fields)
+        │
+        ▼
+diet-analysis.json                  (7,293 filtered comments + 10–16 feeding attributes + 4–7 tensions)
+        │
+        ▼
+pain-point-angles.json              themes: [{ id, label, problem_statement, want_statement,
+        │                                       emotional_triggers[], count_estimate,
+        │                                       signal_strength, representative_quotes[] }]
+        ▼
+angle-messages.json                 top-10 themes, each + angles: [{ angle_type, hook_formula_used,
+                                       hook, explanation, solution, social_proof_usp, cta,
+                                       language_to_borrow[], claims_to_avoid[], validation_prompt }]</pre>
+      </div>
+      <p>
+        <code class="inline">representative_quotes</code> and
+        <code class="inline">language_to_borrow</code> entries always carry
+        <code class="inline">{ text, likes, post_url, source_comment_id }</code> populated by the
+        code-level lookup in §4.5 — never by the model.
+      </p>
+    </section>
+
+    <section class="doc-section" id="s6">
+      <h2><span class="sec-n">06</span>Cost &amp; Model Selection</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Model</th><th>Used for</th><th>Rate (per MTok)</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Claude Haiku 4.5</td>
+              <td>Batch signal extraction, cheap packet labeling, per-group theme clustering</td>
+              <td class="rate">$1 / $5</td>
+            </tr>
+            <tr>
+              <td>Claude Sonnet 4.6</td>
+              <td>Theme deduplication, final ad-angle writing, business-context interpretation</td>
+              <td class="rate">$3 / $15</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Batch sizing (150 comments/batch, 49 batches, 5 concurrent workers) and the
+        reduce-before-reason architecture (§4.4) keep every LLM call's input to a compacted packet,
+        not raw corpus text — full pipeline API spend lands in the tens of dollars, not the
+        thousands a naive "send everything to a frontier model" approach would cost.
+      </p>
+      <div class="funnel mono">
+        <div class="cell"><span class="num">97,579</span><span class="label">comments collected</span></div>
+        <div class="cell"><span class="num">7,293</span><span class="label">diet-relevant</span></div>
+        <div class="cell"><span class="num">912</span><span class="label">pain-point signals</span></div>
+        <div class="cell"><span class="num">31</span><span class="label">distinct themes</span></div>
+        <div class="cell"><span class="num">60</span><span class="label">structured ad angles</span></div>
+      </div>
+    </section>
+
+    <section class="doc-section" id="s7">
+      <h2><span class="sec-n">07</span>Testing &amp; Validation</h2>
+      <p>
+        Node's built-in test runner (<code class="inline">node --test</code>) — no external test
+        framework dependency — split into two tiers:
+      </p>
+      <ul>
+        <li><code class="inline">npm test</code> — <code class="inline">dogist-collector-state.test.mjs</code>,
+          the checkpoint/resume state machine (§4.2). Self-contained, runs on a fresh clone with
+          no local data.</li>
+        <li><code class="inline">npm run test:corpus</code> — <code class="inline">dogist-event-resonance.test.mjs</code>
+          and <code class="inline">dogist-cultural-discovery.test.mjs</code>, integration tests that
+          assert against the real corpus snapshot, which is excluded from the repo since it's
+          third-party personal data, not shipped code.</li>
+      </ul>
+      <p>
+        Beyond unit tests, the pipeline's core trust guarantee (§4.5) is validated structurally,
+        not by inspection: because the schema has no field for model-generated quote text, there
+        is no code path by which an untested change could introduce a fabricated quote without
+        also breaking the <code class="inline">comment_index</code> → source lookup, which is
+        exercised on every pipeline run.
+      </p>
+    </section>
+
+    <section class="doc-section" id="s8">
+      <h2><span class="sec-n">08</span>Limitations &amp; Future Work</h2>
+      <ul>
+        <li><strong>Snapshot, not live.</strong> The corpus is a fixed point-in-time export
+          (2026-06-21); a recurring pipeline would need incremental collection and re-clustering
+          against a growing corpus, not a full re-run.</li>
+        <li><strong>English-language tuning.</strong> Keyword buckets and the high-signal heuristic
+          are tuned for English comments; the BERTopic pass uses a multilingual embedding model but
+          downstream Claude interpretation is not currently validated on non-English signal.</li>
+        <li><strong>Single-brand angle framework.</strong> The six angle types and hook formulas
+          were designed against this launch and this brand voice; generalizing to a second brand
+          would mean making the angle-type config (§4.8) a per-brand input rather than hard-coded
+          constants.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="doc-foot">
+    Dogist Comment Intelligence — Technical Design ·
+    <a href="https://github.com/zquart8095/dogist-comment-intelligence">source on GitHub</a> ·
+    <a href="https://dogist.vercel.app/audience-intelligence">live report</a>
+  </footer>
+
+</div>
+
+</body>
+</html>
