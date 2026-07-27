@@ -18,19 +18,31 @@
 funnel with the real counts at each stage, following one actual comment (♥42, from the corpus)
 all the way through to the ad copy it produced.
 
-## The problem
+## The challenge
 
-The Dogist (10M+ Instagram followers) was launching **Vitality Chew**, a blueberry-and-
-pomegranate antioxidant dog supplement, and needed ad messaging grounded in what real dog
-owners actually say about feeding their dogs — not invented supplement-brand copy. The brand's
-own Instagram account held years of exactly that language, sitting unused in 97,579 comments
-across 370 posts, with no existing way to turn that raw, unstructured history into usable
-creative input at any reliable scale.
+The launch of The Dogist's **Vitality Chew** — a blueberry-and-pomegranate antioxidant dog
+supplement — lives or dies on its positioning. Generic creative invented by a room of marketers
+guessing at what the audience cares about would sink the product before it got off the ground.
 
-## What this is
+The Dogist has something no other brand entering this category has: a community of highly engaged
+pet owners who have spent years posting their unprompted needs, wants, and frustrations. That
+signal was real, and it was already theirs.
 
-A five-stage pipeline that collects, reduces, interprets, and packages Instagram comments into
-ad angles a media buyer can actually spend against, read through a single scrollytelling report
+It was also unusable. The high-signal quotes sat buried in the comments section of The Dogist's
+Instagram — scattered thin across 370 posts and 97,579 comments, with no export path and no
+realistic way to read them manually.
+
+## What Ctrl+R built
+
+Ctrl+R started by researching how performance advertisers actually construct winning positioning
+angles, then codified that research into a repeatable workflow: **six proven direct-response angle
+types** (pain-based, desire-based, problem/solution, social proof, curiosity, niche-specific) and a
+**five-part message structure** (hook → explanation → solution → social proof/USP → CTA).
+
+That workflow became the specification for an AI-native pipeline that replaces the manual
+collection-and-analysis work entirely. Five stages collect, reduce, interpret, and package social
+comments into structured ad angles — with the codified angle framework passed to the model as its
+operating instructions, not left to its own judgment — read through a single scrollytelling report
 (`/`) that walks section by section through the funnel, the ad-angle framework, and the results.
 
 **The funnel:**
@@ -53,6 +65,15 @@ enforced structurally rather than by asking the model nicely.
 
 **📖 [Pipeline walkthrough](docs/comment-intelligence-pipeline.md)** — a narrative, stage-by-stage
 read of how the corpus actually moves through the system.
+
+**✍️ [Prompt design](docs/prompt-design.md)** — how the direct-response expertise was encoded into
+the prompts, and the construction techniques that make the output verifiable: index references
+instead of quote text, ranges as calibration rather than targets, constraints loaded from JSON, and
+the hardcoded guard against the one circular ad this corpus leads you toward.
+
+**📋 [Report structure](docs/report-structure.md)** — what the deliverable actually is: five
+sections, and how 10 themes × 6 angle types × a 5-part structure nest into 60 ad angles, each with
+the borrowed language, claims to avoid, and validation test a media buyer needs to spend against it.
 
 ## Stack
 
