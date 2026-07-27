@@ -45,6 +45,12 @@ comments into structured ad angles — with the codified angle framework passed 
 operating instructions, not left to its own judgment — read through a single scrollytelling report
 (`/`) that walks section by section through the funnel, the ad-angle framework, and the results.
 
+<p align="center">
+  <img src="docs/media/report-demo.gif" width="480" alt="Screen recording of the Audience Intelligence report, opening on its title screen — The Dogist Audience Intelligence Analysis, 97,579 comments analyzed across 370 posts — and moving through the report" />
+</p>
+
+<sub>*The report itself — [see it live](https://dogist.vercel.app/audience-intelligence).*</sub>
+
 **The funnel:**
 
 | Comments collected | Diet-relevant | Pain-point signals | Themes | Ad angles |
