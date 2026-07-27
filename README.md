@@ -46,7 +46,7 @@ operating instructions, not left to its own judgment — read through a single s
 (`/`) that walks section by section through the funnel, the ad-angle framework, and the results.
 
 <p align="center">
-  <img src="docs/media/report-demo.gif" width="480" alt="Screen recording of the Audience Intelligence report, opening on its title screen — The Dogist Audience Intelligence Analysis, 97,579 comments analyzed across 370 posts — and moving through the report" />
+  <img src="docs/media/report-demo.gif" width="480" alt="Screen recording of the Audience Intelligence report showing an ad angle in full: the theme Homemade Food Nutritional Completeness with its problem and want statements, a row of tabs for the six angle types, the selected angle broken into hook, explanation, solution, social proof and CTA, and a sidebar of borrowed audience language, claims to avoid, and a validation test" />
 </p>
 
 <sub>*The report itself — [see it live](https://dogist.vercel.app/audience-intelligence).*</sub>
