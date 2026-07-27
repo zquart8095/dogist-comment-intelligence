@@ -10,9 +10,13 @@
 ![Claude](https://img.shields.io/badge/Claude-Haiku%204.5%20%2F%20Sonnet%204.6-D97757?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-BERTopic-3776AB?style=flat-square&logo=python&logoColor=white)
 
-[![How the ad-angle tool works: five steps from 97,579 Instagram comments down to 60 ad angles, with one real comment followed through every step — from the raw comment, through topic filtering and problem extraction, into a named theme, and out as finished ad copy](docs/media/how-it-works.png)](docs/media/how-it-works.png)
+[![System flow: a browser extension collects comments from @thedogist on Instagram, an on-device stage filters them by keyword matching and engagement then clusters similar comments together, and an analysis pipeline evaluates needs and wants, groups them into themes, and generates ad angles for the final report](docs/media/pipeline-flow.png)](docs/media/pipeline-flow.png)
 
-<sub>*Click to enlarge. The right-hand column follows one real comment — ♥42, from the actual corpus — all the way through to the ad copy it produced.*</sub>
+<sub>*Click to enlarge. Starred stages are Claude calls; everything before them runs locally on a laptop.*</sub>
+
+**📊 [Step-by-step walkthrough](docs/media/how-it-works.png)** — the same pipeline as a five-step
+funnel with the real counts at each stage, following one actual comment (♥42, from the corpus)
+all the way through to the ad copy it produced.
 
 ## The problem
 
